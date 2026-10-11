@@ -1,11 +1,12 @@
 import { access, mkdir, writeFile } from 'node:fs/promises';
 import { constants, readdirSync, readFileSync } from 'node:fs';
+import { tmpdir } from 'node:os';
 import { spawn } from 'node:child_process';
 import { join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const root = new URL('.', import.meta.url);
-const tempRoot = process.env.TEMP ?? process.env.TMP ?? 'C:/Users/Owner/.Codex/tmp';
+const tempRoot = process.env.TEMP ?? process.env.TMP ?? process.env.TMPDIR ?? tmpdir();
 
 function todayJst() {
   return new Intl.DateTimeFormat('en-CA', { timeZone: 'Asia/Tokyo', year: 'numeric', month: '2-digit', day: '2-digit' }).format(new Date());
