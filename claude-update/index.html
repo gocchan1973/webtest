@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ja">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Claude 自身の更新</title>
+<style>
+:root { color-scheme: light dark; --line: #d0d0d0; --muted: #666; --warn: #8a5a00; }
+body { margin: 0 auto; padding: 2rem 1.25rem; max-width: 52rem; font: 15px/1.8 system-ui, sans-serif; }
+h1 { font-size: 1.5rem; margin-bottom: .25rem; }
+h2 { font-size: 1.15rem; margin-top: 2.5rem; border-bottom: 2px solid var(--line); padding-bottom: .3rem; }
+h3 { font-size: 1rem; margin: 1.5rem 0 .4rem; }
+h4 { font-size: .9rem; margin: .9rem 0 .2rem; }
+.lead, .note { color: var(--muted); font-size: .9rem; }
+.caveat { border-left: 3px solid var(--warn); padding: .6rem .9rem; margin: 1rem 0; font-size: .9rem; }
+.card { border: 1px solid var(--line); border-radius: 6px; padding: .9rem 1.1rem; margin: .9rem 0; }
+.card.gone h3 { text-decoration: line-through; opacity: .6; }
+dl { margin: .4rem 0 0; display: grid; grid-template-columns: max-content 1fr; gap: .2rem .8rem; }
+dt { color: var(--muted); font-size: .85rem; }
+dd { margin: 0; word-break: break-word; }
+.unused { color: var(--warn); font-size: .9rem; }
+.tag { display: inline-block; border: 1px solid var(--line); border-radius: 3px; padding: 0 .4rem; font-size: .8rem; margin-right: .4rem; }
+ul { padding-left: 1.2rem; }
+</style>
+<h1>Claude 自身の更新</h1>
+<p class="lead">生成 2026-09-10 ／ 有効な事実 3 件 ／ 参照記録 0 件</p>
+<p class="lead">週次の技術レーダー本体とは別のサブ機能。載せるのは <strong>Claude の振る舞いが変わる事実</strong>だけで、新機能カタログではない。</p>
+
+<h2>1. 採用した事実</h2>
+<p class="note">「こう振る舞う」が書けない事実は採らない。適用条件（scope）を条件の外へ一般化しないこと。</p>
+<div class="card">
+<h3>Claude Code は --restricted を付けると、実行系の組み込みツールと WebFetch を外した状態で起動できる</h3>
+<dl>
+<dt>こう振る舞う</dt><dd>実行を伴わない調査・読み取りだけの依頼を受けたとき、また共有マシンや評価ハーネス上で動かす話が出たときに、--restricted を選択肢として提示する。「権限を絞る手段が無い」と答えない</dd>
+<dt>適用条件</dt><dd>Claude Code v2.1.248 以降。同時にファイル操作は作業ディレクトリ内へ限定され、ユーザー／プロジェクトの設定ファイルは読まれず、bypassPermissions とクラウドセッションの作成は拒否される。--tools で個別指定すれば実行系ツールを戻せる</dd>
+<dt>公式一次情報</dt><dd><a href="https://code.claude.com/docs/en/cli-reference">https://code.claude.com/docs/en/cli-reference</a>（確認 2026-09-10）</dd>
+<dt>発見元</dt><dd><a href="https://www.youtube.com/watch?v=XOu5hf4L2Sk">Claude Code v2.1.243〜v2.1.251 アップデートまとめ｜--restricted で実行系ツールを外す・/usage でキャッシュの効きが見える</a><br><span class="note">テックニュース@ATI ／ 2026-09-06</span></dd>
+<dt>id</dt><dd><code>claude-code-restricted-flag</code></dd>
+
+</dl>
+<h4>刺さった記録</h4>
+<p class="unused">まだ使われていない（参照 0 件）</p>
+</div><div class="card">
+<h3>Claude Fable 5.1 は、安全分類器が検知した要求を Opus 4.8 へ自動転送する</h3>
+<dl>
+<dt>こう振る舞う</dt><dd>Fable 5.1 を前提にモデル振り分けや費用を見積もるとき、セキュリティ・生命科学が絡む工程は Opus 4.8 で処理される可能性を織り込む。モデルを指定したのだから常にそれで動く、とは説明しない</dd>
+<dt>適用条件</dt><dd>Claude Fable 5.1（モデルID anthropic.claude-fable-5-1 / 2026-09-01 提供開始）。対象はサイバーセキュリティ・生命科学に関わると判定された要求で、転送はユーザーへ通知される</dd>
+<dt>公式一次情報</dt><dd><a href="https://www.anthropic.com/news/claude-fable-5-mythos-5">https://www.anthropic.com/news/claude-fable-5-mythos-5</a>（確認 2026-09-10）</dd>
+<dt>発見元</dt><dd><a href="https://www.youtube.com/watch?v=gkOCkTiUzHU">Claude Fable 5.1の正体｜誰も解けなかった積年のバグを突き止めたAIモデル徹底解説</a><br><span class="note">テックニュース@ATI ／ 2026-09-06</span></dd>
+<dt>id</dt><dd><code>fable-5-1-opus-auto-transfer</code></dd>
+
+</dl>
+<h4>刺さった記録</h4>
+<p class="unused">まだ使われていない（参照 0 件）</p>
+</div><div class="card">
+<h3>Claude Fable 5.1 は reasoning を無効化できず、代わりに effort の段階で重さを選ぶ</h3>
+<dl>
+<dt>こう振る舞う</dt><dd>Fable 5.1 の費用やレイテンシを見積もるとき、reasoning を切って軽くする案を出さない。代わりに effort を下げる案を出す。既定が high である前提で概算する</dd>
+<dt>適用条件</dt><dd>Claude Fable 5.1。effort は low / medium / high / xhigh / max の5段階で既定は high。料金は入力 $10 / 出力 $50（百万トークンあたり、AWS Bedrock 記載）</dd>
+<dt>公式一次情報</dt><dd><a href="https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-fable-5-1.html">https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-fable-5-1.html</a>（確認 2026-09-10）</dd>
+<dt>発見元</dt><dd><a href="https://www.youtube.com/watch?v=gkOCkTiUzHU">Claude Fable 5.1の正体｜誰も解けなかった積年のバグを突き止めたAIモデル徹底解説</a><br><span class="note">テックニュース@ATI ／ 2026-09-06</span></dd>
+<dt>id</dt><dd><code>fable-5-1-effort-levels</code></dd>
+
+</dl>
+<h4>刺さった記録</h4>
+<p class="unused">まだ使われていない（参照 0 件）</p>
+</div>
+
+
+
+<h2>2. 候補の採否</h2>
+<p class="note">印が付いた候補の全件。外したものも理由つきで残す。「見て外した」と「まだ見ていない」を混ぜないため。</p>
+<h3>2026-09-06（印 4 件）</h3><div class="card">
+<h3><a href="https://www.youtube.com/watch?v=XOu5hf4L2Sk">Claude Code v2.1.243〜v2.1.251 アップデートまとめ｜--restricted で実行系ツールを外す・/usage でキャッシュの効きが見える</a></h3>
+<dl>
+<dt>採否</dt><dd>採用</dd>
+<dt>理由</dt><dd>--restricted は公式 CLI リファレンスで裏が取れ、権限を絞る手段として振る舞いが変わる。なお /usage は公式に実在するがトークン使用量とコストの表示と書かれているだけで、タイトルが言う「キャッシュの効きが見える」は公式ドキュメントに記載が無かったため事実として採らなかった</dd>
+<dt>出た事実</dt><dd><code>claude-code-restricted-flag</code></dd>
+</dl>
+</div><div class="card">
+<h3><a href="https://www.youtube.com/watch?v=So8zrulD_7k">【2026-08-28〜09-03】週刊IT技術ニュース｜Zod 4.5、無効データ検証が最大16倍速く／Sentryの既定が変わり／Claude Codeのauto modeが破られる</a></h3>
+<dl>
+<dt>採否</dt><dd>保留</dd>
+<dt>理由</dt><dd>auto mode の分類器を回避する報告は実在し、Anthropic が「Auto Mode はベストエフォートの分類器による利便性機能でセキュリティ保証ではない」という立場を示したとされる。しかし確認できたのは報告者本人のブログのみで、Anthropic 公式のセキュリティ告知・アドバイザリは見つからなかった。成立条件（未検証アーカイブの展開と実行）も特定のバージョンに紐付けられていない。公式一次情報が取れるまで採用しない</dd>
+<dt>出た事実</dt><dd>—</dd>
+</dl>
+</div><div class="card">
+<h3><a href="https://www.youtube.com/watch?v=gkOCkTiUzHU">Claude Fable 5.1の正体｜誰も解けなかった積年のバグを突き止めたAIモデル徹底解説</a></h3>
+<dl>
+<dt>採否</dt><dd>採用</dd>
+<dt>理由</dt><dd>モデルの解説自体は物差しの対象外だが、裏取りの過程で Opus 4.8 への自動転送と effort の仕様が公式で確認でき、どちらもモデル振り分けの判断が変わる。なお提供条件の記述に日付の矛盾があったため、その部分は採らなかった</dd>
+<dt>出た事実</dt><dd><code>fable-5-1-opus-auto-transfer</code>, <code>fable-5-1-effort-levels</code></dd>
+</dl>
+</div><div class="card">
+<h3><a href="https://www.youtube.com/watch?v=L9egt-nj0KM">【2026-08-28〜09-03】週刊IT企業ニュース｜Anthropicに音楽業界が集団提訴／Metaは約180億ドル和解／NVIDIAは35億ドル投資</a></h3>
+<dl>
+<dt>採否</dt><dd>不採用</dd>
+<dt>理由</dt><dd>訴訟・和解・投資であり、Claude の振る舞いは変わらない。物差し（次のセッションで違う振る舞いをする根拠になるか）を満たさないため裏取りも行っていない</dd>
+<dt>出た事実</dt><dd>—</dd>
+</dl>
+</div>
+
+<h2>3. この記録の読み方</h2>
+<div class="caveat">
+<p><strong>「使った」という記録は弱い証拠。</strong>判定しているのが書いた本人（Claude）なので、自己申告の域を出ない。</p>
+<p><strong>「0 件が続く」という事実は強い証拠。</strong>読まれていれば何かは残るはずで、何も残らないことは書き手の主観に依存しない。</p>
+<p>したがってこの層の狙いは実績を誇ることではなく、<strong>不使用を可視化すること</strong>にある。参照 0 件の事実を隠さず出しているのはそのため。</p>
+</div>
+<p class="note">記録は同意を条件にしない。読んだうえで「今回は当てはまらない」と退けた回（当てはまらないと退けた）も残す。測っているのは参照されたかどうかであって、従ったかどうかではない。</p>
+</html>

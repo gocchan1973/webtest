@@ -1,0 +1,21 @@
+# Node
+node_modules/
+
+# git worktree の作業場所（中身は本体リポジトリが持つ。二重に追跡しない）
+.worktrees/
+
+# ツールローカル設定（Playwright CLI の作業ディレクトリ）
+.playwright-cli/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 図解原本（ローカル保管。Gitには圧縮成果物のみ登録）
+assets/diagrams/original/
+
+# Firebase Auth PoCのローカル設定
+firebase-auth-poc/firebase-config.js
+
+# First deploy is locally confirmed state, never a repository artifact.
+.technews-release-state.json

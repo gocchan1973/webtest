@@ -1,0 +1,614 @@
+{
+  "candidates": [
+    {
+      "channel": "まさおAIじっくり解説ch",
+      "videoId": "GfCFw9gqBYk",
+      "published": "2026-09-12",
+      "title": "【納得】Devinのマルチエージェント設計『Fusion』を徹底解説！昔の設計を斬新し性能をキープしてFable並の性能をコスパよく実現",
+      "url": "https://www.youtube.com/watch?v=GfCFw9gqBYk"
+    },
+    {
+      "channel": "まさおAIじっくり解説ch",
+      "videoId": "mIi6yAoYoU0",
+      "published": "2026-09-11",
+      "title": "【資源は有限】『ChatGPT Pro 20x』新規登録が停止！これからのAIサブスクはどうなるか？解説",
+      "url": "https://www.youtube.com/watch?v=mIi6yAoYoU0"
+    },
+    {
+      "channel": "まさおAIじっくり解説ch",
+      "videoId": "Rx8W28T2OMo",
+      "published": "2026-09-11",
+      "title": "【期間限定無料】Kimi K3ベース進化の『SWE-2』を実際に使ってみた！高速で開発が強いLLMを解説します",
+      "url": "https://www.youtube.com/watch?v=Rx8W28T2OMo"
+    },
+    {
+      "channel": "まさおAIじっくり解説ch",
+      "videoId": "KgUhKw_P2GE",
+      "published": "2026-09-09",
+      "title": "【有料級】Grillより気軽に視覚的に AIとすり合わせするSkill『Akapen』を解説します",
+      "url": "https://www.youtube.com/watch?v=KgUhKw_P2GE"
+    },
+    {
+      "channel": "まさおAIじっくり解説ch",
+      "videoId": "bgS85ZXOlK8",
+      "published": "2026-09-09",
+      "title": "【速さがスゴい】『DeepSeek V4.1 Flash』がこっそり出たので使ってみた！順当な性能の進化とスピードの飛躍を感じました",
+      "url": "https://www.youtube.com/watch?v=bgS85ZXOlK8"
+    },
+    {
+      "channel": "まさおAIじっくり解説ch",
+      "videoId": "QTyMB_dTB2c",
+      "published": "2026-09-08",
+      "title": "【激アツ】OpenAI『GPT Image 2.5』が登場！爆速で細部に強くて最高です！",
+      "url": "https://www.youtube.com/watch?v=QTyMB_dTB2c"
+    },
+    {
+      "channel": "まさおAIじっくり解説ch",
+      "videoId": "vjzytP1uXkU",
+      "published": "2026-09-08",
+      "title": "【結論】GPT6 AstraとClaude5.1 Fableどっち使う？僕はFableを中心にするので解説します",
+      "url": "https://www.youtube.com/watch?v=vjzytP1uXkU"
+    },
+    {
+      "channel": "まさおAIじっくり解説ch",
+      "videoId": "6HxWV4PbYVw",
+      "published": "2026-09-07",
+      "title": "【2026年9月版】今熱いAIモデルはコレだ徹底格付け29選！環境が大きく変化してます",
+      "url": "https://www.youtube.com/watch?v=6HxWV4PbYVw"
+    },
+    {
+      "channel": "まさおAIじっくり解説ch",
+      "videoId": "-IwsMDXEOtw",
+      "published": "2026-09-07",
+      "title": "【重要発言】OpenAIの研究トップが『AI研究を遅らせるべき』と語る！その理由と内容を解説",
+      "url": "https://www.youtube.com/watch?v=-IwsMDXEOtw"
+    },
+    {
+      "channel": "こーすけ先生のGoogle塾",
+      "videoId": "TbYdOiNrfTc",
+      "published": "2026-09-11",
+      "title": "【超速報！】9月14日までに「Workspace Studio」に起こる変化！サービスを徹底解説します",
+      "url": "https://www.youtube.com/watch?v=TbYdOiNrfTc"
+    },
+    {
+      "channel": "こーすけ先生のGoogle塾",
+      "videoId": "3F13CrQhwQI",
+      "published": "2026-09-09",
+      "title": "【無料配布】行政職員必見！データをQRコード化→PDFに埋め込むツールを公開しました！",
+      "url": "https://www.youtube.com/watch?v=3F13CrQhwQI"
+    },
+    {
+      "channel": "れん学長のAIツール実験室",
+      "videoId": "2AvI1skqu3M",
+      "published": "2026-09-12",
+      "title": "「Astraの前にスキルを全部消せ」は本当か。146個を診断したら消せたのは0個で、矛盾が5つ出た #Shorts",
+      "url": "https://www.youtube.com/watch?v=2AvI1skqu3M"
+    },
+    {
+      "channel": "れん学長のAIツール実験室",
+      "videoId": "er86J4BLTjM",
+      "published": "2026-09-11",
+      "title": "【本当に無料？】Codexの枠切れでもGPT-6 Astraを使う裏ワザを試したら動いた。でも私は使わない理由",
+      "url": "https://www.youtube.com/watch?v=er86J4BLTjM"
+    },
+    {
+      "channel": "れん学長のAIツール実験室",
+      "videoId": "F7CZdiiz864",
+      "published": "2026-09-11",
+      "title": "Fableにしか任せられなかった研究の探索が、GPT-6 Astraでもできた。Fable 5.1を超える感じ #Shorts",
+      "url": "https://www.youtube.com/watch?v=F7CZdiiz864"
+    },
+    {
+      "channel": "れん学長のAIツール実験室",
+      "videoId": "Ou9h_cC65gk",
+      "published": "2026-09-11",
+      "title": "AIへの指示、消す基準は「なぜ書いたか」の1行。できなかった対策は外し、知らなかった対策は残す #Shorts",
+      "url": "https://www.youtube.com/watch?v=Ou9h_cC65gk"
+    },
+    {
+      "channel": "れん学長のAIツール実験室",
+      "videoId": "y1ukezzTyiM",
+      "published": "2026-09-10",
+      "title": "手本3枚を渡したら、パワポ12枚が生えてきた。初稿4分・修正4回・手直し0回【GPT-6 Astra】 #Shorts",
+      "url": "https://www.youtube.com/watch?v=y1ukezzTyiM"
+    },
+    {
+      "channel": "れん学長のAIツール実験室",
+      "videoId": "BcOelJjmS_s",
+      "published": "2026-09-09",
+      "title": "AIのパワポ、PDFでは合格なのに本体で開いたら崩れてた。検品は納品先のソフトで【GPT-6 Astra】 #Shorts",
+      "url": "https://www.youtube.com/watch?v=BcOelJjmS_s"
+    },
+    {
+      "channel": "れん学長のAIツール実験室",
+      "videoId": "XRJPz84Rz8E",
+      "published": "2026-09-08",
+      "title": "GPT-6 Astra は「答えるモデル」から「仕事を完遂するモデル」へ。5つの進化と料金2.5倍の使い分け #Shorts",
+      "url": "https://www.youtube.com/watch?v=XRJPz84Rz8E"
+    },
+    {
+      "channel": "れん学長のAIツール実験室",
+      "videoId": "tFtcynD96uo",
+      "published": "2026-09-07",
+      "title": "【全部消す前に】GPT-6 AstraとFable 5.1の公式ガイドが「古い指示を見直せ」と言うので、スキル146個を診断したら、消す所は0で矛盾が5つ出た",
+      "url": "https://www.youtube.com/watch?v=tFtcynD96uo"
+    },
+    {
+      "channel": "れん学長のAIツール実験室",
+      "videoId": "kRHEO6L4Yyo",
+      "published": "2026-09-07",
+      "title": "GPT-6 Astra に資料を頼むなら「手本」を渡す。参照3枚から同じトーンで12枚を作る公式デモ #Shorts",
+      "url": "https://www.youtube.com/watch?v=kRHEO6L4Yyo"
+    },
+    {
+      "channel": "じゅりん│AIビジネス活用塾",
+      "videoId": "lPOJmgcswGc",
+      "published": "2026-09-12",
+      "title": "【プロンプト全公開】写真が一瞬でオシャレな箱庭アートに！ChatGPT画像生成が楽しすぎる！",
+      "url": "https://www.youtube.com/watch?v=lPOJmgcswGc"
+    },
+    {
+      "channel": "じゅりん│AIビジネス活用塾",
+      "videoId": "gw60LMwqvhI",
+      "published": "2026-09-11",
+      "title": "Google Meetが神アプデ！対面会議を自動で文字起こし＆要約してくれる！【対面会議のメモ】機能",
+      "url": "https://www.youtube.com/watch?v=gw60LMwqvhI"
+    },
+    {
+      "channel": "じゅりん│AIビジネス活用塾",
+      "videoId": "Npe02JhH-Iw",
+      "published": "2026-09-10",
+      "title": "【Apple新製品】折りたたみiPhone「iPhone duo」登場！Apple WatchのAudio intelligenceもかなり気になる！",
+      "url": "https://www.youtube.com/watch?v=Npe02JhH-Iw"
+    },
+    {
+      "channel": "じゅりん│AIビジネス活用塾",
+      "videoId": "tPistKFrUTM",
+      "published": "2026-09-10",
+      "title": "無料でここまでできる！Gemini「Lyria 3.5」で音楽生成してみた結果…｜Sunoよりありがたいところも…！",
+      "url": "https://www.youtube.com/watch?v=tPistKFrUTM"
+    },
+    {
+      "channel": "じゅりん│AIビジネス活用塾",
+      "videoId": "zUeRfr_O-d8",
+      "published": "2026-09-09",
+      "title": "【神アプデ】ChatGPT images 2.5が登場！画像生成がさらに実用レベルに進化！人物の再現性＆編集の一貫性がすごい！",
+      "url": "https://www.youtube.com/watch?v=zUeRfr_O-d8"
+    },
+    {
+      "channel": "じゅりん│AIビジネス活用塾",
+      "videoId": "iWuI5M-MKQU",
+      "published": "2026-09-08",
+      "title": "【GPT 6 Astra】指示1回だけで3D箱庭ゲームが完成！作り方も全て公開！ChatGPT Work + Astra",
+      "url": "https://www.youtube.com/watch?v=iWuI5M-MKQU"
+    },
+    {
+      "channel": "NI-WORK",
+      "videoId": "Jxx64uChzbM",
+      "published": "2026-09-08",
+      "title": "【大化け】Googleスライドの最新機能が実はすごかった！見本資料の「型」を忠実に引き継ぎ、中身だけを再構築【Gemini/Google Workspace】",
+      "url": "https://www.youtube.com/watch?v=Jxx64uChzbM"
+    },
+    {
+      "channel": "RICOのAIラボ | AIで業務をもっと楽しく",
+      "videoId": "gjyiZslh0Ig",
+      "published": "2026-09-08",
+      "title": "【驚愕】Googleの進化がヤバい…Gemini Notebookの裏側を徹底解剖！【様式を直接操作】",
+      "url": "https://www.youtube.com/watch?v=gjyiZslh0Ig"
+    },
+    {
+      "channel": "ここなのAI大学",
+      "videoId": "RYJN3pteQ-E",
+      "published": "2026-09-10",
+      "title": "【悲報】スマホでGemini使ってない人は完全に損してます【完全解説】",
+      "url": "https://www.youtube.com/watch?v=RYJN3pteQ-E"
+    },
+    {
+      "channel": "ここなのAI大学",
+      "videoId": "XzXYXZ-z0T4",
+      "published": "2026-09-08",
+      "title": "【人類超え!?】GPT-6 Astraがヤバすぎたので徹底解説しました【ChatGPT】【緊急】",
+      "url": "https://www.youtube.com/watch?v=XzXYXZ-z0T4"
+    },
+    {
+      "channel": "ウェブマニア",
+      "videoId": "dtzIx_cDZAU",
+      "published": "2026-09-13",
+      "title": "Chat GPTの新しい画像生成がヤバいらしいから色々試しながら解説していく【Image2.5】",
+      "url": "https://www.youtube.com/watch?v=dtzIx_cDZAU"
+    },
+    {
+      "channel": "ウェブマニア",
+      "videoId": "wkVdofOILnc",
+      "published": "2026-09-10",
+      "title": "【無料】画面の四隅に機能開放！WindowsにMacの神機能『ホットコーナー』を実装できるアプリがめっちゃ便利だったので紹介する【WinXCorners】",
+      "url": "https://www.youtube.com/watch?v=wkVdofOILnc"
+    },
+    {
+      "channel": "ウェブマニア",
+      "videoId": "9_bSk9lW-cg",
+      "published": "2026-09-08",
+      "title": "新チャンネルを始めます #ウェブマニア #ボカロ",
+      "url": "https://www.youtube.com/watch?v=9_bSk9lW-cg"
+    },
+    {
+      "channel": "あやや の ITスキルアップ塾",
+      "videoId": "FHm0xU9z9E4",
+      "published": "2026-09-13",
+      "title": "月曜の夜8時から雑談配信！",
+      "url": "https://www.youtube.com/watch?v=FHm0xU9z9E4"
+    },
+    {
+      "channel": "ジェネトピ | AIラジオ",
+      "videoId": "nvm454Lb390",
+      "published": "2026-09-10",
+      "title": "この動画は全部、Astraが編集しました。",
+      "url": "https://www.youtube.com/watch?v=nvm454Lb390"
+    },
+    {
+      "channel": "Appsheet教室@イルカのえっちゃんねる",
+      "videoId": "xFWLAfMeEuE",
+      "published": "2026-09-13",
+      "title": "Workspace Studio の【スキル】とは何か!?",
+      "url": "https://www.youtube.com/watch?v=xFWLAfMeEuE"
+    },
+    {
+      "channel": "いまにゅのAIプログラミング塾",
+      "videoId": "0dIW2HVFv3w",
+      "published": "2026-09-13",
+      "title": "【知らなきゃ損】CodexやClaude Codeの力を最大限引き出すAIのフォルダ設計を教えます",
+      "url": "https://www.youtube.com/watch?v=0dIW2HVFv3w"
+    },
+    {
+      "channel": "いまにゅのAIプログラミング塾",
+      "videoId": "ihe0wGTR7dc",
+      "published": "2026-09-09",
+      "title": "【すぐできる】Codexを使いこなす猛者の必須神機能！この技を覚えてCodex初心者から脱却しましょう！",
+      "url": "https://www.youtube.com/watch?v=ihe0wGTR7dc"
+    },
+    {
+      "channel": "AIで創作効率化とマネタイズby嗚呼蛙",
+      "videoId": "3H0w1F1E20M",
+      "published": "2026-09-12",
+      "title": "ChatGPTを半自動で自己改善！Notionで“育つAI”を作る方法",
+      "url": "https://www.youtube.com/watch?v=3H0w1F1E20M"
+    },
+    {
+      "channel": "KEITO【AI&WEB ch】",
+      "videoId": "z6_mUj8godA",
+      "published": "2026-09-12",
+      "title": "ChatGPT Image 2.5を徹底検証！何が進化した？モデルの違い・新機能「スケッチ」を解説",
+      "url": "https://www.youtube.com/watch?v=z6_mUj8godA"
+    },
+    {
+      "channel": "KEITO【AI&WEB ch】",
+      "videoId": "RDDI4JatMDI",
+      "published": "2026-09-07",
+      "title": "GPT-6アストラを上手に使うためのプロンプトのコツとスキルの注意点",
+      "url": "https://www.youtube.com/watch?v=RDDI4JatMDI"
+    },
+    {
+      "channel": "AI時短ラボ",
+      "videoId": "a_xJbNo32jI",
+      "published": "2026-09-13",
+      "title": "【悲報】Claude Code週間制限、明日から17%減　今日で50%キャンペーン終了",
+      "url": "https://www.youtube.com/watch?v=a_xJbNo32jI"
+    },
+    {
+      "channel": "AI時短ラボ",
+      "videoId": "alrd7kUJpAw",
+      "published": "2026-09-13",
+      "title": "【週刊AIニュース】今週のAIニュースをこの一本で! GPT Images 2.5/ナビエ・ストークス解決/Fugu Ultra v2/アモディ新エッセイ/DeepSeek-V4.1/Grok 4.7",
+      "url": "https://www.youtube.com/watch?v=alrd7kUJpAw"
+    },
+    {
+      "channel": "AI時短ラボ",
+      "videoId": "CCY0tBUIj5I",
+      "published": "2026-09-13",
+      "title": "ダリオ・アモディ『AIの進歩を遅らせるべきだ』 イーロン、サム・アルトマン、アンドレイ・カーパシー、ハサビスも同意|ダリオ・アモディ新エッセイ『We Must Pace the Frontier』",
+      "url": "https://www.youtube.com/watch?v=CCY0tBUIj5I"
+    },
+    {
+      "channel": "AI時短ラボ",
+      "videoId": "oI8auh96qjc",
+      "published": "2026-09-12",
+      "title": "「AI企業と数学界の目標は深刻にずれている」フィールズ賞受賞者25人が宣言",
+      "url": "https://www.youtube.com/watch?v=oI8auh96qjc"
+    },
+    {
+      "channel": "AI時短ラボ",
+      "videoId": "DF9cYPmoEh4",
+      "published": "2026-09-12",
+      "title": "GPT-6 Astra公式ガイドの続き──skillとAGENTS.mdは足すより減らせ、OpenAIが例つきで出した4か所",
+      "url": "https://www.youtube.com/watch?v=DF9cYPmoEh4"
+    },
+    {
+      "channel": "AI時短ラボ",
+      "videoId": "6RzA6kHVpe8",
+      "published": "2026-09-11",
+      "title": "【Pollo AI】最強の動画AIはどれか検証してみた！ Seedance 2.5 vs MiniMax H3 vs Wan 3.0",
+      "url": "https://www.youtube.com/watch?v=6RzA6kHVpe8"
+    },
+    {
+      "channel": "AI時短ラボ",
+      "videoId": "4nPt7HG92vM",
+      "published": "2026-09-11",
+      "title": "【速報】Fugu Ultra v2/Fugu Max登場 GPT-6-Astra/Fable 5.1と日本のAI企業が肩を並べた！",
+      "url": "https://www.youtube.com/watch?v=4nPt7HG92vM"
+    },
+    {
+      "channel": "AI時短ラボ",
+      "videoId": "qW8xu-Q-Uw4",
+      "published": "2026-09-11",
+      "title": "Claudeで行われた悪事の全記録 監視・影響工作・生物編【Anthropic脅威レポート全解説 後編】",
+      "url": "https://www.youtube.com/watch?v=qW8xu-Q-Uw4"
+    },
+    {
+      "channel": "AI時短ラボ",
+      "videoId": "NNZtqfZkNMc",
+      "published": "2026-09-11",
+      "title": "Claudeで行われた悪事の全記録 蒸留・サイバー・詐欺・兵器編【Anthropic脅威レポート全解説 前編】",
+      "url": "https://www.youtube.com/watch?v=NNZtqfZkNMc"
+    },
+    {
+      "channel": "AI時短ラボ",
+      "videoId": "E8UqLA74BQ0",
+      "published": "2026-09-10",
+      "title": "【GPT-6 Astra × Higgsfield】動画だけじゃない！3Dもゲームも操作型の都市デモも天体図鑑も！",
+      "url": "https://www.youtube.com/watch?v=E8UqLA74BQ0"
+    },
+    {
+      "channel": "AI時短ラボ",
+      "videoId": "ahBwug46Y1g",
+      "published": "2026-09-10",
+      "title": "【速報】DeepSeek-V4.1-Flash登場ー安い！早い！GPT5.6-Solに比肩！　期待のモデル！",
+      "url": "https://www.youtube.com/watch?v=ahBwug46Y1g"
+    },
+    {
+      "channel": "AI時短ラボ",
+      "videoId": "Feu1znsQFyE",
+      "published": "2026-09-09",
+      "title": "【Anthropic発表】2030年、AIで仕事と給料はどうなる？米国経済「3つのシナリオ」を解説",
+      "url": "https://www.youtube.com/watch?v=Feu1znsQFyE"
+    },
+    {
+      "channel": "AI時短ラボ",
+      "videoId": "W_7FEqTclUU",
+      "published": "2026-09-09",
+      "title": "【速報】OpenAI 90年未解決のナビエ・ストークス解決 その裏に隠された疑惑、、、？【ミレニアム問題】",
+      "url": "https://www.youtube.com/watch?v=W_7FEqTclUU"
+    },
+    {
+      "channel": "AI時短ラボ",
+      "videoId": "b1vjhXynuFY",
+      "published": "2026-09-08",
+      "title": "【速報】ChatGPT Images 2.5登場 改善4つと新機能4つ",
+      "url": "https://www.youtube.com/watch?v=b1vjhXynuFY"
+    },
+    {
+      "channel": "AI時短ラボ",
+      "videoId": "BFq91r2jgOo",
+      "published": "2026-09-08",
+      "title": "今話題のGPT-6 Astraで3Dモデルを組んで動画にするコツを解説！！【Blender × Astra × Higgsfield】",
+      "url": "https://www.youtube.com/watch?v=BFq91r2jgOo"
+    },
+    {
+      "channel": "テックニュース@ATI",
+      "videoId": "N9DlfeUL4TI",
+      "published": "2026-09-13",
+      "title": "Claude Fable 5.1 vs GPT-6 Astra｜同じプロンプトで6作品を作らせた",
+      "url": "https://www.youtube.com/watch?v=N9DlfeUL4TI"
+    },
+    {
+      "channel": "テックニュース@ATI",
+      "videoId": "J4WIEm2Fc6A",
+      "published": "2026-09-12",
+      "title": "【2026-09-04~2026-09-10】週刊IT技術ニュース — Chromiumに実悪用のRCE、エージェントが休眠Wikiを悪用、React 19.3",
+      "url": "https://www.youtube.com/watch?v=J4WIEm2Fc6A"
+    },
+    {
+      "channel": "テックニュース@ATI",
+      "videoId": "cO0snUdARws",
+      "published": "2026-09-12",
+      "title": "【2026-09-04~2026-09-10】週刊AIニュース — GPT-6 Astraが初の「Critical」、NVIDIAがHugging Face買収、Claudeがフェルマーを形式化",
+      "url": "https://www.youtube.com/watch?v=cO0snUdARws"
+    },
+    {
+      "channel": "テックニュース@ATI",
+      "videoId": "wUnwLQ5cvU8",
+      "published": "2026-09-12",
+      "title": "【2026-09-04~2026-09-10】週刊IT企業ニュース — NVIDIAがHugging Face買収へ、QualcommとAmazonが最大600億ドル、Mistralが30億ユーロ調達",
+      "url": "https://www.youtube.com/watch?v=wUnwLQ5cvU8"
+    },
+    {
+      "channel": "テックニュース@ATI",
+      "videoId": "ZUK_iYC2eLU",
+      "published": "2026-09-07",
+      "title": "Claude Code v2.1.252〜v2.1.263 アップデートまとめ｜Claude Fable 5.1が既定に・/diff差分パネル・/skill-doctor",
+      "url": "https://www.youtube.com/watch?v=ZUK_iYC2eLU"
+    },
+    {
+      "channel": "ウェブ職TV@AIセキュリティ専門",
+      "videoId": "9WgZeS5tW_E",
+      "published": "2026-09-13",
+      "title": "【LIVE】Orcaがめちゃくちゃ便利だけど、使ってない人いる？",
+      "url": "https://www.youtube.com/watch?v=9WgZeS5tW_E"
+    },
+    {
+      "channel": "ウェブ職TV@AIセキュリティ専門",
+      "videoId": "DKAmMPR2Ha4",
+      "published": "2026-09-13",
+      "title": "画像生成AI「GPT-Image 2.5」で実現できたこと【活用事例17選】",
+      "url": "https://www.youtube.com/watch?v=DKAmMPR2Ha4"
+    },
+    {
+      "channel": "ウェブ職TV@AIセキュリティ専門",
+      "videoId": "TX-W1WmihUI",
+      "published": "2026-09-10",
+      "title": "GPT-6 Astra｜ゲームも画像も、まとめてAIで作る #Shorts",
+      "url": "https://www.youtube.com/watch?v=TX-W1WmihUI"
+    },
+    {
+      "channel": "ウェブ職TV@AIセキュリティ専門",
+      "videoId": "wKaMdxNjtMg",
+      "published": "2026-09-10",
+      "title": "GPT-6 Astra｜AIがCanvaを操作。スライド8枚を作成 #Shorts",
+      "url": "https://www.youtube.com/watch?v=wKaMdxNjtMg"
+    },
+    {
+      "channel": "ウェブ職TV@AIセキュリティ専門",
+      "videoId": "JKQm2IFE5Mk",
+      "published": "2026-09-09",
+      "title": "GPT-6 Astra｜イラストが3Dに！歩く・跳ぶ・増える #Shorts",
+      "url": "https://www.youtube.com/watch?v=JKQm2IFE5Mk"
+    },
+    {
+      "channel": "ウェブ職TV@AIセキュリティ専門",
+      "videoId": "Ub1UjevqfOI",
+      "published": "2026-09-09",
+      "title": "【GPT-6 Astraの活用事例7選】 Astraを数日間使ってわかった使いこなすコツ",
+      "url": "https://www.youtube.com/watch?v=Ub1UjevqfOI"
+    },
+    {
+      "channel": "ウェブ職TV@AIセキュリティ専門",
+      "videoId": "_vP14zYt2Go",
+      "published": "2026-09-08",
+      "title": "Claude CodeとCodex、どっちを使う？Fable 5.1が出た今の結論 #Shorts",
+      "url": "https://www.youtube.com/watch?v=_vP14zYt2Go"
+    },
+    {
+      "channel": "ウェブ職TV@AIセキュリティ専門",
+      "videoId": "1biUm76pCuo",
+      "published": "2026-09-08",
+      "title": "Fable 5.1は手数が増えたのにコストは半分。実測64回の結果 #Shorts",
+      "url": "https://www.youtube.com/watch?v=1biUm76pCuo"
+    },
+    {
+      "channel": "ウェブ職TV@AIセキュリティ専門",
+      "videoId": "XW1hToXHOOE",
+      "published": "2026-09-07",
+      "title": "Fable 5はリリース3日で止められた。何があったのか #Shorts",
+      "url": "https://www.youtube.com/watch?v=XW1hToXHOOE"
+    },
+    {
+      "channel": "ウェブ職TV@AIセキュリティ専門",
+      "videoId": "8fjaeOV5Az0",
+      "published": "2026-09-07",
+      "title": "Fable 5と5.1を16課題でブラインドテストした結果。5.1が上は8、5が上は1 #Shorts",
+      "url": "https://www.youtube.com/watch?v=8fjaeOV5Az0"
+    },
+    {
+      "channel": "ウェブ職TV@AIセキュリティ専門",
+      "videoId": "06a30fMrxpM",
+      "published": "2026-09-07",
+      "title": "Claude Fable 5.1 が2分でわかる。何が変わって何が良くなったのか #Shorts",
+      "url": "https://www.youtube.com/watch?v=06a30fMrxpM"
+    },
+    {
+      "channel": "ウェブ職TV@AIセキュリティ専門",
+      "videoId": "uZYHvUY6tu8",
+      "published": "2026-09-07",
+      "title": "Fable 5.1のキャッシュ読み取りが75%オフ。これだけで神アップデート #Shorts",
+      "url": "https://www.youtube.com/watch?v=uZYHvUY6tu8"
+    },
+    {
+      "channel": "AI共創イノベーション",
+      "videoId": "ANTHitbZydQ",
+      "published": "2026-09-12",
+      "title": "【AI推論】GPT-6「Astra（アストラ）」 エフォートはどれにするといいのかを徹底解説！CoTからAIエージェントまでの歴史を知って深く理解",
+      "url": "https://www.youtube.com/watch?v=ANTHitbZydQ"
+    },
+    {
+      "channel": "AI共創イノベーション",
+      "videoId": "6cEE4pt5iTc",
+      "published": "2026-09-11",
+      "title": "【攻略】GPT-6「Astra（アストラ）」は北極星として使え！Claudeが敵わない「ある能力」とは？【使い方解説】",
+      "url": "https://www.youtube.com/watch?v=6cEE4pt5iTc"
+    },
+    {
+      "channel": "AI共創イノベーション",
+      "videoId": "pxSnXhXrlCk",
+      "published": "2026-09-09",
+      "title": "【凄いぞ！】GPT Image 2.5の使い方とプロンプトを解説！AI画像生成はChatGPT一択でOK【最高のAIイラスト】",
+      "url": "https://www.youtube.com/watch?v=pxSnXhXrlCk"
+    },
+    {
+      "channel": "AI共創イノベーション",
+      "videoId": "8CIAfCvmDKE",
+      "published": "2026-09-07",
+      "title": "【Gemini4に備えよう】3DをAIで作るなら「GPT-6 Astra（アストラ）」よりも「Gemini Antigravity」を使え！マルチモーダルでは実は最強【AIを育成】",
+      "url": "https://www.youtube.com/watch?v=8CIAfCvmDKE"
+    },
+    {
+      "channel": "AI整体師",
+      "videoId": "-auHBbFT9jg",
+      "published": "2026-09-13",
+      "title": "【#AIとやってみた】OpenClawとGrok Botを使ってみて、なんとなーく違いが見えてきた？かも？",
+      "url": "https://www.youtube.com/watch?v=-auHBbFT9jg"
+    },
+    {
+      "channel": "AI整体師",
+      "videoId": "RE2UHRq0-0k",
+      "published": "2026-09-13",
+      "title": "【#ライブ配信 No.130】涼しくなってきたからOpenClaw育てよー",
+      "url": "https://www.youtube.com/watch?v=RE2UHRq0-0k"
+    },
+    {
+      "channel": "AI整体師",
+      "videoId": "C2Y4kpg93mY",
+      "published": "2026-09-13",
+      "title": "【#GPTラジオ No 70】AI初心者は、どこまで技術を理解すればいいの？そもそも「コードを読む」ってなに？",
+      "url": "https://www.youtube.com/watch?v=C2Y4kpg93mY"
+    },
+    {
+      "channel": "AI整体師",
+      "videoId": "_NDo0lrEv8Q",
+      "published": "2026-09-12",
+      "title": "【#AIニュース No.464】Grok4.7がリリース延期！？Genspark初の自社モデル「Gen-1-Slides」を発表！来週GPT-5.3 Codex Sparkを廃止！？",
+      "url": "https://www.youtube.com/watch?v=_NDo0lrEv8Q"
+    },
+    {
+      "channel": "AI整体師",
+      "videoId": "SyRy3B83Qrc",
+      "published": "2026-09-11",
+      "title": "【#AIとやってみた】GPT-6 Astraを1週間使ってみた感想！正直、僕には使いこなせないかも。。",
+      "url": "https://www.youtube.com/watch?v=SyRy3B83Qrc"
+    },
+    {
+      "channel": "AI整体師",
+      "videoId": "GEdwmag37c4",
+      "published": "2026-09-11",
+      "title": "【#AIニュース No.463】ChatGPT Proプラン新規受付を一時停止確定！？DeepSeek-V4.1-Flashが登場！Windows版Geminiアプリリリース！",
+      "url": "https://www.youtube.com/watch?v=GEdwmag37c4"
+    },
+    {
+      "channel": "AI整体師",
+      "videoId": "pHhhpaSJyGM",
+      "published": "2026-09-10",
+      "title": "【#AIニュース No.462】ChatGPT Proプラン新規受付を一時停止する可能性！？ChatGPT音声モードでAstraが使えるように！Suno v6がリリース！",
+      "url": "https://www.youtube.com/watch?v=pHhhpaSJyGM"
+    },
+    {
+      "channel": "AI整体師",
+      "videoId": "6gniI0Pwuwc",
+      "published": "2026-09-09",
+      "title": "【#AIニュース No.461】ChatGPT-image 2.5が登場！MetaからパーソナルAIエージェントMuseがリリース！CursorでMuse Spark 1.3が使えるように",
+      "url": "https://www.youtube.com/watch?v=6gniI0Pwuwc"
+    },
+    {
+      "channel": "AI整体師",
+      "videoId": "RA38KlElvXk",
+      "published": "2026-09-08",
+      "title": "【#AIニュース No.460】本日10時にCodexリセット来る！？ChatGPT Workに文体を習得させる機能が登場！AI生成画像を「見破れる」という人はネットリテラシーが低い？",
+      "url": "https://www.youtube.com/watch?v=RA38KlElvXk"
+    },
+    {
+      "channel": "AI整体師",
+      "videoId": "5cBctBVfqeE",
+      "published": "2026-09-07",
+      "title": "【#AIニュース No.459】GPT 6 Astraの消費が激しい問題を改善？OpenClawにアプデ！GrokBotの複数アカウント機能がiOSとiPadに展開！",
+      "url": "https://www.youtube.com/watch?v=5cBctBVfqeE"
+    }
+  ],
+  "failures": []
+}

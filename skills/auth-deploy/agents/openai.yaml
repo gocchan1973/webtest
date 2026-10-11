@@ -1,0 +1,7 @@
+interface:
+  display_name: "認証デプロイ"
+  short_description: "Firebase認証付きの私用ポータルを安全にデプロイ"
+  default_prompt: "Use $auth-deploy for a Firebase-authenticated private portal deployment."
+
+policy:
+  allow_implicit_invocation: true

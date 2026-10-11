@@ -1,0 +1,21 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>画像には寸法を持たせる | Karpathy Wiki</title><style>:root{color-scheme:light;--bg:#f5f0e7;--panel:#fffaf2;--line:#d0c5b6;--ink:#292722;--muted:#6b655d;--accent:#28585a;--accent-soft:#e2eeee;--gold:#8b6a2b;--gold-soft:#f3ead7}*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at top right,#efe4cf,transparent 28rem),var(--bg);color:var(--ink);font-family:"Yu Gothic UI","Hiragino Sans",system-ui,sans-serif;line-height:1.7}a{color:#28585a;text-underline-offset:3px}.shell{width:min(1080px,calc(100% - 32px));margin:auto}header{padding:40px 0 24px;border-bottom:1px solid var(--line)}main{padding:28px 0 40px}.layout{display:grid;grid-template-columns:280px minmax(0,1fr);gap:20px}.panel{padding:18px 20px;border:1px solid var(--line);border-radius:18px;background:var(--panel)}.topic-list,.entry-list,.link-list{display:grid;gap:10px}.topic-chip,.status-chip{display:inline-flex;align-items:center;padding:4px 10px;border-radius:999px;font-size:.78rem;font-weight:700}.topic-chip{background:var(--accent-soft);color:var(--accent)}.status-chip{background:var(--gold-soft);color:var(--gold)}.entry-card{padding:16px;border:1px solid var(--line);border-radius:16px;background:var(--panel)}.entry-card h2,.entry-main h1{margin:.2rem 0 .6rem}.meta{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px}.body{white-space:pre-wrap}.section-title{margin:0 0 8px;font-size:1rem}.small{color:var(--muted);font-size:.88rem}@media(max-width:800px){.layout{grid-template-columns:1fr}}</style></head><body><header><div class="shell"><p class="small"><a href="index.html">Karpathy Wiki</a></p><h1>画像には寸法を持たせる</h1><div class="meta"><span class="topic-chip">HTML / Performance</span><span class="status-chip">verified</span><span class="small">検証日: 2026-08-27</span></div></div></header><main class="shell"><div class="layout"><aside><section class="panel"><h2 class="section-title">AI検索入口</h2><div class="link-list"><a href="../AI_SEARCH.md">AI_SEARCH.md</a><a href="../search.md">search.md</a><a href="../index.json">index.json</a><a href="../graph.json">graph.json</a></div></section><section class="panel"><h2 class="section-title">関連知識</h2><div class="link-list"><a href="js-intersection-observer.html">js-intersection-observer | 可視範囲処理はObserverを使う</a></div></section><section class="panel"><h2 class="section-title">関連週次記事</h2><div class="link-list"><a href="../../2026-06-07.html">chrome-speed-records</a></div></section><section class="panel"><h2 class="section-title">逆リンク</h2><div class="link-list"><a href="js-intersection-observer.html">js-intersection-observer | 可視範囲処理はObserverを使う</a></div></section><section class="panel"><h2 class="section-title">出典</h2><div class="link-list"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/img" target="_blank" rel="noreferrer">MDN img</a><a href="https://web.dev/articles/optimize-cls" target="_blank" rel="noreferrer">web.dev CLS</a></div></section></aside><article class="panel entry-main"><div class="body">画像の表示寸法をHTMLで予約すると、読み込み前後のレイアウトシフトを抑えられる。遅延読み込みは初期表示に不要な画像へ限定する。
+
+## Use When
+
+ファーストビュー外の画像や一覧カードを表示するとき。
+
+## Avoid When
+
+LCP対象画像を無条件に `loading=&quot;lazy&quot;` にするとき。
+
+## Pitfalls
+
+`width` と `height` は実際の比率に合わせる。`loading=&quot;lazy&quot;` は全画像への機械的付与ではない。
+
+## Compatibility
+
+HTML標準。対象ブラウザの性能差は実測する。
+
+## Accessibility
+
+意味のある画像には内容を表す `alt`、装飾画像には空 `alt` を付ける。</div></article></div></main></body></html>

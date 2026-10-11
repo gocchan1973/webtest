@@ -1,0 +1,663 @@
+{
+  "candidates": [
+    {
+      "channel": "まさおAIじっくり解説ch",
+      "videoId": "GunxHphrQ7s",
+      "published": "2026-10-04",
+      "title": "【有料級】『Claude Mods』はこう使うと便利！実装まで徹底共有2選！根本ポイントから解説",
+      "url": "https://www.youtube.com/watch?v=GunxHphrQ7s"
+    },
+    {
+      "channel": "まさおAIじっくり解説ch",
+      "videoId": "X9Zk68AII4A",
+      "published": "2026-10-03",
+      "title": "【神機能】Claude Codeで『Evalの改善スキル』が登場！本当に教えたいSkillを徹底解説",
+      "url": "https://www.youtube.com/watch?v=X9Zk68AII4A"
+    },
+    {
+      "channel": "まさおAIじっくり解説ch",
+      "videoId": "bzfNuER9I-8",
+      "published": "2026-10-02",
+      "title": "【世界中が注目】ChatGPT DotsのOSS版『Open Dots』を正直レビュー！実際のところも語ります",
+      "url": "https://www.youtube.com/watch?v=bzfNuER9I-8"
+    },
+    {
+      "channel": "まさおAIじっくり解説ch",
+      "videoId": "ChOJ7cg-19Y",
+      "published": "2026-10-02",
+      "title": "【UIUX最高】AIエージェント基盤『T3 Code』が登場！ClaudeCodeもCodexもCursorもこれ1つで管理！",
+      "url": "https://www.youtube.com/watch?v=ChOJ7cg-19Y"
+    },
+    {
+      "channel": "まさおAIじっくり解説ch",
+      "videoId": "yGz63F9yq0Y",
+      "published": "2026-10-01",
+      "title": "【遂に来る】『Gemini 4 Argon』が登場！大幅なベンチ向上とまさかの出力1Mを徹底解説",
+      "url": "https://www.youtube.com/watch?v=yGz63F9yq0Y"
+    },
+    {
+      "channel": "まさおAIじっくり解説ch",
+      "videoId": "pmgGMUqHQd4",
+      "published": "2026-09-30",
+      "title": "【DevDay目玉】24時間働くAIエージェント、ChatGPTの「Dots」が登場！実際に触って分かったところを解説！",
+      "url": "https://www.youtube.com/watch?v=pmgGMUqHQd4"
+    },
+    {
+      "channel": "まさおAIじっくり解説ch",
+      "videoId": "ICa11eWgStw",
+      "published": "2026-09-30",
+      "title": "【徹底まとめ】OpenAI DevDay 2026で大量リリースがあったので解説！DotsとAPI群が中心！",
+      "url": "https://www.youtube.com/watch?v=ICa11eWgStw"
+    },
+    {
+      "channel": "まさおAIじっくり解説ch",
+      "videoId": "u5oo-41kVjk",
+      "published": "2026-09-29",
+      "title": "【予想以上】これはほぼAstra！『GPT-6.1 Sol』が登場！中堅最上位のパフォーマンスを徹底解説",
+      "url": "https://www.youtube.com/watch?v=u5oo-41kVjk"
+    },
+    {
+      "channel": "まさおAIじっくり解説ch",
+      "videoId": "sp7gNLljsZk",
+      "published": "2026-09-29",
+      "title": "【公式直伝】『Claude Sonnet 5.5』をフル活用する方法！前世代からしっかり進化したので特徴を解説",
+      "url": "https://www.youtube.com/watch?v=sp7gNLljsZk"
+    },
+    {
+      "channel": "まさおAIじっくり解説ch",
+      "videoId": "ApirM3nX8wM",
+      "published": "2026-09-29",
+      "title": "【最高です】『Claude Sonnet 5.5』、世界が絶賛の名作モデルへ！本当に良かったので徹底解説",
+      "url": "https://www.youtube.com/watch?v=ApirM3nX8wM"
+    },
+    {
+      "channel": "まさおAIじっくり解説ch",
+      "videoId": "qPuDbewU6E4",
+      "published": "2026-09-28",
+      "title": "【本音】Opus5.5で加速する誰でも開発・発信の時代！この先 残る価値は何なのか？",
+      "url": "https://www.youtube.com/watch?v=qPuDbewU6E4"
+    },
+    {
+      "channel": "こーすけ先生のGoogle塾",
+      "videoId": "Bk7wTz7I-Mw",
+      "published": "2026-10-02",
+      "title": "【緊急解説】実は神アプデ！新機能『Skills』への統合でGemがもっと進化します！",
+      "url": "https://www.youtube.com/watch?v=Bk7wTz7I-Mw"
+    },
+    {
+      "channel": "こーすけ先生のGoogle塾",
+      "videoId": "r0Dyczj8rs8",
+      "published": "2026-09-30",
+      "title": "【Studio×GAS】自動化の限界を突破！今すぐ使える「神カスタムステップ5選」を完全無償公開！",
+      "url": "https://www.youtube.com/watch?v=r0Dyczj8rs8"
+    },
+    {
+      "channel": "こーすけ先生のGoogle塾",
+      "videoId": "774iU5fsCS0",
+      "published": "2026-09-28",
+      "title": "【アプデ】「Workspace Studio」からGASが直接動く！Salesforce・Slack連携も解禁！",
+      "url": "https://www.youtube.com/watch?v=774iU5fsCS0"
+    },
+    {
+      "channel": "れん学長のAIツール実験室",
+      "videoId": "ap-JEKcGW_Y",
+      "published": "2026-10-04",
+      "title": "【動画づくりに効く】Claude Codeが画像・動画・声のAIを自分で選んで1本完成。「Higgsfield MCP」がすごすぎた",
+      "url": "https://www.youtube.com/watch?v=ap-JEKcGW_Y"
+    },
+    {
+      "channel": "れん学長のAIツール実験室",
+      "videoId": "otoSP83U2hY",
+      "published": "2026-10-03",
+      "title": "6つのAIに同じ本編からショートを作らせたら、6本中5本が同じ場面を選びました #Shorts",
+      "url": "https://www.youtube.com/watch?v=otoSP83U2hY"
+    },
+    {
+      "channel": "れん学長のAIツール実験室",
+      "videoId": "WKGj-AzH9tg",
+      "published": "2026-10-03",
+      "title": "発表中の強調は、キー1つ。ペン・虫眼鏡・レーザー【Claude Opus 5.5で自作したスライドツール】",
+      "url": "https://www.youtube.com/watch?v=WKGj-AzH9tg"
+    },
+    {
+      "channel": "れん学長のAIツール実験室",
+      "videoId": "QdVhCn_Q37c",
+      "published": "2026-10-02",
+      "title": "GPT-6.1 Sol を丸1日使ったら、減った利用枠は約10%でした（いつもは約50%） #Shorts",
+      "url": "https://www.youtube.com/watch?v=QdVhCn_Q37c"
+    },
+    {
+      "channel": "れん学長のAIツール実験室",
+      "videoId": "odIFRlvR0Dk",
+      "published": "2026-10-02",
+      "title": "発表中にIキーで頼んだら、AIが約7秒でスライドを直した【Claude Opus 5.5で自作】",
+      "url": "https://www.youtube.com/watch?v=odIFRlvR0Dk"
+    },
+    {
+      "channel": "れん学長のAIツール実験室",
+      "videoId": "DAG1Lg9PSGo",
+      "published": "2026-10-01",
+      "title": "AIの採点と私の目がずれた2か所｜GPT-6.1 Sol の成果物を並べて見比べた #Shorts",
+      "url": "https://www.youtube.com/watch?v=DAG1Lg9PSGo"
+    },
+    {
+      "channel": "れん学長のAIツール実験室",
+      "videoId": "gqnm4qrlkXY",
+      "published": "2026-10-01",
+      "title": "寝る前に頼んだら朝アプリができてた。Claude Opus 5.5が作ったAI比較アプリ #Shorts",
+      "url": "https://www.youtube.com/watch?v=gqnm4qrlkXY"
+    },
+    {
+      "channel": "れん学長のAIツール実験室",
+      "videoId": "KC-OhSLD3t0",
+      "published": "2026-10-01",
+      "title": "ChatGPT Pro 500 は枠ではなく速さに払うプラン｜2分で週の枠2%の報告も #Shorts",
+      "url": "https://www.youtube.com/watch?v=KC-OhSLD3t0"
+    },
+    {
+      "channel": "れん学長のAIツール実験室",
+      "videoId": "XO2l2qEHesI",
+      "published": "2026-10-01",
+      "title": "【AIの利用制限に効く】8つの課題は全部1ドル未満、私の仕事では潜んでいたバグまで発見。「GPT-6.1 Sol」のコスパが素晴らしい",
+      "url": "https://www.youtube.com/watch?v=XO2l2qEHesI"
+    },
+    {
+      "channel": "れん学長のAIツール実験室",
+      "videoId": "1a_Ku837N1A",
+      "published": "2026-10-01",
+      "title": "メール300通の仕分け、1通ずつなら160秒、まとめて送れば3.6秒でした【判断専用AI Jev】",
+      "url": "https://www.youtube.com/watch?v=1a_Ku837N1A"
+    },
+    {
+      "channel": "れん学長のAIツール実験室",
+      "videoId": "zf48gme7wy4",
+      "published": "2026-09-30",
+      "title": "このスライド21枚、話し言葉で頼んだだけ。Claude Opus 5.5に渡した指示を公開 #Shorts",
+      "url": "https://www.youtube.com/watch?v=zf48gme7wy4"
+    },
+    {
+      "channel": "れん学長のAIツール実験室",
+      "videoId": "tDgdf7dd7FM",
+      "published": "2026-09-30",
+      "title": "同じプロンプトで競争したら、Ultrafast はもう発射していた【OpenAI DevDay 2026】 #Shorts",
+      "url": "https://www.youtube.com/watch?v=tDgdf7dd7FM"
+    },
+    {
+      "channel": "れん学長のAIツール実験室",
+      "videoId": "r6s-leGrLsE",
+      "published": "2026-09-30",
+      "title": "50通では全問正解のGPT-6 Luna、300通に増やすと案件を落としました【Jevは12回で0通】",
+      "url": "https://www.youtube.com/watch?v=r6s-leGrLsE"
+    },
+    {
+      "channel": "れん学長のAIツール実験室",
+      "videoId": "DZ0Q4JdZeMo",
+      "published": "2026-09-29",
+      "title": "【AI課金の迷いに効く】Opus 5.5の半額以下で動く「GPT-6.1 Sol」。OpenAI DevDay 2026がすごすぎた",
+      "url": "https://www.youtube.com/watch?v=DZ0Q4JdZeMo"
+    },
+    {
+      "channel": "れん学長のAIツール実験室",
+      "videoId": "szwPdkdV6M4",
+      "published": "2026-09-29",
+      "title": "Claude Opus 5.5の発表を45秒で。「Fable 5.1並みで4割安い」は本当だった #Shorts",
+      "url": "https://www.youtube.com/watch?v=szwPdkdV6M4"
+    },
+    {
+      "channel": "じゅりん│AIビジネス活用塾",
+      "videoId": "5WFy-yZoa2I",
+      "published": "2026-10-04",
+      "title": "【超簡単】ChatGPT Dotsで「動くLINEスタンプ」を作る方法！申請用ZIPまで全部AIにお任せ（Plusプランでもできます！）",
+      "url": "https://www.youtube.com/watch?v=5WFy-yZoa2I"
+    },
+    {
+      "channel": "じゅりん│AIビジネス活用塾",
+      "videoId": "LkRlY2Z2BME",
+      "published": "2026-10-02",
+      "title": "【プロンプト無料配布】ChatGPTで「自分の頭の中」をかわいくイラスト化！｜第27期AIビジネス活用塾のご案内",
+      "url": "https://www.youtube.com/watch?v=LkRlY2Z2BME"
+    },
+    {
+      "channel": "じゅりん│AIビジネス活用塾",
+      "videoId": "wBedX1v_BeM",
+      "published": "2026-10-01",
+      "title": "これがAI秘書の完成形？ChatGPT「Dots」を実際に使ってわかったこと｜そして、Plusプランにも降りてくる！？",
+      "url": "https://www.youtube.com/watch?v=wBedX1v_BeM"
+    },
+    {
+      "channel": "じゅりん│AIビジネス活用塾",
+      "videoId": "ztS8IgmPlvs",
+      "published": "2026-09-30",
+      "title": "【OpenAI DevDay 2026】ChatGPTが大進化！Dots・Space・GPT 6.1 Solをまとめて解説",
+      "url": "https://www.youtube.com/watch?v=ztS8IgmPlvs"
+    },
+    {
+      "channel": "じゅりん│AIビジネス活用塾",
+      "videoId": "bVu-9YJhF0Y",
+      "published": "2026-09-29",
+      "title": "自分の声をAIが完全再現！？Gemini 3.8 Flash TTSでクローン音声＆掛け合い動画を作ってみた",
+      "url": "https://www.youtube.com/watch?v=bVu-9YJhF0Y"
+    },
+    {
+      "channel": "じゅりん│AIビジネス活用塾",
+      "videoId": "6jZf039q9Qc",
+      "published": "2026-09-28",
+      "title": "【Gem廃止】Geminiの「Gem」がスキルへ！何が変わる？メリット・注意点を徹底解説",
+      "url": "https://www.youtube.com/watch?v=6jZf039q9Qc"
+    },
+    {
+      "channel": "RICOのAIラボ | AIで業務をもっと楽しく",
+      "videoId": "3lBG7AByGAU",
+      "published": "2026-10-02",
+      "title": "【必見】Gemini Notebookのライブラリで3Dデータや動画が作れる！裏側のライブラリ124個から抜粋して紹介！",
+      "url": "https://www.youtube.com/watch?v=3lBG7AByGAU"
+    },
+    {
+      "channel": "ここなのAI大学",
+      "videoId": "WzbDysL_Szw",
+      "published": "2026-10-03",
+      "title": "【衝撃】最新画像生成AI『ChatGPT Images 2.5』の性能がヤバすぎたので徹底解説しました【神アップデート】",
+      "url": "https://www.youtube.com/watch?v=WzbDysL_Szw"
+    },
+    {
+      "channel": "ウェブマニア",
+      "videoId": "VGjZT1nUjlk",
+      "published": "2026-10-03",
+      "title": "【神拡張機能】騙されたと思って入れてみて！ネットで話題のクローム拡張機能が神すぎたから紹介する【Ambient light for YouTube】",
+      "url": "https://www.youtube.com/watch?v=VGjZT1nUjlk"
+    },
+    {
+      "channel": "ウェブマニア",
+      "videoId": "SwGLh3qWfkE",
+      "published": "2026-09-29",
+      "title": "AI搭載の犬型ロボット『Sirius』がやってきた！マニア家の猫に合わせて徹底レビューします",
+      "url": "https://www.youtube.com/watch?v=SwGLh3qWfkE"
+    },
+    {
+      "channel": "あやや の ITスキルアップ塾",
+      "videoId": "Y4I6LyJR5dc",
+      "published": "2026-09-28",
+      "title": "Gemini 3.8 TTSで声優並みの音声作成＆Google VidsでAI動画生成！AIの声はどこまで演技できる？【あややの月曜AIトーク】",
+      "url": "https://www.youtube.com/watch?v=Y4I6LyJR5dc"
+    },
+    {
+      "channel": "ジェネトピ | AIラジオ",
+      "videoId": "UPw_B8yyeOA",
+      "published": "2026-09-30",
+      "title": "Claude Code、初期装備で戦ってない？アウトプットが変わる「道具」の話",
+      "url": "https://www.youtube.com/watch?v=UPw_B8yyeOA"
+    },
+    {
+      "channel": "Appsheet教室@イルカのえっちゃんねる",
+      "videoId": "wcstCpQ4h6g",
+      "published": "2026-09-30",
+      "title": "【Workspace Studio】Webhook 遂に復活!!【GASのWebアプリ活用】",
+      "url": "https://www.youtube.com/watch?v=wcstCpQ4h6g"
+    },
+    {
+      "channel": "いまにゅのAIプログラミング塾",
+      "videoId": "Rqe3_KoNhy8",
+      "published": "2026-10-04",
+      "title": "Claude Codeを使いこなすなら必須！最新の神機能「Mods」を徹底解説します",
+      "url": "https://www.youtube.com/watch?v=Rqe3_KoNhy8"
+    },
+    {
+      "channel": "いまにゅのAIプログラミング塾",
+      "videoId": "xuRgdsRj75c",
+      "published": "2026-09-30",
+      "title": "やるだけでAIの性能を爆上げする神技7選！AIエージェントが超賢くなる7つの裏技をAI活用のプロが教えます",
+      "url": "https://www.youtube.com/watch?v=xuRgdsRj75c"
+    },
+    {
+      "channel": "AIで創作効率化とマネタイズby嗚呼蛙",
+      "videoId": "6k4GUobJpQQ",
+      "published": "2026-10-03",
+      "title": "【Plus以下必見】ChatGPT新機能25個、結局どれが使える？GPT-6.1 Sol＆プラグインも実演",
+      "url": "https://www.youtube.com/watch?v=6k4GUobJpQQ"
+    },
+    {
+      "channel": "KEITO【AI&WEB ch】",
+      "videoId": "NImFdpHOSPA",
+      "published": "2026-10-03",
+      "title": "ChatGPT Codex AI活用【総まとめ】これで一気にわかる！資料作成・PC操作・Web制作など",
+      "url": "https://www.youtube.com/watch?v=NImFdpHOSPA"
+    },
+    {
+      "channel": "KEITO【AI&WEB ch】",
+      "videoId": "Gp61r2ehrB0",
+      "published": "2026-09-30",
+      "title": "ChatGPTに24時間働く新機能『Dots』登場！【OpenAI DevDay 2026まとめ】",
+      "url": "https://www.youtube.com/watch?v=Gp61r2ehrB0"
+    },
+    {
+      "channel": "KEITO【AI&WEB ch】",
+      "videoId": "PZVc6b046Ik",
+      "published": "2026-09-28",
+      "title": "Gemini 3.8 Flash TTS × Claude Opus 5.5で動画を作るのが熱い！この動画、編集は全部AIです。",
+      "url": "https://www.youtube.com/watch?v=PZVc6b046Ik"
+    },
+    {
+      "channel": "AI時短ラボ",
+      "videoId": "c2x19i1kZhc",
+      "published": "2026-10-04",
+      "title": "【週刊AIニュース】Sonnet 5.5・GPT-6.1 Sol・Gemini 4が登場！今週の大型発表まとめ",
+      "url": "https://www.youtube.com/watch?v=c2x19i1kZhc"
+    },
+    {
+      "channel": "AI時短ラボ",
+      "videoId": "0Gf_Zd2Lo1k",
+      "published": "2026-10-04",
+      "title": "AIの父2人が警告。AIが自ら進化する「RSI」の先に、何が起きるのか？",
+      "url": "https://www.youtube.com/watch?v=0Gf_Zd2Lo1k"
+    },
+    {
+      "channel": "AI時短ラボ",
+      "videoId": "lFEVAvFFn4c",
+      "published": "2026-10-03",
+      "title": "【顔出し・声出し不要】ギャルAIインフルエンサーを作ったら、ここまでできた【Higgsfield】",
+      "url": "https://www.youtube.com/watch?v=lFEVAvFFn4c"
+    },
+    {
+      "channel": "AI時短ラボ",
+      "videoId": "wKfkXGQ4gAQ",
+      "published": "2026-10-03",
+      "title": "顔も声も出さずにインフルエンサーに!? AIだけで作ってみた【Higgsfield】",
+      "url": "https://www.youtube.com/watch?v=wKfkXGQ4gAQ"
+    },
+    {
+      "channel": "AI時短ラボ",
+      "videoId": "tO5cyadu8uA",
+      "published": "2026-10-03",
+      "title": "OpenAIがKimi開発元を告発。暗号を破らず「思考」を抜き出す手口とは？",
+      "url": "https://www.youtube.com/watch?v=tO5cyadu8uA"
+    },
+    {
+      "channel": "AI時短ラボ",
+      "videoId": "oXkR9ehCAM0",
+      "published": "2026-10-02",
+      "title": "【速報】ELYZAが完全国産AIを公開。「AIがAIを作る」研究も始動──でも7か月前の海外モデルに届かず",
+      "url": "https://www.youtube.com/watch?v=oXkR9ehCAM0"
+    },
+    {
+      "channel": "AI時短ラボ",
+      "videoId": "2AaA92nB-cM",
+      "published": "2026-10-02",
+      "title": "54人中26人が「人間」と答えたAI。Tavus「Griffin」の実力と限界",
+      "url": "https://www.youtube.com/watch?v=2AaA92nB-cM"
+    },
+    {
+      "channel": "AI時短ラボ",
+      "videoId": "ms3ZuHkwZfs",
+      "published": "2026-10-01",
+      "title": "エニグマも、ナポレオン軍の手紙も。AIが歴史の暗号を次々解読【9月総まとめ】",
+      "url": "https://www.youtube.com/watch?v=ms3ZuHkwZfs"
+    },
+    {
+      "channel": "AI時短ラボ",
+      "videoId": "xW-rY0NhwHU",
+      "published": "2026-09-30",
+      "title": "【速報】Gemini 4 Argon登場！公式ベンチ19項目中13項目で1位、Googleの逆襲！",
+      "url": "https://www.youtube.com/watch?v=xW-rY0NhwHU"
+    },
+    {
+      "channel": "AI時短ラボ",
+      "videoId": "qEAPPnprEm0",
+      "published": "2026-09-30",
+      "title": "AIはもう『SI』？トランプの改名令と「超知能協定」の中身",
+      "url": "https://www.youtube.com/watch?v=qEAPPnprEm0"
+    },
+    {
+      "channel": "AI時短ラボ",
+      "videoId": "PZGl2uOoT48",
+      "published": "2026-09-30",
+      "title": "【AI減速論はどうなる？】GLM-5.3がMythos Previewに肉薄、Anthropic自身が評価",
+      "url": "https://www.youtube.com/watch?v=PZGl2uOoT48"
+    },
+    {
+      "channel": "AI時短ラボ",
+      "videoId": "qEpJt7f8Y2g",
+      "published": "2026-09-29",
+      "title": "【OpenAI DevDay まとめ】24時間働くAI「Dots」登場！GPT-6.1 Sol・月500ドル新プランまで総まとめ",
+      "url": "https://www.youtube.com/watch?v=qEpJt7f8Y2g"
+    },
+    {
+      "channel": "AI時短ラボ",
+      "videoId": "GvJOoKL0NRU",
+      "published": "2026-09-29",
+      "title": "【速報】GPT-6.1 Sol登場！GPT-6 Solからわずか1週間、Astraに迫る性能",
+      "url": "https://www.youtube.com/watch?v=GvJOoKL0NRU"
+    },
+    {
+      "channel": "AI時短ラボ",
+      "videoId": "d8coWgonHnM",
+      "published": "2026-09-29",
+      "title": "Sonnet 5.5 vs Opus 5.5 vs Sonnet5、名画・Web・ゲームを作らせて徹底比較",
+      "url": "https://www.youtube.com/watch?v=d8coWgonHnM"
+    },
+    {
+      "channel": "AI時短ラボ",
+      "videoId": "iv1MFnHARf8",
+      "published": "2026-09-28",
+      "title": "【Claude Sonnet 5.5】公式プロンプトガイド完全解説！知らないと損する11の改善策",
+      "url": "https://www.youtube.com/watch?v=iv1MFnHARf8"
+    },
+    {
+      "channel": "テックニュース@ATI",
+      "videoId": "4nyizo_iQmQ",
+      "published": "2026-10-04",
+      "title": "GPT-6.1 Sol の effort を6段階で比べた｜上げれば Opus 5.5 に並ぶ？ 同じ13課題で検証",
+      "url": "https://www.youtube.com/watch?v=4nyizo_iQmQ"
+    },
+    {
+      "channel": "テックニュース@ATI",
+      "videoId": "Upp1FZ_nvf4",
+      "published": "2026-10-03",
+      "title": "【2026-09-25~2026-10-01】週刊AIニュース｜GPT-6.1 Sol・Gemini 4 Argon・Sonnet 5.5が出揃う／OpenAIは最上位モデルの訓練などを停止",
+      "url": "https://www.youtube.com/watch?v=Upp1FZ_nvf4"
+    },
+    {
+      "channel": "テックニュース@ATI",
+      "videoId": "jF2uJe75mko",
+      "published": "2026-10-03",
+      "title": "【2026-09-25~2026-10-01】週刊IT企業ニュース｜AMDがWorld Labsを約82億ドルで買収へ／Metaが企業向けAI事業を開始",
+      "url": "https://www.youtube.com/watch?v=jF2uJe75mko"
+    },
+    {
+      "channel": "テックニュース@ATI",
+      "videoId": "31sdBYWSpRo",
+      "published": "2026-10-03",
+      "title": "【2026-09-25~2026-10-01】週刊IT技術ニュース｜Next.jsが脆弱性7件を修正／タイムズカー約660万件漏洩／WSL containers正式版",
+      "url": "https://www.youtube.com/watch?v=31sdBYWSpRo"
+    },
+    {
+      "channel": "テックニュース@ATI",
+      "videoId": "3sk9vfuFS5g",
+      "published": "2026-09-30",
+      "title": "GPT-6.1 Sol は Astra並みで5分の1？ DevDay の発表を Opus 5.5・Astra と同じ13課題で比べた",
+      "url": "https://www.youtube.com/watch?v=3sk9vfuFS5g"
+    },
+    {
+      "channel": "テックニュース@ATI",
+      "videoId": "3pTHBAhhUnw",
+      "published": "2026-09-29",
+      "title": "Claude Sonnet 5.5 vs Opus 5.5｜同じ13課題を作らせたら、半額でここまで作れた",
+      "url": "https://www.youtube.com/watch?v=3pTHBAhhUnw"
+    },
+    {
+      "channel": "テックニュース@ATI",
+      "videoId": "Xi6b2fuRM-U",
+      "published": "2026-09-28",
+      "title": "Claude Code v2.1.280〜v2.1.283 まとめ｜Opus 5.5 が既定に・/doctor prompt-audit・危険な rm の修正",
+      "url": "https://www.youtube.com/watch?v=Xi6b2fuRM-U"
+    },
+    {
+      "channel": "ウェブ職TV@AIセキュリティ専門",
+      "videoId": "G2Bd4nr2jaM",
+      "published": "2026-10-04",
+      "title": "新幹線でPCを開いたまま10分離席した人 #Shorts",
+      "url": "https://www.youtube.com/watch?v=G2Bd4nr2jaM"
+    },
+    {
+      "channel": "ウェブ職TV@AIセキュリティ専門",
+      "videoId": "wgLnvGebu3I",
+      "published": "2026-10-04",
+      "title": "「今まで事故ったことない」は安全の根拠にならない #Shorts",
+      "url": "https://www.youtube.com/watch?v=wgLnvGebu3I"
+    },
+    {
+      "channel": "ウェブ職TV@AIセキュリティ専門",
+      "videoId": "cs8taTTnApM",
+      "published": "2026-10-03",
+      "title": "AIセキュリティを勉強しない理由。",
+      "url": "https://www.youtube.com/watch?v=cs8taTTnApM"
+    },
+    {
+      "channel": "ウェブ職TV@AIセキュリティ専門",
+      "videoId": "Ss_s5oD_AEM",
+      "published": "2026-10-03",
+      "title": "あなたのAIが今から情報漏洩します。",
+      "url": "https://www.youtube.com/watch?v=Ss_s5oD_AEM"
+    },
+    {
+      "channel": "ウェブ職TV@AIセキュリティ専門",
+      "videoId": "a0Fn4-pIW1g",
+      "published": "2026-09-29",
+      "title": "Claude Sonnet 5.5発表！！AI社員の作り方セミナーを無料開催！",
+      "url": "https://www.youtube.com/watch?v=a0Fn4-pIW1g"
+    },
+    {
+      "channel": "AI共創イノベーション",
+      "videoId": "G6dYLFYIlQE",
+      "published": "2026-10-03",
+      "title": "【AI最前線】Astra VS Fable 頂上対決にGemini4が二正面作戦で超カオスバトルに突入！Sol vs Sonnetの本線やLunaの地下戦を全てまとめて解説【AIが100倍楽しくなる】",
+      "url": "https://www.youtube.com/watch?v=G6dYLFYIlQE"
+    },
+    {
+      "channel": "AI共創イノベーション",
+      "videoId": "TY7fRTaWib4",
+      "published": "2026-10-02",
+      "title": "GPT-6 Luna（ルナ）使って見てヤバいと思ったので、これから始まるAI地下戦線を解説！価格破壊よって生まれる次のAIのステージとは？",
+      "url": "https://www.youtube.com/watch?v=TY7fRTaWib4"
+    },
+    {
+      "channel": "AI共創イノベーション",
+      "videoId": "MYGjARbOn8w",
+      "published": "2026-10-01",
+      "title": "【OpenAI DevDay】Dots（ドット）×ChatGPTスペース × MCPプラグインからOpen AIの戦略を分析【AI本戦出口】",
+      "url": "https://www.youtube.com/watch?v=MYGjARbOn8w"
+    },
+    {
+      "channel": "AI共創イノベーション",
+      "videoId": "p7vAcChP03o",
+      "published": "2026-10-01",
+      "title": "Gemini 4 Argon（アルゴン）最強AI復活か？脅威のベンチマークと衝撃の「二方面作戦」を解説！本命標的はGPT-6 SolとClaude Sonnet5.5!?【GoogleAI超戦略】",
+      "url": "https://www.youtube.com/watch?v=p7vAcChP03o"
+    },
+    {
+      "channel": "AI共創イノベーション",
+      "videoId": "tdUhVaqgJ0c",
+      "published": "2026-09-30",
+      "title": "【白熱AI戦線】GPT-6.1 Solが早くも登場！Claude Sonnet5.5と本戦対決を解説！SolがAstraに迫る能力！本戦はAnthropicよりもOpenAIがやや有利か！？",
+      "url": "https://www.youtube.com/watch?v=tdUhVaqgJ0c"
+    },
+    {
+      "channel": "AI共創イノベーション",
+      "videoId": "XVpsKTyuTLc",
+      "published": "2026-09-29",
+      "title": "【Anthropic本命AI】Claude Sonnet5.5とは？ライバルのGPT-6 SolやGeminiと本戦比較対決！賢さ・速さ・操作性、バランスの良いモデルです",
+      "url": "https://www.youtube.com/watch?v=XVpsKTyuTLc"
+    },
+    {
+      "channel": "AI整体師",
+      "videoId": "mBtbNc6HkWE",
+      "published": "2026-10-04",
+      "title": "【#ライブ配信 No.134】Astraをぶん回せ！！",
+      "url": "https://www.youtube.com/watch?v=mBtbNc6HkWE"
+    },
+    {
+      "channel": "AI整体師",
+      "videoId": "zOu5htOcZ7Y",
+      "published": "2026-10-04",
+      "title": "【#GPTラジオ No.72】育成キャンセルとAI時代の人材育成について。",
+      "url": "https://www.youtube.com/watch?v=zOu5htOcZ7Y"
+    },
+    {
+      "channel": "AI整体師",
+      "videoId": "bbuoJfSuktc",
+      "published": "2026-10-03",
+      "title": "8倍速い。でも消費は6倍？【OpenAI Dev Day 2026】",
+      "url": "https://www.youtube.com/watch?v=bbuoJfSuktc"
+    },
+    {
+      "channel": "AI整体師",
+      "videoId": "q1kzLEaMSpc",
+      "published": "2026-10-03",
+      "title": "【#AIニュース No.480】ChatGPTにリセット入ってます！「Gemini 4 Argon」一般提供見送り！？Claude Codeに新しいプラグイン追加！",
+      "url": "https://www.youtube.com/watch?v=q1kzLEaMSpc"
+    },
+    {
+      "channel": "AI整体師",
+      "videoId": "1Uw7OEf0kGY",
+      "published": "2026-10-02",
+      "title": "500ドルプラン、さすがにきつい？【OpenAI Dev Day 2026】",
+      "url": "https://www.youtube.com/watch?v=1Uw7OEf0kGY"
+    },
+    {
+      "channel": "AI整体師",
+      "videoId": "2Nt8i1R4HSg",
+      "published": "2026-10-02",
+      "title": "【#AIとやってみた】緊急速報！！明日10月3日土2時ごろにChatGPTリセット予告出ました！！を伝えたいだけの動画",
+      "url": "https://www.youtube.com/watch?v=2Nt8i1R4HSg"
+    },
+    {
+      "channel": "AI整体師",
+      "videoId": "cY0T9o0oKqE",
+      "published": "2026-10-02",
+      "title": "【#AIニュース No.479】Claude Codeをカスタマイズできる機能！？GPT-6.1 Solの速度が2倍に！？CloudFlareからオープンソースのマルチモーダルJevが登場",
+      "url": "https://www.youtube.com/watch?v=cY0T9o0oKqE"
+    },
+    {
+      "channel": "AI整体師",
+      "videoId": "o3XCN-ob2Bk",
+      "published": "2026-10-01",
+      "title": "【#AIニュース No.478】Googleの新モデル「Gemini 4 Argon」が登場！ChatGPTアカウントでNotion内のGPTモデルを使える！？",
+      "url": "https://www.youtube.com/watch?v=o3XCN-ob2Bk"
+    },
+    {
+      "channel": "AI整体師",
+      "videoId": "yJXe3niOIEY",
+      "published": "2026-09-30",
+      "title": "【#ライブ配信 No.133】OpenAI Dev Day 2026を観よー！",
+      "url": "https://www.youtube.com/watch?v=yJXe3niOIEY"
+    },
+    {
+      "channel": "AI整体師",
+      "videoId": "7gwWjRLv9RI",
+      "published": "2026-09-30",
+      "title": "【#AIとやってみた】ChatGPTの新機能「Dots」「Space」を初見で試してみた！Dotsが思ってる以上に遅いのと、スペースがNotionに似てる気がする？",
+      "url": "https://www.youtube.com/watch?v=7gwWjRLv9RI"
+    },
+    {
+      "channel": "AI整体師",
+      "videoId": "evTPiGlRVIw",
+      "published": "2026-09-30",
+      "title": "【#AIニュース No.477】OpenAI Dev Day 2026で大量発表！常時稼働型エージェント「Dots」やGPT-6.1 Solをリリース！",
+      "url": "https://www.youtube.com/watch?v=evTPiGlRVIw"
+    },
+    {
+      "channel": "AI整体師",
+      "videoId": "hQYFlNMq97w",
+      "published": "2026-09-29",
+      "title": "【#AIとやってみた】OpenClawを使い始めて3週間！YouTubeショート動画も作ってくれるようになりました！",
+      "url": "https://www.youtube.com/watch?v=hQYFlNMq97w"
+    },
+    {
+      "channel": "AI整体師",
+      "videoId": "HKRJL-kLktg",
+      "published": "2026-09-28",
+      "title": "【#AIとやってみた】最近「Orca」っていうエディターを使い始めたので、所感を共有します！個人的にはかなり満足してます！",
+      "url": "https://www.youtube.com/watch?v=HKRJL-kLktg"
+    }
+  ],
+  "failures": []
+}

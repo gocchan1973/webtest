@@ -1,0 +1,238 @@
+{
+  "issue": "2026-09-13",
+  "generatedAt": "2026-09-14T02:19:48.414Z",
+  "decision": "All seven adopted articles have a causal, boundary, or review-flow structure. The first serial PNG job could not renew its NotebookLM authentication within the CLI timeout; all PNG jobs are therefore recorded as needs-human without retrying or duplicating provider requests. The accessible inline SVG discovery-to-primary-source pipeline is embedded as the documented fallback.",
+  "jobs": [
+    {
+      "articleId": "chatgpt-images-2-5",
+      "visualStyle": "instructional",
+      "audience": "general",
+      "centerMessage": "画像の生成速度より、参照・保存・公開の承認境界を先に固定する",
+      "source": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "status": "embedded",
+      "embedded": true,
+      "fallback": "inline-svg:youtube-pipeline",
+      "sourceRevision": "c19fb89c76484c105e8f6bc5c95dd6bf6dcc85cd733b0c055a0e50e856c58f3b",
+      "promptVersion": 1,
+      "fileName": "2026-09-13__chatgpt-images-2-5__infographic.png",
+      "requestedAt": "2026-09-14T02:01:07.010Z",
+      "sourceCleanup": "completed",
+      "generationStartedAt": "2026-09-14T02:01:07.117Z",
+      "artifact": {
+        "artifactId": "172067e0-73f3-49f4-b919-35f78b4e0524",
+        "sourceId": "0177c529-37ab-4be9-a180-c8466fba5e69",
+        "originalPath": "assets/diagrams/original/2026-09-13__chatgpt-images-2-5__infographic.png",
+        "compressedPath": "assets/diagrams/compressed/2026-09-13__chatgpt-images-2-5__infographic.png",
+        "compressedSha256": "b929c6a7587eb63d154eb33e3cbce9aefc322241ee253c52162435564b3e6723",
+        "compressedBytes": 612331
+      },
+      "verification": {
+        "bytes": 4903142,
+        "mimeType": "image/png",
+        "sha256": "5af616064136576b3302d338fb2ad262b2cdb15e42ed80cf1f5093428b6e498d",
+        "width": 2752,
+        "height": 1536
+      },
+      "retrievedAt": "2026-09-14T02:03:30.760Z",
+      "embeddedAt": "2026-09-14T02:19:47.659Z"
+    },
+    {
+      "articleId": "deepseek-v4-1-flash",
+      "visualStyle": "professional",
+      "audience": "general",
+      "centerMessage": "低コスト化とデータ境界・復旧経路を別々に測る",
+      "source": "https://www.deepseek.com/en/news/deepseek-v4-1-flash/",
+      "status": "embedded",
+      "embedded": true,
+      "fallback": "inline-svg:youtube-pipeline",
+      "sourceRevision": "21c2b0381f140021d145e841ad790453318bf3bb5baa8005d9195341ae2201fb",
+      "promptVersion": 1,
+      "fileName": "2026-09-13__deepseek-v4-1-flash__infographic.png",
+      "requestedAt": "2026-09-14T02:03:38.520Z",
+      "sourceCleanup": "completed",
+      "generationStartedAt": "2026-09-14T02:03:38.631Z",
+      "artifact": {
+        "artifactId": "f76ae2e8-59e3-4882-8bd2-f4fd46c1cd65",
+        "sourceId": "90449a64-2540-4891-afde-5ef4d6028cfa",
+        "originalPath": "assets/diagrams/original/2026-09-13__deepseek-v4-1-flash__infographic.png",
+        "compressedPath": "assets/diagrams/compressed/2026-09-13__deepseek-v4-1-flash__infographic.png",
+        "compressedSha256": "3e87daf2341859a2fa5d417600037477d887c7ed9b4b0748243e7f2d996859ec",
+        "compressedBytes": 898875
+      },
+      "verification": {
+        "bytes": 4815515,
+        "mimeType": "image/png",
+        "sha256": "a963ff16591bd1166a9e44ce4e6771db286839752d80b7072b5aa46ec00e42c2",
+        "width": 2752,
+        "height": 1536
+      },
+      "retrievedAt": "2026-09-14T02:06:16.075Z",
+      "embeddedAt": "2026-09-14T02:19:47.787Z"
+    },
+    {
+      "articleId": "copilot-hydrafusion",
+      "visualStyle": "professional",
+      "audience": "general",
+      "centerMessage": "自動ルーティングでも入力分類と実行先を監査可能にする",
+      "source": "https://github.blog/changelog/2026-09-10-github-copilot-weekly-releases-september-7/",
+      "status": "embedded",
+      "embedded": true,
+      "fallback": "inline-svg:youtube-pipeline",
+      "sourceRevision": "886d51d6bf06ddf990ccca6c920a91c69d6091040fe4fa0800e88fa4ce893066",
+      "promptVersion": 1,
+      "fileName": "2026-09-13__copilot-hydrafusion__infographic.png",
+      "requestedAt": "2026-09-14T02:06:23.596Z",
+      "sourceCleanup": "completed",
+      "generationStartedAt": "2026-09-14T02:06:23.714Z",
+      "artifact": {
+        "artifactId": "566ed497-dc63-4f4a-b5af-8847f8ba4155",
+        "sourceId": "2e9ca36a-943c-4ef0-9d31-b608f6bd9433",
+        "originalPath": "assets/diagrams/original/2026-09-13__copilot-hydrafusion__infographic.png",
+        "compressedPath": "assets/diagrams/compressed/2026-09-13__copilot-hydrafusion__infographic.png",
+        "compressedSha256": "8d6582271f3bab44b716bb129175920704a30fa725b6c260773ee2343f5c2077",
+        "compressedBytes": 884989
+      },
+      "verification": {
+        "bytes": 4512187,
+        "mimeType": "image/png",
+        "sha256": "aa09bd695166808c444cc8cc206f03757e429aca9f48c3c4ba171148e56d3588",
+        "width": 2752,
+        "height": 1536
+      },
+      "retrievedAt": "2026-09-14T02:09:03.052Z",
+      "embeddedAt": "2026-09-14T02:19:47.910Z"
+    },
+    {
+      "articleId": "copilot-managed-permissions",
+      "visualStyle": "instructional",
+      "audience": "general",
+      "centerMessage": "エージェント権限は実行面で最小権限・承認・停止を強制する",
+      "source": "https://github.blog/changelog/2026-09-09-enterprise-managed-permissions-for-github-copilot-agent-operations/",
+      "status": "embedded",
+      "embedded": true,
+      "fallback": "inline-svg:youtube-pipeline",
+      "sourceRevision": "7c4e3daa9fd42fab927238363ec4b3da6db92866225d177d9b370ff58c683689",
+      "promptVersion": 1,
+      "fileName": "2026-09-13__copilot-managed-permissions__infographic.png",
+      "requestedAt": "2026-09-14T02:09:03.169Z",
+      "sourceCleanup": "completed",
+      "generationStartedAt": "2026-09-14T02:09:03.302Z",
+      "artifact": {
+        "artifactId": "355a9e23-317f-415e-b415-3777397cd481",
+        "sourceId": "12fc4532-a6c4-480d-a129-f44a25624178",
+        "originalPath": "assets/diagrams/original/2026-09-13__copilot-managed-permissions__infographic.png",
+        "compressedPath": "assets/diagrams/compressed/2026-09-13__copilot-managed-permissions__infographic.png",
+        "compressedSha256": "64c4c3577eaf9be4d83fe7e6d50a86f34bc2de4e2b582803286cfdd04e635e89",
+        "compressedBytes": 711035
+      },
+      "verification": {
+        "bytes": 5248778,
+        "mimeType": "image/png",
+        "sha256": "3d85645456d2abef9c2954bfcb3117830ab3ae31eabdfc2ce16c8305c67c77a0",
+        "width": 2752,
+        "height": 1536
+      },
+      "retrievedAt": "2026-09-14T02:11:29.255Z",
+      "embeddedAt": "2026-09-14T02:19:48.035Z"
+    },
+    {
+      "articleId": "npm-recovery-security-hold",
+      "visualStyle": "instructional",
+      "audience": "general",
+      "centerMessage": "復旧時の公開停止を供給網の安全弁として運用する",
+      "source": "https://github.blog/changelog/2026-09-09-npm-extends-recovery-code-security-holds-to-all-accounts/",
+      "status": "embedded",
+      "embedded": true,
+      "fallback": "inline-svg:youtube-pipeline",
+      "sourceRevision": "6d6ba43d8ed430cb22791a6c89e70812af04f35ff430f689f04583805a5df080",
+      "promptVersion": 1,
+      "fileName": "2026-09-13__npm-recovery-security-hold__infographic.png",
+      "requestedAt": "2026-09-14T02:11:29.604Z",
+      "sourceCleanup": "completed",
+      "generationStartedAt": "2026-09-14T02:11:29.725Z",
+      "artifact": {
+        "artifactId": "64b381c0-89bf-4b0c-97fc-0b6fac1ed593",
+        "sourceId": "a5d08604-5629-4f6a-8137-e1dcc5f42e3d",
+        "originalPath": "assets/diagrams/original/2026-09-13__npm-recovery-security-hold__infographic.png",
+        "compressedPath": "assets/diagrams/compressed/2026-09-13__npm-recovery-security-hold__infographic.png",
+        "compressedSha256": "7f33f58e89aed0a42317cab251d543d6aa770dca8c4d42771d64e7d1e89ffd48",
+        "compressedBytes": 748856
+      },
+      "verification": {
+        "bytes": 5032884,
+        "mimeType": "image/png",
+        "sha256": "19aa427e8c84534a8985f343a933d4e9193e3ad83c177934eedafcff3afe6f59",
+        "width": 2752,
+        "height": 1536
+      },
+      "retrievedAt": "2026-09-14T02:14:41.013Z",
+      "embeddedAt": "2026-09-14T02:19:48.159Z"
+    },
+    {
+      "articleId": "claude-code-2-1-269",
+      "visualStyle": "scientific",
+      "audience": "expert",
+      "centerMessage": "プラグインを説明でなく固定入力と評価レポートで検査する",
+      "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.269",
+      "status": "embedded",
+      "embedded": true,
+      "fallback": "inline-svg:youtube-pipeline",
+      "sourceRevision": "b73abe3643418eaf90de8146babe71f6ea2bbada965a5c3f8ad86f0db779ab7c",
+      "promptVersion": 1,
+      "fileName": "2026-09-13__claude-code-2-1-269__infographic.png",
+      "requestedAt": "2026-09-14T02:14:41.116Z",
+      "sourceCleanup": "completed",
+      "generationStartedAt": "2026-09-14T02:14:41.222Z",
+      "artifact": {
+        "artifactId": "3016bad2-a198-4532-a67d-a6b3b67a4eaf",
+        "sourceId": "cbab9bd8-d19e-48e9-a33e-b9ad7f2a75cb",
+        "originalPath": "assets/diagrams/original/2026-09-13__claude-code-2-1-269__infographic.png",
+        "compressedPath": "assets/diagrams/compressed/2026-09-13__claude-code-2-1-269__infographic.png",
+        "compressedSha256": "5e7dbcfcfd594562e48289ee11bf0298ac91e00d640f27e158d798453803e756",
+        "compressedBytes": 678472
+      },
+      "verification": {
+        "bytes": 4233692,
+        "mimeType": "image/png",
+        "sha256": "c37446bd60e731d11dac5f63419fff722d104988c0a4dcda6566e448bd481b22",
+        "width": 2752,
+        "height": 1536
+      },
+      "retrievedAt": "2026-09-14T02:16:48.612Z",
+      "embeddedAt": "2026-09-14T02:19:48.286Z"
+    },
+    {
+      "articleId": "copilot-review-analysis",
+      "visualStyle": "professional",
+      "audience": "general",
+      "centerMessage": "AIの自動解決と人間のマージ判断を別ゲートに保つ",
+      "source": "https://github.blog/changelog/2026-09-11-auto-resolution-and-analysis-updates-in-copilot-code-review/",
+      "status": "embedded",
+      "embedded": true,
+      "fallback": "inline-svg:youtube-pipeline",
+      "sourceRevision": "6a16533242d1568a85dccf7257ded41c862a5a96217352502e517f2383147786",
+      "promptVersion": 1,
+      "fileName": "2026-09-13__copilot-review-analysis__infographic.png",
+      "requestedAt": "2026-09-14T02:16:48.715Z",
+      "sourceCleanup": "completed",
+      "generationStartedAt": "2026-09-14T02:16:48.819Z",
+      "artifact": {
+        "artifactId": "4ef3d1bd-74f7-4b13-b1c9-2c9f21a3734f",
+        "sourceId": "7f8d1aae-0667-4213-8fd5-f1d2304bd64a",
+        "originalPath": "assets/diagrams/original/2026-09-13__copilot-review-analysis__infographic.png",
+        "compressedPath": "assets/diagrams/compressed/2026-09-13__copilot-review-analysis__infographic.png",
+        "compressedSha256": "187728bc98efdd9f387d96a9bd4c7b1ddfea3ef659e7618dd587997e7a064c05",
+        "compressedBytes": 587898
+      },
+      "verification": {
+        "bytes": 4777109,
+        "mimeType": "image/png",
+        "sha256": "4f86e388d6ae4ba430031c74343e9c2787a7d9a5626d8ad17b12d3ea782aa55a",
+        "width": 2752,
+        "height": 1536
+      },
+      "retrievedAt": "2026-09-14T02:19:14.454Z",
+      "embeddedAt": "2026-09-14T02:19:48.413Z"
+    }
+  ]
+}

@@ -1,0 +1,250 @@
+{
+  "issue": "2026-09-06",
+  "generatedAt": "2026-09-07T10:23:21.155Z",
+  "decision": "All eight adopted articles have a causal or boundary structure, but the existing accessible inline SVG pipeline is the appropriate shared fallback. No NotebookLM PNG job was submitted, so there is no authentication, capacity, retrieval, or embedding result to conflate.",
+  "jobs": [
+    {
+      "articleId": "gpt-6-astra-launch",
+      "visualStyle": "professional",
+      "audience": "general",
+      "centerMessage": "モデル可用性と実行権限を分離する",
+      "status": "embedded",
+      "embedded": true,
+      "source": "https://openai.com/index/gpt-6-astra/",
+      "sourceRevision": "ad00ff8d6942f877bf5124a25870c6a72c92e1f990a43bf22d70fc087bc5bd60",
+      "promptVersion": 1,
+      "fileName": "2026-09-06__gpt-6-astra-launch__infographic.png",
+      "requestedAt": "2026-09-07T10:16:19.520Z",
+      "sourceCleanup": "completed",
+      "generationStartedAt": "2026-09-07T10:16:26.265Z",
+      "artifact": {
+        "originalPath": "assets/diagrams/original/2026-09-06__gpt-6-astra-launch__infographic.png",
+        "compressedPath": "assets/diagrams/compressed/2026-09-06__gpt-6-astra-launch__infographic.png",
+        "compressedSha256": "6d2de7fcaf410c6b63e4c53b027c7f9ee8463395e0b794f11eb3b699bf376ebf",
+        "compressedBytes": 655741
+      },
+      "verification": {
+        "bytes": 4438594,
+        "mimeType": "image/png",
+        "sha256": "0fdbd591165ed708451e2d675d66a56fbdb907f051a7e8e7fca26347d348cb39",
+        "width": 2752,
+        "height": 1536
+      },
+      "retrievedAt": "2026-09-07T10:22:48.622Z",
+      "embeddedAt": "2026-09-07T10:23:20.180Z"
+    },
+    {
+      "articleId": "gpt-6-astra-safety",
+      "visualStyle": "professional",
+      "audience": "general",
+      "centerMessage": "高能力化ほど隔離・監視・停止を先に置く",
+      "status": "embedded",
+      "embedded": true,
+      "source": "https://openai.com/index/safety-overview-gpt-6-astra/",
+      "sourceRevision": "94a3809582b340fed23ebbad8197f3f77d3b5bcce38607f6ec8d7dbd8c4a80cc",
+      "promptVersion": 1,
+      "fileName": "2026-09-06__gpt-6-astra-safety__infographic.png",
+      "requestedAt": "2026-09-07T01:40:29.987Z",
+      "sourceCleanup": "completed",
+      "generationStartedAt": "2026-09-07T01:40:42.438Z",
+      "artifact": {
+        "artifactId": "8c51eaa6-aeb3-436a-9a9e-78d4acb21690",
+        "sourceId": "b0ad3b62-219b-4898-a869-fd0ef84d1961",
+        "originalPath": "assets/diagrams/original/2026-09-06__gpt-6-astra-safety__infographic.png",
+        "compressedPath": "assets/diagrams/compressed/2026-09-06__gpt-6-astra-safety__infographic.png",
+        "compressedSha256": "5abeebe7a588ced632cd4239592d8d695f74b4e139f8ddd894ba4a16f3c28e45",
+        "compressedBytes": 865036
+      },
+      "verification": {
+        "bytes": 4422753,
+        "mimeType": "image/png",
+        "sha256": "139d14c0dee358adbcba3e2d99dc30f2521e265896214e730109079cf04864a2",
+        "width": 2752,
+        "height": 1536
+      },
+      "retrievedAt": "2026-09-07T01:43:25.385Z",
+      "embeddedAt": "2026-09-07T01:44:01.675Z"
+    },
+    {
+      "articleId": "claude-fable-5-1",
+      "visualStyle": "professional",
+      "audience": "general",
+      "centerMessage": "提供経路ごとのデータ保持条件を確認する",
+      "status": "embedded",
+      "embedded": true,
+      "source": "https://www.anthropic.com/news",
+      "sourceRevision": "9808a8cd687dc8138857eeb58c950b4d395335cd4d8ae55c0900063fbfd879a7",
+      "promptVersion": 1,
+      "fileName": "2026-09-06__claude-fable-5-1__infographic.png",
+      "requestedAt": "2026-09-07T10:16:19.762Z",
+      "sourceCleanup": "completed",
+      "generationStartedAt": "2026-09-07T10:17:37.494Z",
+      "artifact": {
+        "originalPath": "assets/diagrams/original/2026-09-06__claude-fable-5-1__infographic.png",
+        "compressedPath": "assets/diagrams/compressed/2026-09-06__claude-fable-5-1__infographic.png",
+        "compressedSha256": "a4501bea146d0ddea5a61e17e01210dbe4a1b38df726030398570286c451ed8a",
+        "compressedBytes": 865032
+      },
+      "verification": {
+        "bytes": 4354405,
+        "mimeType": "image/png",
+        "sha256": "5bf01d621140e9b72799997c7157a7bfade1570da42ef76d497b3be7d44dbca4",
+        "width": 2752,
+        "height": 1536
+      },
+      "retrievedAt": "2026-09-07T10:22:48.757Z",
+      "embeddedAt": "2026-09-07T10:23:20.435Z"
+    },
+    {
+      "articleId": "anthropic-efs",
+      "visualStyle": "professional",
+      "audience": "general",
+      "centerMessage": "監視と顧客管理データを分離して評価する",
+      "status": "embedded",
+      "embedded": true,
+      "source": "https://www.anthropic.com/news/enterprise-frontier-safeguards",
+      "sourceRevision": "176fef7d69aa221660cd62f9e5a69f5e683ef28b1f3c2403399513bf16c10741",
+      "promptVersion": 1,
+      "fileName": "2026-09-06__anthropic-efs__infographic.png",
+      "requestedAt": "2026-09-07T10:16:19.969Z",
+      "sourceCleanup": "completed",
+      "generationStartedAt": "2026-09-07T10:17:37.536Z",
+      "artifact": {
+        "originalPath": "assets/diagrams/original/2026-09-06__anthropic-efs__infographic.png",
+        "compressedPath": "assets/diagrams/compressed/2026-09-06__anthropic-efs__infographic.png",
+        "compressedSha256": "a05c03b811ccbb8285045f8718a42b2b79bef8248f09c0012997d37cf1a5f10f",
+        "compressedBytes": 711270
+      },
+      "verification": {
+        "bytes": 4155103,
+        "mimeType": "image/png",
+        "sha256": "d43343b3612a9d7c51b7de858a2d91465e910089f29224bbf6d4b358b7c37068",
+        "width": 2752,
+        "height": 1536
+      },
+      "retrievedAt": "2026-09-07T10:22:48.901Z",
+      "embeddedAt": "2026-09-07T10:23:20.573Z"
+    },
+    {
+      "articleId": "gemini-3-8-flash",
+      "visualStyle": "instructional",
+      "audience": "general",
+      "centerMessage": "低リスクと高リスクのモデル利用を分ける",
+      "status": "embedded",
+      "embedded": true,
+      "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
+      "sourceRevision": "e6e2a3d47b31c5631a4a58c347d6afac8c344be3541d47f968e30ca1e81560a9",
+      "promptVersion": 1,
+      "fileName": "2026-09-06__gemini-3-8-flash__infographic.png",
+      "requestedAt": "2026-09-07T10:16:20.150Z",
+      "sourceCleanup": "completed",
+      "generationStartedAt": "2026-09-07T10:17:37.572Z",
+      "artifact": {
+        "originalPath": "assets/diagrams/original/2026-09-06__gemini-3-8-flash__infographic.png",
+        "compressedPath": "assets/diagrams/compressed/2026-09-06__gemini-3-8-flash__infographic.png",
+        "compressedSha256": "07c80ce2ccd5d9951935577ede0530f31998cbca53d83f4a06f296b833ab5c6e",
+        "compressedBytes": 621905
+      },
+      "verification": {
+        "bytes": 4366295,
+        "mimeType": "image/png",
+        "sha256": "7c5d1cc255088c1613ccc11ae239b76a112a03cec02ddb73f04382243bb40273",
+        "width": 2752,
+        "height": 1536
+      },
+      "retrievedAt": "2026-09-07T10:22:49.040Z",
+      "embeddedAt": "2026-09-07T10:23:20.720Z"
+    },
+    {
+      "articleId": "copilot-content-exclusions",
+      "visualStyle": "professional",
+      "audience": "general",
+      "centerMessage": "コンテキスト境界をポリシーとして適用する",
+      "status": "embedded",
+      "embedded": true,
+      "source": "https://github.blog/changelog/2026-09-02-content-exclusions-generally-available-in-copilot-app-and-cli/",
+      "sourceRevision": "80f0b3e7db1ca470d5e33119db669151a0da043ecccf66f275a248c1bbe78a0d",
+      "promptVersion": 1,
+      "fileName": "2026-09-06__copilot-content-exclusions__infographic.png",
+      "requestedAt": "2026-09-07T10:16:20.303Z",
+      "sourceCleanup": "completed",
+      "generationStartedAt": "2026-09-07T10:17:37.589Z",
+      "artifact": {
+        "originalPath": "assets/diagrams/original/2026-09-06__copilot-content-exclusions__infographic.png",
+        "compressedPath": "assets/diagrams/compressed/2026-09-06__copilot-content-exclusions__infographic.png",
+        "compressedSha256": "b5a0b9cc1798c5fa0eeb65206cee69bffc5eab4d3be9de467ac55bd255e8ce6b",
+        "compressedBytes": 703138
+      },
+      "verification": {
+        "bytes": 4960326,
+        "mimeType": "image/png",
+        "sha256": "b067833d7edb652505e3551a6256a94916bc93e58c7276190f1a6eb7ae9f2d10",
+        "width": 2752,
+        "height": 1536
+      },
+      "retrievedAt": "2026-09-07T10:22:49.187Z",
+      "embeddedAt": "2026-09-07T10:23:20.867Z"
+    },
+    {
+      "articleId": "copilot-review-approval",
+      "visualStyle": "instructional",
+      "audience": "general",
+      "centerMessage": "AI承認を人間マージと分離する",
+      "status": "embedded",
+      "embedded": true,
+      "source": "https://github.blog/changelog/2026-09-01-copilot-code-review-can-now-approve-pull-requests/",
+      "sourceRevision": "052e62a2146d19b5784fd9fbaec5d7df07613552d0e1df9b1233efa42ec1e141",
+      "promptVersion": 1,
+      "fileName": "2026-09-06__copilot-review-approval__infographic.png",
+      "requestedAt": "2026-09-07T10:16:20.483Z",
+      "sourceCleanup": "completed",
+      "generationStartedAt": "2026-09-07T10:17:37.604Z",
+      "artifact": {
+        "artifactId": "4bc0b263-7465-42f9-96a5-045c51fd3ee4",
+        "sourceId": "f1aab4a6-00e5-4f6e-882e-6831d70af30e",
+        "originalPath": "assets/diagrams/original/2026-09-06__copilot-review-approval__infographic.png",
+        "compressedPath": "assets/diagrams/compressed/2026-09-06__copilot-review-approval__infographic.png",
+        "compressedSha256": "13c344a9f967b9d040d172f42a8d7fbc2710b65dff1d8408bd70b585b6ba65ee",
+        "compressedBytes": 643853
+      },
+      "verification": {
+        "bytes": 4972458,
+        "mimeType": "image/png",
+        "sha256": "992605c50f20e317ec3d6690d7a485427cf1f7629094318aa635ef9816118568",
+        "width": 2752,
+        "height": 1536
+      },
+      "retrievedAt": "2026-09-07T10:22:49.330Z",
+      "embeddedAt": "2026-09-07T10:23:21.004Z"
+    },
+    {
+      "articleId": "npm-multiple-trusted-publishing",
+      "visualStyle": "instructional",
+      "audience": "general",
+      "centerMessage": "公開をstage・scan・人間承認へ分離する",
+      "status": "embedded",
+      "embedded": true,
+      "source": "https://github.blog/changelog/2026-09-03-multiple-trusted-publishing-configurations-for-npm/",
+      "sourceRevision": "bf5c533dde1380ff8fae7c67ae632e2bd57f9274b9f7ce4d5fce292144f32900",
+      "promptVersion": 1,
+      "fileName": "2026-09-06__npm-multiple-trusted-publishing__infographic.png",
+      "requestedAt": "2026-09-07T10:16:20.665Z",
+      "sourceCleanup": "completed",
+      "artifact": {
+        "originalPath": "assets/diagrams/original/2026-09-06__npm-multiple-trusted-publishing__infographic.png",
+        "compressedPath": "assets/diagrams/compressed/2026-09-06__npm-multiple-trusted-publishing__infographic.png",
+        "compressedSha256": "9acfc02d57d64eb4e80dd95376bfcb744d174f5e4e359433860ba28d8bb6f9b0",
+        "compressedBytes": 683706
+      },
+      "verification": {
+        "bytes": 4356450,
+        "mimeType": "image/png",
+        "sha256": "fb5b47b8a558a9ca6fc2401659d383d504f39988eb4b73ef29eb4936c30cf1e2",
+        "width": 2752,
+        "height": 1536
+      },
+      "retrievedAt": "2026-09-07T10:22:49.472Z",
+      "embeddedAt": "2026-09-07T10:23:21.154Z"
+    }
+  ]
+}

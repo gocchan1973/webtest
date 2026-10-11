@@ -1,0 +1,7 @@
+interface:
+  display_name: "TechNews知識検索"
+  short_description: "TechNewsの蓄積知識と過去記事を横断検索する"
+  default_prompt: "Use $technews-knowledge-search to search TechNews knowledge, related past articles, and registration status for the current request."
+
+policy:
+  allow_implicit_invocation: true

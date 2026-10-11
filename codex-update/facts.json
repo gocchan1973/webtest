@@ -1,0 +1,24 @@
+[
+  {
+    "id": "codex-hooks-require-trust",
+    "fact": "フックは登録しただけでは実行されない",
+    "behavior": "Codex の注入や自動検証を配線するとき、設定の存在や単体実行の成功だけで稼働済みとしない。フックの信頼状態とモデルへの受信を確認する。信頼操作を要する場合は、その制約を明示して AGENTS.md 経由の読み込みも検討する。",
+    "scope": "2026-09-10 の公式 Codex Hooks 文書。非管理フックは定義のハッシュ単位で信頼が必要。新規・変更後はレビューまでスキップされる。環境やバージョンで利用可否を確認する。",
+    "source": "https://learn.chatgpt.com/docs/hooks",
+    "verified": "2026-09-10",
+    "discoveredIn": [],
+    "status": "active",
+    "supersededBy": null
+  },
+  {
+    "id": "codex-agents-startup-scope",
+    "fact": "AGENTS.md の更新は新しい実行で読み込まれる",
+    "behavior": "Codex の共通参照経路を変えたら、新しい実行で資料の内容が届くことを確認する。現在の会話へ遡って反映されたとは説明しない。届かない場合は CODEX_HOME、AGENTS.override.md、指示量の上限を調べる。",
+    "scope": "2026-09-10 の公式 AGENTS.md 文書。起動時に指示を構成し、グローバルでは AGENTS.override.md を優先、なければ AGENTS.md を読む。標準の合計上限は 32 KiB。別ホーム・上書きファイル・環境の設定による差を確認する。",
+    "source": "https://learn.chatgpt.com/docs/agent-configuration/agents-md",
+    "verified": "2026-09-10",
+    "discoveredIn": [],
+    "status": "active",
+    "supersededBy": null
+  }
+]

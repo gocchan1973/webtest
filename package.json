@@ -1,0 +1,11 @@
+{
+  "name": "p-p-technews",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "sharp": "^0.34.3"
+  },
+  "devDependencies": {
+    "wrangler": "4.134.0"
+  }
+}

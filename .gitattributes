@@ -1,0 +1,19 @@
+# 行末は LF に固定する。
+#
+# なぜ必要か:
+# この環境の Git は core.autocrlf=true（D:/Tools/Git/etc/gitconfig、システム全体）。
+# .gitattributes が無いと、チェックアウト時に LF が CRLF へ変換される。
+# コミット済みの blob は一貫して LF なので git status には現れず、
+# 作業ツリーだけが CRLF になる。
+#
+# 実害（2026-09-10 実測）:
+# knowledge/load-items.mjs の /^## ([^ |]+) \| (.+)$/ が行末の \r を消費できず
+# `invalid knowledge heading` で throw し、build.mjs:12 で週次ビルド全体が停止した。
+# 同じ機序で skills/*/SKILL.md の front matter 検証も失敗していた。
+# 追跡テキスト105件が i/lf w/crlf の状態だった。
+#
+# ここを消すと同じ止まり方をする。
+* text=auto eol=lf
+
+# 図解の圧縮成果物。テキスト変換の対象にしない。
+*.png -text

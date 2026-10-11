@@ -1,0 +1,20 @@
+[
+  {
+    "videoId": "ulWjhu7q2Q0",
+    "channel": "テックニュース@ATI",
+    "title": "【2026-08-28〜09-03】週刊AIニュース｜Fable 5.1でキャッシュ75%減／GLM-5.3が7530億パラメータで公開／OpenAIがCursorへのモデル提供を終了へ",
+    "url": "https://www.youtube.com/watch?v=ulWjhu7q2Q0",
+    "disposition": "rejected",
+    "reason": "候補タイトルにある他社モデルと Cursor 向け提供条件からは、Codex 自身の振る舞いを変える根拠を特定できないため今回の対象外。動画本文の確認や主張の真偽判定は行っていない。",
+    "facts": []
+  },
+  {
+    "videoId": "uQNpwmPuNYE",
+    "channel": "テックニュース@ATI",
+    "title": "Codex CLI 夏の目玉7選｜エージェント運用・/import・承認モードまで3か月総まとめ",
+    "url": "https://www.youtube.com/watch?v=uQNpwmPuNYE",
+    "disposition": "pending",
+    "reason": "Codex の振る舞いに関わる候補。動画本文と各機能の公式一次情報の照合は未実施のため保留。facts.json の初期2件は本移植の配線調査で公式資料から直接確認したもので、この動画由来ではない。",
+    "facts": []
+  }
+]

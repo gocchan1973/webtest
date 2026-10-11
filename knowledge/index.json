@@ -1,0 +1,370 @@
+{
+  "schemaVersion": 2,
+  "aiSearchEntry": {
+    "path": "knowledge/AI_SEARCH.md",
+    "purpose": "AI が最初に読む固定入口"
+  },
+  "generatedFrom": [
+    "modern-web-practices.md",
+    "entries"
+  ],
+  "items": {
+    "css-grid-gap": {
+      "id": "css-grid-gap",
+      "title": "二次元配置はGrid、間隔はgap",
+      "body": "行列の関係を持つレイアウトはGrid、一次元の並びはFlexboxを基本にし、兄弟間の間隔はgapで表現する。\n\nカード一覧、帳票の列、レスポンシブな領域配置を作るとき\n\n要素の外側余白や重なりまでgapで表そうとするとき\n\nGridは内容の意味や読み上げ順を変えない。印刷・狭幅・長い日本語で崩れを確認する。",
+      "sources": [
+        {
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout",
+          "label": "MDN CSS Grid"
+        },
+        {
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/gap",
+          "label": "MDN gap"
+        }
+      ],
+      "related_rules": [],
+      "related_knowledge": [],
+      "related_articles": [],
+      "related_work": [],
+      "source_kind": "legacy",
+      "source_path": "modern-web-practices.md",
+      "topic": "CSS / Layout",
+      "status": "verified",
+      "essence": "行列の関係を持つレイアウトはGrid、一次元の並びはFlexboxを基本にし、兄弟間の間隔はgapで表現する。",
+      "use_when": "カード一覧、帳票の列、レスポンシブな領域配置を作るとき",
+      "avoid_when": "要素の外側余白や重なりまでgapで表そうとするとき",
+      "pitfalls": "Gridは内容の意味や読み上げ順を変えない。印刷・狭幅・長い日本語で崩れを確認する。",
+      "compatibility": "Gridとgapは主要ブラウザで広く利用可能。subgridは対象環境を確認する。",
+      "accessibility": "CSSによる視覚順序変更とDOM順序の不一致を避ける。",
+      "verified_at": "2026-08-27",
+      "backlinks": []
+    },
+    "css-reduced-motion": {
+      "id": "css-reduced-motion",
+      "title": "動きを減らす設定を尊重する",
+      "body": "`prefers-reduced-motion: reduce`を使い、利用者OSが動きの抑制を求めているときアニメーションを短縮・停止する。\n\nスクロール演出、トランジション、ローディング表現を作るとき\n\n状態変化まで視認できなくするほど単純に全演出を消すとき\n\n動きを消しても、読み込み中・完了・エラーの状態は別の方法で伝える。",
+      "sources": [
+        {
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion",
+          "label": "MDN prefers-reduced-motion"
+        },
+        {
+          "url": "https://www.w3.org/WAI/WCAG22/Understanding/animation-from-interactions.html",
+          "label": "WCAG animation"
+        }
+      ],
+      "related_rules": [],
+      "related_knowledge": [],
+      "related_articles": [],
+      "related_work": [],
+      "source_kind": "legacy",
+      "source_path": "modern-web-practices.md",
+      "topic": "CSS / Accessibility",
+      "status": "verified",
+      "essence": "`prefers-reduced-motion: reduce`を使い、利用者OSが動きの抑制を求めているときアニメーションを短縮・停止する。",
+      "use_when": "スクロール演出、トランジション、ローディング表現を作るとき",
+      "avoid_when": "状態変化まで視認できなくするほど単純に全演出を消すとき",
+      "pitfalls": "動きを消しても、読み込み中・完了・エラーの状態は別の方法で伝える。",
+      "compatibility": "主要ブラウザで利用可能。OS設定とブラウザ実機で確認する。",
+      "accessibility": "vestibular障害等への配慮として既定で尊重する。",
+      "verified_at": "2026-08-27",
+      "backlinks": []
+    },
+    "html-dialog": {
+      "id": "html-dialog",
+      "title": "モーダルはdialogの状態管理を使う",
+      "body": "`showModal()`でモーダル、`show()`で非モーダルのdialogを開き、ブラウザのtop layer・inert・Esc操作などを活用できる。\n\n本当に一時的な確認・入力を画面上へ重ねるとき\n\n常時表示のパネル、複雑なウィザード、要件を満たすフォーカス移動を検証できないとき\n\n`open`属性を付けるだけでは非モーダル。必ず閉じる手段、初期フォーカス、`::backdrop`、フォーム検証を確認する。",
+      "sources": [
+        {
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/dialog",
+          "label": "MDN dialog"
+        },
+        {
+          "url": "https://html.spec.whatwg.org/multipage/interactive-elements.html#the-dialog-element",
+          "label": "WHATWG dialog"
+        }
+      ],
+      "related_rules": [],
+      "related_knowledge": [],
+      "related_articles": [],
+      "related_work": [],
+      "source_kind": "legacy",
+      "source_path": "modern-web-practices.md",
+      "topic": "HTML / Accessibility",
+      "status": "conditional",
+      "essence": "`showModal()`でモーダル、`show()`で非モーダルのdialogを開き、ブラウザのtop layer・inert・Esc操作などを活用できる。",
+      "use_when": "本当に一時的な確認・入力を画面上へ重ねるとき",
+      "avoid_when": "常時表示のパネル、複雑なウィザード、要件を満たすフォーカス移動を検証できないとき",
+      "pitfalls": "`open`属性を付けるだけでは非モーダル。必ず閉じる手段、初期フォーカス、`::backdrop`、フォーム検証を確認する。",
+      "compatibility": "現行主要ブラウザで広く利用可能だが、対象環境の互換性を確認する。",
+      "accessibility": "フォーカス管理、キーボード以外の閉じる操作、ラベル付けを実機確認する。",
+      "verified_at": "2026-08-27",
+      "backlinks": []
+    },
+    "html-image-dimensions": {
+      "id": "html-image-dimensions",
+      "title": "画像には寸法を持たせる",
+      "topic": "HTML / Performance",
+      "status": "verified",
+      "verified_at": "2026-08-27",
+      "essence": "画像の表示寸法をHTMLで予約すると、読み込み前後のレイアウトシフトを抑えられる。遅延読み込みは初期表示に不要な画像へ限定する。",
+      "use_when": "ファーストビュー外の画像や一覧カードを表示するとき。",
+      "avoid_when": "LCP対象画像を無条件に `loading=\"lazy\"` にするとき。",
+      "pitfalls": "`width` と `height` は実際の比率に合わせる。`loading=\"lazy\"` は全画像への機械的付与ではない。",
+      "compatibility": "HTML標準。対象ブラウザの性能差は実測する。",
+      "accessibility": "意味のある画像には内容を表す `alt`、装飾画像には空 `alt` を付ける。",
+      "body": "画像の表示寸法をHTMLで予約すると、読み込み前後のレイアウトシフトを抑えられる。遅延読み込みは初期表示に不要な画像へ限定する。\n\n## Use When\n\nファーストビュー外の画像や一覧カードを表示するとき。\n\n## Avoid When\n\nLCP対象画像を無条件に `loading=\"lazy\"` にするとき。\n\n## Pitfalls\n\n`width` と `height` は実際の比率に合わせる。`loading=\"lazy\"` は全画像への機械的付与ではない。\n\n## Compatibility\n\nHTML標準。対象ブラウザの性能差は実測する。\n\n## Accessibility\n\n意味のある画像には内容を表す `alt`、装飾画像には空 `alt` を付ける。",
+      "related_rules": [
+        "web-performance-layout-stability"
+      ],
+      "related_knowledge": [
+        "js-intersection-observer"
+      ],
+      "related_articles": [
+        "chrome-speed-records"
+      ],
+      "related_work": [],
+      "sources": [
+        {
+          "label": "MDN img",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/img"
+        },
+        {
+          "label": "web.dev CLS",
+          "url": "https://web.dev/articles/optimize-cls"
+        }
+      ],
+      "source_kind": "entry",
+      "source_path": "entries/html-image-dimensions.md",
+      "backlinks": [
+        "js-intersection-observer"
+      ]
+    },
+    "html-picture": {
+      "id": "html-picture",
+      "title": "画像候補をpictureとsrcsetで出し分ける",
+      "body": "`picture`と`srcset`は、条件に合う画像候補をブラウザへ渡すための仕組み。CSSで隠すだけでは不要な画像取得を防げない。\n\n画面幅や形式に応じて画像を出し分けるとき\n\n単一画像で十分なのに複雑なアートディレクションを導入するとき\n\nsourceだけで完結させず、互換用のimgとaltを残す。寸法と形式の組合せを実機確認する。",
+      "sources": [
+        {
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/picture",
+          "label": "MDN picture"
+        },
+        {
+          "url": "https://web.dev/learn/images",
+          "label": "web.dev Images"
+        }
+      ],
+      "related_rules": [],
+      "related_knowledge": [],
+      "related_articles": [],
+      "related_work": [],
+      "source_kind": "legacy",
+      "source_path": "modern-web-practices.md",
+      "topic": "HTML / Performance",
+      "status": "verified",
+      "essence": "`picture`と`srcset`は、条件に合う画像候補をブラウザへ渡すための仕組み。CSSで隠すだけでは不要な画像取得を防げない。",
+      "use_when": "画面幅や形式に応じて画像を出し分けるとき",
+      "avoid_when": "単一画像で十分なのに複雑なアートディレクションを導入するとき",
+      "pitfalls": "sourceだけで完結させず、互換用のimgとaltを残す。寸法と形式の組合せを実機確認する。",
+      "compatibility": "HTML標準。`srcset`の選択は端末条件に依存する。",
+      "accessibility": "画像の意味を変える出し分けではaltの意味を変えない。",
+      "verified_at": "2026-08-27",
+      "backlinks": []
+    },
+    "html-semantic-controls": {
+      "id": "html-semantic-controls",
+      "title": "クリック対象は意味的な要素にする",
+      "body": "ページ遷移はa、操作はbutton、開閉はdetails/dialogなど、ブラウザが意味と標準操作を持つ要素を優先する。\n\nクリック・タップ・キーボード操作を受け付けるUIを作るとき\n\ndivやpへクリック処理を付けて標準のフォーカス・キーボード操作を再実装するとき\n\nform内buttonにはtypeを明示する。ARIAは不足する意味を補うために使い、ネイティブ要素を置き換える目的で乱用しない。",
+      "sources": [
+        {
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/button",
+          "label": "MDN button"
+        },
+        {
+          "url": "https://www.w3.org/WAI/ARIA/apg/",
+          "label": "WAI-ARIA APG"
+        }
+      ],
+      "related_rules": [],
+      "related_knowledge": [],
+      "related_articles": [],
+      "related_work": [],
+      "source_kind": "legacy",
+      "source_path": "modern-web-practices.md",
+      "topic": "HTML / Accessibility",
+      "status": "verified",
+      "essence": "ページ遷移はa、操作はbutton、開閉はdetails/dialogなど、ブラウザが意味と標準操作を持つ要素を優先する。",
+      "use_when": "クリック・タップ・キーボード操作を受け付けるUIを作るとき",
+      "avoid_when": "divやpへクリック処理を付けて標準のフォーカス・キーボード操作を再実装するとき",
+      "pitfalls": "form内buttonにはtypeを明示する。ARIAは不足する意味を補うために使い、ネイティブ要素を置き換える目的で乱用しない。",
+      "compatibility": "HTML標準。",
+      "accessibility": "Tab移動、Enter/Space、フォーカス可視性、スクリーンリーダー名を確認する。",
+      "verified_at": "2026-08-27",
+      "backlinks": []
+    },
+    "js-abort-controller": {
+      "id": "js-abort-controller",
+      "title": "非同期処理は取消可能にする",
+      "body": "AbortControllerのsignalをfetchへ渡すと、不要になった通信やタイムアウトを中断できる。\n\n画面遷移、検索語変更、タイムアウトで通信が不要になるとき\n\n中断とサーバー側処理の取消を同一視するとき\n\nAbortErrorを通常エラーと分ける。timeout後の後続処理やUI状態を安全に戻す。",
+      "sources": [
+        {
+          "url": "https://developer.mozilla.org/en-US/docs/Web/API/AbortController",
+          "label": "MDN AbortController"
+        },
+        {
+          "url": "https://fetch.spec.whatwg.org/#abortcontroller",
+          "label": "WHATWG Fetch abort"
+        }
+      ],
+      "related_rules": [],
+      "related_knowledge": [],
+      "related_articles": [],
+      "related_work": [],
+      "source_kind": "legacy",
+      "source_path": "modern-web-practices.md",
+      "topic": "JavaScript / Networking",
+      "status": "verified",
+      "essence": "AbortControllerのsignalをfetchへ渡すと、不要になった通信やタイムアウトを中断できる。",
+      "use_when": "画面遷移、検索語変更、タイムアウトで通信が不要になるとき",
+      "avoid_when": "中断とサーバー側処理の取消を同一視するとき",
+      "pitfalls": "AbortErrorを通常エラーと分ける。timeout後の後続処理やUI状態を安全に戻す。",
+      "compatibility": "主要ブラウザで利用可能。",
+      "accessibility": "長時間待ちを無期限にせず、キャンセルや再試行の状態を伝える。",
+      "verified_at": "2026-08-27",
+      "backlinks": []
+    },
+    "js-defer-module": {
+      "id": "js-defer-module",
+      "title": "スクリプトの実行境界をHTMLで宣言する",
+      "body": "外部classic scriptはdeferでHTML解析後に順序を保って実行でき、module scriptは既定でdefer相当かつ独自スコープになる。\n\nページのDOMを使う外部スクリプトをheadから読み込むとき\n\n実行順序を必要としないスクリプトへasyncをdeferの代用として使うとき\n\ndefer scriptでは通常DOM解析後に実行されるため、DOMContentLoaded wrapperは必要性を確認する。asyncは順序保証がない。",
+      "sources": [
+        {
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/script",
+          "label": "MDN script"
+        },
+        {
+          "url": "https://html.spec.whatwg.org/multipage/scripting.html#the-script-element",
+          "label": "WHATWG script"
+        }
+      ],
+      "related_rules": [],
+      "related_knowledge": [],
+      "related_articles": [],
+      "related_work": [],
+      "source_kind": "legacy",
+      "source_path": "modern-web-practices.md",
+      "topic": "JavaScript / Loading",
+      "status": "verified",
+      "essence": "外部classic scriptはdeferでHTML解析後に順序を保って実行でき、module scriptは既定でdefer相当かつ独自スコープになる。",
+      "use_when": "ページのDOMを使う外部スクリプトをheadから読み込むとき",
+      "avoid_when": "実行順序を必要としないスクリプトへasyncをdeferの代用として使うとき",
+      "pitfalls": "defer scriptでは通常DOM解析後に実行されるため、DOMContentLoaded wrapperは必要性を確認する。asyncは順序保証がない。",
+      "compatibility": "主要ブラウザで利用可能。",
+      "accessibility": "起動前でも基本コンテンツと操作説明が破綻しないようにする。",
+      "verified_at": "2026-08-27",
+      "backlinks": []
+    },
+    "js-fetch-response-ok": {
+      "id": "js-fetch-response-ok",
+      "title": "FetchではHTTP状態を明示確認する",
+      "body": "fetchはネットワーク障害ではrejectするが、404や500ではResponseをresolveする。`response.ok`またはstatusを確認してから本文を読む。\n\nAPIや外部リソースを取得するとき\n\n成功・失敗を本文の存在だけで判断するとき\n\nJSON解析失敗も別途扱う。CORS、認証、リトライ方針をHTTP状態と分離して記録する。",
+      "sources": [
+        {
+          "url": "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch",
+          "label": "MDN Using Fetch"
+        },
+        {
+          "url": "https://fetch.spec.whatwg.org/",
+          "label": "WHATWG Fetch"
+        }
+      ],
+      "related_rules": [],
+      "related_knowledge": [],
+      "related_articles": [],
+      "related_work": [],
+      "source_kind": "legacy",
+      "source_path": "modern-web-practices.md",
+      "topic": "JavaScript / Networking",
+      "status": "verified",
+      "essence": "fetchはネットワーク障害ではrejectするが、404や500ではResponseをresolveする。`response.ok`またはstatusを確認してから本文を読む。",
+      "use_when": "APIや外部リソースを取得するとき",
+      "avoid_when": "成功・失敗を本文の存在だけで判断するとき",
+      "pitfalls": "JSON解析失敗も別途扱う。CORS、認証、リトライ方針をHTTP状態と分離して記録する。",
+      "compatibility": "Fetch APIは主要ブラウザで利用可能。",
+      "accessibility": "取得失敗を画面へ通知し、再試行可能な状態を残す。",
+      "verified_at": "2026-08-27",
+      "backlinks": []
+    },
+    "js-intersection-observer": {
+      "id": "js-intersection-observer",
+      "title": "可視範囲処理はObserverを使う",
+      "topic": "JavaScript / Performance",
+      "status": "verified",
+      "verified_at": "2026-08-27",
+      "essence": "IntersectionObserver はスクロールイベントを毎回処理する代わりに、要素の交差状態の変化を通知する。",
+      "use_when": "遅延表示、表示領域への到達、無限スクロールの境界を監視するとき。",
+      "avoid_when": "ピクセル単位の連続追従や複雑なスクロール位置計算が必要なとき。",
+      "pitfalls": "observer を解除しないまま対象を増やさない。表示済み要素は `unobserve()` して負荷を抑える。",
+      "compatibility": "主要ブラウザで利用可能。",
+      "accessibility": "lazy表示でもキーボード利用者に内容や操作が欠落しないようにする。",
+      "body": "IntersectionObserver はスクロールイベントを毎回処理する代わりに、要素の交差状態の変化を通知する。\n\n## Use When\n\n遅延表示、表示領域への到達、無限スクロールの境界を監視するとき。\n\n## Avoid When\n\nピクセル単位の連続追従や複雑なスクロール位置計算が必要なとき。\n\n## Pitfalls\n\nobserver を解除しないまま対象を増やさない。表示済み要素は `unobserve()` して負荷を抑える。\n\n## Compatibility\n\n主要ブラウザで利用可能。\n\n## Accessibility\n\nlazy表示でもキーボード利用者に内容や操作が欠落しないようにする。",
+      "related_rules": [],
+      "related_knowledge": [
+        "html-image-dimensions"
+      ],
+      "related_articles": [
+        "chrome-speed-records"
+      ],
+      "related_work": [
+        "5-8 帳票構造JSON基盤"
+      ],
+      "sources": [
+        {
+          "label": "MDN Intersection Observer",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API"
+        },
+        {
+          "label": "web.dev IntersectionObserver",
+          "url": "https://web.dev/articles/intersectionobserver"
+        }
+      ],
+      "source_kind": "entry",
+      "source_path": "entries/js-intersection-observer.md",
+      "backlinks": [
+        "html-image-dimensions"
+      ]
+    },
+    "supply-chain-local-or-cdn": {
+      "id": "supply-chain-local-or-cdn",
+      "title": "外部配信は固定と撤退条件まで決める",
+      "body": "CDNかローカル同梱かは速度だけでなく、可用性、変更管理、供給元、SRI、復旧経路で決める。CDNを一律禁止するルールではない。\n\n外部ライブラリやフォントを導入するとき\n\nURLだけを正本にし、版・ハッシュ・代替経路を記録しないとき\n\nSRIは改ざん検知の補助であり、信頼する供給元の選択やCSPの代替ではない。",
+      "sources": [
+        {
+          "url": "https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity",
+          "label": "MDN SRI"
+        },
+        {
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CSP",
+          "label": "MDN CSP"
+        }
+      ],
+      "related_rules": [],
+      "related_knowledge": [],
+      "related_articles": [],
+      "related_work": [],
+      "source_kind": "legacy",
+      "source_path": "modern-web-practices.md",
+      "topic": "Security / Supply chain",
+      "status": "conditional",
+      "essence": "CDNかローカル同梱かは速度だけでなく、可用性、変更管理、供給元、SRI、復旧経路で決める。CDNを一律禁止するルールではない。",
+      "use_when": "外部ライブラリやフォントを導入するとき",
+      "avoid_when": "URLだけを正本にし、版・ハッシュ・代替経路を記録しないとき",
+      "pitfalls": "SRIは改ざん検知の補助であり、信頼する供給元の選択やCSPの代替ではない。",
+      "compatibility": "配信方式・CSP・ブラウザ要件を案件ごとに確認する。",
+      "accessibility": "外部取得失敗時も主要コンテンツを利用可能にする。",
+      "verified_at": "2026-08-27",
+      "backlinks": []
+    }
+  }
+}

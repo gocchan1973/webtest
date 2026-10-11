@@ -1,0 +1,460 @@
+{
+  "candidates": [
+    {
+      "channel": "まさおAIじっくり解説ch",
+      "videoId": "i1aqEO2iFDU",
+      "published": "2026-09-19",
+      "title": "【結論】基本はClaude、量はCodex、動画はGemini！現環境のモデル使い分けを実践知ベースで徹底解説",
+      "url": "https://www.youtube.com/watch?v=i1aqEO2iFDU"
+    },
+    {
+      "channel": "まさおAIじっくり解説ch",
+      "videoId": "YhyjMcYhzII",
+      "published": "2026-09-18",
+      "title": "【徹底解説】「ハーネスの常識が変わる」と話題の“判定専用AI”『Jev』を使いまくった結果、確かに強力でした",
+      "url": "https://www.youtube.com/watch?v=YhyjMcYhzII"
+    },
+    {
+      "channel": "まさおAIじっくり解説ch",
+      "videoId": "NttqTDRbGUc",
+      "published": "2026-09-17",
+      "title": "【LLMの次】元OpenAI研究者の『Jev』がガチで便利だったので解説します！ハーネスの作りも変わりそうです",
+      "url": "https://www.youtube.com/watch?v=NttqTDRbGUc"
+    },
+    {
+      "channel": "まさおAIじっくり解説ch",
+      "videoId": "c5eUpTM9KvY",
+      "published": "2026-09-16",
+      "title": "【性能インフレ】爆コスパでOpus5級と噂の『Union Alpha』を実際に触ってみた",
+      "url": "https://www.youtube.com/watch?v=c5eUpTM9KvY"
+    },
+    {
+      "channel": "まさおAIじっくり解説ch",
+      "videoId": "Pv8vlZjVzOc",
+      "published": "2026-09-15",
+      "title": "【環境最強】リアルタイムAI『Gemini 3.8 Live』が最強コスパで登場！精度も体験も良いので解説",
+      "url": "https://www.youtube.com/watch?v=Pv8vlZjVzOc"
+    },
+    {
+      "channel": "まさおAIじっくり解説ch",
+      "videoId": "t9Nx7L6StZE",
+      "published": "2026-09-15",
+      "title": "【新ハーネス】ClaudeCodeの新機能『Claude Mods』が登場！内部ハーネスに干渉できる面白い機能を解説します",
+      "url": "https://www.youtube.com/watch?v=t9Nx7L6StZE"
+    },
+    {
+      "channel": "まさおAIじっくり解説ch",
+      "videoId": "m2niY91bVeQ",
+      "published": "2026-09-14",
+      "title": "【今話題】認知負荷対策Skillの王道『i-have-adhd』 を徹底解説！前提の置き方やスマートな情報伝達が参考になります",
+      "url": "https://www.youtube.com/watch?v=m2niY91bVeQ"
+    },
+    {
+      "channel": "こーすけ先生のGoogle塾",
+      "videoId": "gJi92vplF2I",
+      "published": "2026-09-18",
+      "title": "【全公開！】スプシ更新→サイト反映！GASを使ってこんなこともできる",
+      "url": "https://www.youtube.com/watch?v=gJi92vplF2I"
+    },
+    {
+      "channel": "こーすけ先生のGoogle塾",
+      "videoId": "q_dTeAck0Lo",
+      "published": "2026-09-16",
+      "title": "【限界突破！】Googleのアプリ一覧、自由に並び替えできたら素敵だよね【Enhancer 4 Google】",
+      "url": "https://www.youtube.com/watch?v=q_dTeAck0Lo"
+    },
+    {
+      "channel": "こーすけ先生のGoogle塾",
+      "videoId": "ogSpKLIIRMY",
+      "published": "2026-09-14",
+      "title": "【無料】「GAS」で「名刺管理アプリ」を自作する手順を公開します",
+      "url": "https://www.youtube.com/watch?v=ogSpKLIIRMY"
+    },
+    {
+      "channel": "れん学長のAIツール実験室",
+      "videoId": "iiU3L9c1Tso",
+      "published": "2026-09-20",
+      "title": "機械が故障しているのに、依頼メールの文面ばかり直していませんか #Shorts",
+      "url": "https://www.youtube.com/watch?v=iiU3L9c1Tso"
+    },
+    {
+      "channel": "れん学長のAIツール実験室",
+      "videoId": "OivpZgtSjDc",
+      "published": "2026-09-20",
+      "title": "Jevに聞けるのは3種類だけ。文章を書かないAIの答え方 #Shorts",
+      "url": "https://www.youtube.com/watch?v=OivpZgtSjDc"
+    },
+    {
+      "channel": "れん学長のAIツール実験室",
+      "videoId": "U4q9iZF2o0g",
+      "published": "2026-09-20",
+      "title": "【出力は無料】文章を書かないAI「Jev」とは？0.1秒で判断だけ返す新型モデルを、公式ベンチマークとXの実測で整理しました",
+      "url": "https://www.youtube.com/watch?v=U4q9iZF2o0g"
+    },
+    {
+      "channel": "れん学長のAIツール実験室",
+      "videoId": "R9e1rWPn_uY",
+      "published": "2026-09-19",
+      "title": "AI自動化の4部品のうち、私が一番忘れていたのは「ゲート」でした #Shorts",
+      "url": "https://www.youtube.com/watch?v=R9e1rWPn_uY"
+    },
+    {
+      "channel": "れん学長のAIツール実験室",
+      "videoId": "B1cptYpNofk",
+      "published": "2026-09-18",
+      "title": "AIへの常設の指示メモ、何を消すか迷ったことありませんか #Shorts",
+      "url": "https://www.youtube.com/watch?v=B1cptYpNofk"
+    },
+    {
+      "channel": "れん学長のAIツール実験室",
+      "videoId": "Aj2y6Q9SdkM",
+      "published": "2026-09-15",
+      "title": "非公式ツールのBANリスク、調べた結果は「業務では使わない」。Codex枠切れの裏ワザで分かった3つの判断材料 #Shorts",
+      "url": "https://www.youtube.com/watch?v=Aj2y6Q9SdkM"
+    },
+    {
+      "channel": "れん学長のAIツール実験室",
+      "videoId": "nNk5uSGNfUI",
+      "published": "2026-09-14",
+      "title": "Codexの枠を節約する小技。調査はサイドチャットに振ると、メインのトークンを食わない #Shorts",
+      "url": "https://www.youtube.com/watch?v=nNk5uSGNfUI"
+    },
+    {
+      "channel": "じゅりん│AIビジネス活用塾",
+      "videoId": "I_A97XZ6yV8",
+      "published": "2026-09-18",
+      "title": "最新情報！Googleの家族サポートAI「CC」を解説！ChatGPTやGeminiと何が違う？",
+      "url": "https://www.youtube.com/watch?v=I_A97XZ6yV8"
+    },
+    {
+      "channel": "じゅりん│AIビジネス活用塾",
+      "videoId": "ciObIDCr2rA",
+      "published": "2026-09-16",
+      "title": "Gemini Notebook最新アップデート！ついに「ウォーターマーク削除」がProでも使える！他、AI使用量・クイズ機能強化など",
+      "url": "https://www.youtube.com/watch?v=ciObIDCr2rA"
+    },
+    {
+      "channel": "じゅりん│AIビジネス活用塾",
+      "videoId": "LZ_p3UhDvOI",
+      "published": "2026-09-14",
+      "title": "ChatGPTが毎朝ポッドキャストになる！読み上げ機能が想像以上に便利",
+      "url": "https://www.youtube.com/watch?v=LZ_p3UhDvOI"
+    },
+    {
+      "channel": "RICOのAIラボ | AIで業務をもっと楽しく",
+      "videoId": "iGm8bRXmT9Q",
+      "published": "2026-09-20",
+      "title": "公式未公開？Gemini Notebookに自作スキルを持ち込む方法。手順・変換ツール・依頼文まで無料配布",
+      "url": "https://www.youtube.com/watch?v=iGm8bRXmT9Q"
+    },
+    {
+      "channel": "ここなのAI大学",
+      "videoId": "MnzEE0fLxBs",
+      "published": "2026-09-17",
+      "title": "【最強AI】Gemini Notebookを徹底解説しました【NotebookLM】【神アップデート】",
+      "url": "https://www.youtube.com/watch?v=MnzEE0fLxBs"
+    },
+    {
+      "channel": "あやや の ITスキルアップ塾",
+      "videoId": "M5swiMBzTbs",
+      "published": "2026-09-17",
+      "title": "自分のペットがアニメの主人公に！AIで「同じキャラ」の動画をシリーズ化する方法",
+      "url": "https://www.youtube.com/watch?v=M5swiMBzTbs"
+    },
+    {
+      "channel": "あやや の ITスキルアップ塾",
+      "videoId": "FHm0xU9z9E4",
+      "published": "2026-09-14",
+      "title": "最近のAIどう？Lyria 3.5・ヤマハ・Google Workspace最新情報をゆるっと語る！【あややの月曜AIトーク】",
+      "url": "https://www.youtube.com/watch?v=FHm0xU9z9E4"
+    },
+    {
+      "channel": "あやや の ITスキルアップ塾",
+      "videoId": "pVx_gNLrAq4",
+      "published": "2026-09-14",
+      "title": "Google Workspace MCPとは？AIへの一言でGoogleドライブ操作を自動化！設定から実践まで徹底解説",
+      "url": "https://www.youtube.com/watch?v=pVx_gNLrAq4"
+    },
+    {
+      "channel": "ジェネトピ | AIラジオ",
+      "videoId": "GF5PB-DY7GE",
+      "published": "2026-09-16",
+      "title": "なぜClaude Codeはすぐ上限に達するのか？",
+      "url": "https://www.youtube.com/watch?v=GF5PB-DY7GE"
+    },
+    {
+      "channel": "Appsheet教室@イルカのえっちゃんねる",
+      "videoId": "Oz_s2C9uJcc",
+      "published": "2026-09-19",
+      "title": "【Workspace Studio】スキルの中でフローを実行!? 「手動で開始」とは!?",
+      "url": "https://www.youtube.com/watch?v=Oz_s2C9uJcc"
+    },
+    {
+      "channel": "いまにゅのAIプログラミング塾",
+      "videoId": "MM_Do8VRyQ0",
+      "published": "2026-09-16",
+      "title": "【超簡単】AI感のあるスライドを一気にプロ級にするコツをご紹介します！AIの資料の質を爆上げしたい人は必見です",
+      "url": "https://www.youtube.com/watch?v=MM_Do8VRyQ0"
+    },
+    {
+      "channel": "AIで創作効率化とマネタイズby嗚呼蛙",
+      "videoId": "eg6yopUmpp8",
+      "published": "2026-09-19",
+      "title": "【無料・ComfyUI】MiniMax H3はまだ早くなる！最新高速化手法「FastH3 V2」「LightX2V v1.2」「VDN H3」「TaoMate」紹介・検証！",
+      "url": "https://www.youtube.com/watch?v=eg6yopUmpp8"
+    },
+    {
+      "channel": "KEITO【AI&WEB ch】",
+      "videoId": "4ZZexI0awQk",
+      "published": "2026-09-20",
+      "title": "知らないの勿体無い『Codex App Server』って神機能を解説！",
+      "url": "https://www.youtube.com/watch?v=4ZZexI0awQk"
+    },
+    {
+      "channel": "KEITO【AI&WEB ch】",
+      "videoId": "nWY_-5u4RUI",
+      "published": "2026-09-18",
+      "title": "話題のAI『Jev（ジェブ）』を解説！文章生成できないのに便利？【活用事例まとめ】",
+      "url": "https://www.youtube.com/watch?v=nWY_-5u4RUI"
+    },
+    {
+      "channel": "KEITO【AI&WEB ch】",
+      "videoId": "oyggup_ZNv4",
+      "published": "2026-09-14",
+      "title": "AIをより便利にする、絶対に使うべきMCPツール20選！",
+      "url": "https://www.youtube.com/watch?v=oyggup_ZNv4"
+    },
+    {
+      "channel": "AI時短ラボ",
+      "videoId": "egyqF0oj35s",
+      "published": "2026-09-20",
+      "title": "【週刊AIニュース】今週のAIニュースをこの一本で Jev登場/Union Alpha/DeepMind Institute設立/ZCodeがコードを無断送信/Qwen3.8-Omni-Flash登場",
+      "url": "https://www.youtube.com/watch?v=egyqF0oj35s"
+    },
+    {
+      "channel": "AI時短ラボ",
+      "videoId": "_2g7Gb50rWw",
+      "published": "2026-09-19",
+      "title": "GPT-6 AstraにCMを企画から任せたらこんなの作ってきた【GPT-6 Astra×Higgsfield】",
+      "url": "https://www.youtube.com/watch?v=_2g7Gb50rWw"
+    },
+    {
+      "channel": "AI時短ラボ",
+      "videoId": "nhgSssp4l8U",
+      "published": "2026-09-19",
+      "title": "【朗報】Claude CodeがAGENTS.mdに対応|AGENTS.mdとは何か、なぜ有難いか",
+      "url": "https://www.youtube.com/watch?v=nhgSssp4l8U"
+    },
+    {
+      "channel": "AI時短ラボ",
+      "videoId": "U3HB1UB0Qyo",
+      "published": "2026-09-18",
+      "title": "【悲報】GLMでお馴染みZ.ai 利用者のコードを全て盗み見る｜ZCodeが利用者のGit全履歴を無断送信していた",
+      "url": "https://www.youtube.com/watch?v=U3HB1UB0Qyo"
+    },
+    {
+      "channel": "AI時短ラボ",
+      "videoId": "hybnDHWqapQ",
+      "published": "2026-09-18",
+      "title": "【AI減速へ】OpenAIとAnthropicが動いた！ライバル2社が明かした開発の実態",
+      "url": "https://www.youtube.com/watch?v=hybnDHWqapQ"
+    },
+    {
+      "channel": "AI時短ラボ",
+      "videoId": "3x8tkXi265k",
+      "published": "2026-09-18",
+      "title": "【速報】Qwen3.8-Omni-Flash登場！音声入力1時間が1セント未満…性能も価格も大幅進化",
+      "url": "https://www.youtube.com/watch?v=3x8tkXi265k"
+    },
+    {
+      "channel": "AI時短ラボ",
+      "videoId": "SaCJq1WCyHA",
+      "published": "2026-09-17",
+      "title": "Google DeepMind「AGIはもうすぐ」新研究所が見据える“その後の世界”",
+      "url": "https://www.youtube.com/watch?v=SaCJq1WCyHA"
+    },
+    {
+      "channel": "AI時短ラボ",
+      "videoId": "o-LQ4DWLWqg",
+      "published": "2026-09-16",
+      "title": "【速報】覆面AI Union Alpha登場 正体はGLM でも普通じゃない、、？",
+      "url": "https://www.youtube.com/watch?v=o-LQ4DWLWqg"
+    },
+    {
+      "channel": "AI時短ラボ",
+      "videoId": "RXkVp4G9KjY",
+      "published": "2026-09-16",
+      "title": "AIだけで本格的な動画編集ができるようになった！！【GPT-6 Astra×After Effects×Higgsfield】",
+      "url": "https://www.youtube.com/watch?v=RXkVp4G9KjY"
+    },
+    {
+      "channel": "AI時短ラボ",
+      "videoId": "HmLK5Vr-mgc",
+      "published": "2026-09-16",
+      "title": "【速報】TypeSafeAI Jev登場 LLMじゃない新しい最先端AI",
+      "url": "https://www.youtube.com/watch?v=HmLK5Vr-mgc"
+    },
+    {
+      "channel": "AI時短ラボ",
+      "videoId": "Cup4-MFjbNE",
+      "published": "2026-09-15",
+      "title": "トランプ「AIの脅威はデマ」ハリス・オバマ「減速は必要」｜アモディ『減速』論に政治が割れた2日間を解説",
+      "url": "https://www.youtube.com/watch?v=Cup4-MFjbNE"
+    },
+    {
+      "channel": "AI時短ラボ",
+      "videoId": "BBfVtSWVh84",
+      "published": "2026-09-14",
+      "title": "Fable5.1が370年間誰も解けなかった暗号を44分で解読！",
+      "url": "https://www.youtube.com/watch?v=BBfVtSWVh84"
+    },
+    {
+      "channel": "テックニュース@ATI",
+      "videoId": "d4OviUmdqLU",
+      "published": "2026-09-20",
+      "title": "【2026/09/11〜09/17】Automatticで CEO 解任が失敗、33時間で復帰／2027年の東京で無人タクシー運行を目指す｜週刊IT企業ニュース",
+      "url": "https://www.youtube.com/watch?v=d4OviUmdqLU"
+    },
+    {
+      "channel": "テックニュース@ATI",
+      "videoId": "bZZ9B450VR8",
+      "published": "2026-09-20",
+      "title": "【2026/09/11〜09/17】アモデイ氏「開発ペースを落とせ」／OpenAIがミスアライメント6事例を開示｜週刊AIニュース",
+      "url": "https://www.youtube.com/watch?v=bZZ9B450VR8"
+    },
+    {
+      "channel": "テックニュース@ATI",
+      "videoId": "Hg_-PGxqXtU",
+      "published": "2026-09-20",
+      "title": "【2026-09-11~2026-09-17】週刊IT技術ニュース｜Shopify が React Native を捨てる／Gyazo 約2362万件漏えい／Kubernetes v1.37",
+      "url": "https://www.youtube.com/watch?v=Hg_-PGxqXtU"
+    },
+    {
+      "channel": "テックニュース@ATI",
+      "videoId": "a7JTUT07zDM",
+      "published": "2026-09-14",
+      "title": "Claude Code v2.1.265〜v2.1.270 まとめ｜plugin eval でプラグインを採点、maxEffortLevel、tee の権限修正",
+      "url": "https://www.youtube.com/watch?v=a7JTUT07zDM"
+    },
+    {
+      "channel": "ウェブ職TV@AIセキュリティ専門",
+      "videoId": "tPyGqiT56Ps",
+      "published": "2026-09-17",
+      "title": "Anthropicの元研究者が警告「AIが全人類を駆逐する」",
+      "url": "https://www.youtube.com/watch?v=tPyGqiT56Ps"
+    },
+    {
+      "channel": "AI共創イノベーション",
+      "videoId": "bemZQ78UTdk",
+      "published": "2026-09-18",
+      "title": "【AI魔改造】ChatGPTスケジュールを使ってコスパ最強のAIエージェントの作り方を解説！【ヘリタンデビュー作】",
+      "url": "https://www.youtube.com/watch?v=bemZQ78UTdk"
+    },
+    {
+      "channel": "AI共創イノベーション",
+      "videoId": "NPqM0Sv1MiI",
+      "published": "2026-09-17",
+      "title": "【AI音声会話】Gemini3.8 Liveで仕事や学習を効率化！Googleエコシステムとの連携が最高！便利な使い方を解説",
+      "url": "https://www.youtube.com/watch?v=NPqM0Sv1MiI"
+    },
+    {
+      "channel": "AI共創イノベーション",
+      "videoId": "NEQ7tx9kV_E",
+      "published": "2026-09-16",
+      "title": "GPT-6 Astra（アストラ）の思考を調整する「アストラエンジニアリング Part2」を解説！AIエージェントの必須技法を伝授（飛翔、賭け、思考の枝、No-go禁止、開閉分析など）",
+      "url": "https://www.youtube.com/watch?v=NEQ7tx9kV_E"
+    },
+    {
+      "channel": "AI共創イノベーション",
+      "videoId": "tHvQrfjwQCU",
+      "published": "2026-09-14",
+      "title": "【Codex】GPT-6「Astra（アストラ）」を設計する「アストラエンジニアリング」を解説！Skillsやmdファイルは外さなくてOK",
+      "url": "https://www.youtube.com/watch?v=tHvQrfjwQCU"
+    },
+    {
+      "channel": "AI整体師",
+      "videoId": "4ay0uEHolqo",
+      "published": "2026-09-20",
+      "title": "【#ライブ配信 No.131】Devinが思いのほか使いやすい？",
+      "url": "https://www.youtube.com/watch?v=4ay0uEHolqo"
+    },
+    {
+      "channel": "AI整体師",
+      "videoId": "eFGOeeJOhbQ",
+      "published": "2026-09-20",
+      "title": "【#GPTラジオ No.71】AIで“考える”も“作る”もできる時代、人間は何を磨けばいい？",
+      "url": "https://www.youtube.com/watch?v=eFGOeeJOhbQ"
+    },
+    {
+      "channel": "AI整体師",
+      "videoId": "j1gb9Nxh-9s",
+      "published": "2026-09-19",
+      "title": "OpenClawでAIギャル秘書を作ってみた！",
+      "url": "https://www.youtube.com/watch?v=j1gb9Nxh-9s"
+    },
+    {
+      "channel": "AI整体師",
+      "videoId": "W2al0uBbtSc",
+      "published": "2026-09-19",
+      "title": "【#AIニュース No.470】Claude CodeがAGENTS mdをサポートするように！ChatGPTデスクトップアプリ内のブラウザでChrome拡張機能が使えるように！",
+      "url": "https://www.youtube.com/watch?v=W2al0uBbtSc"
+    },
+    {
+      "channel": "AI整体師",
+      "videoId": "GNFdOJ3wjS4",
+      "published": "2026-09-18",
+      "title": "【#AIとやってみた】今話題の「Jev」ってなに？現時点の僕の解釈はこれです！",
+      "url": "https://www.youtube.com/watch?v=GNFdOJ3wjS4"
+    },
+    {
+      "channel": "AI整体師",
+      "videoId": "rYFbakV7lvQ",
+      "published": "2026-09-18",
+      "title": "【#AIニュース No.469】Claude CodeにProjects機能が実装！WordでChatGPTが使えるように！TypeSafe AIの「Jev」が話題！",
+      "url": "https://www.youtube.com/watch?v=rYFbakV7lvQ"
+    },
+    {
+      "channel": "AI整体師",
+      "videoId": "CjOxDCKjE0s",
+      "published": "2026-09-17",
+      "title": "【#ライブ配信 No.131】Jevってなに？",
+      "url": "https://www.youtube.com/watch?v=CjOxDCKjE0s"
+    },
+    {
+      "channel": "AI整体師",
+      "videoId": "VTi1Z4Zvokw",
+      "published": "2026-09-17",
+      "title": "【#AIニュース No.468】ClaudeのチャットとCoworkが統合！1つのセッションで作業が完結！ChatGPTチャット内の広告で企業AIと会話できる新機能を試験中！？",
+      "url": "https://www.youtube.com/watch?v=VTi1Z4Zvokw"
+    },
+    {
+      "channel": "AI整体師",
+      "videoId": "1Et02_jrCWA",
+      "published": "2026-09-16",
+      "title": "【#対談】Claude Code × freee MCP財務記帳を自動化！現役税理士さんに実演してもらいました！",
+      "url": "https://www.youtube.com/watch?v=1Et02_jrCWA"
+    },
+    {
+      "channel": "AI整体師",
+      "videoId": "cBM3Bxz_MHo",
+      "published": "2026-09-16",
+      "title": "【#AIニュース No.467】Googleの新しい音声モデルGemini 3.8 Liveが登場！Gemini Notebookモバイル版でボイス録音がリリース予定！？GPT-5.5終了",
+      "url": "https://www.youtube.com/watch?v=cBM3Bxz_MHo"
+    },
+    {
+      "channel": "AI整体師",
+      "videoId": "6alu5LoJyWI",
+      "published": "2026-09-15",
+      "title": "【#AIニュース No.466】Grok4.8のトレーニングか完了！？Grok 4.7はまだか？Cline Desktopがリリース！富士通が国産AI半導体を海外展開へ！",
+      "url": "https://www.youtube.com/watch?v=6alu5LoJyWI"
+    },
+    {
+      "channel": "AI整体師",
+      "videoId": "yZrNlm0iWOE",
+      "published": "2026-09-14",
+      "title": "【#AIニュース No.465】ChatGPTデスクトップにペットmini登場！Microsoft CopilotでGrokが使えるように！AI開発の減速呼び掛けにアルトマン・マスクも賛同",
+      "url": "https://www.youtube.com/watch?v=yZrNlm0iWOE"
+    }
+  ],
+  "failures": []
+}

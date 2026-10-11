@@ -1,0 +1,38 @@
+[
+  {
+    "videoId": "XOu5hf4L2Sk",
+    "channel": "テックニュース@ATI",
+    "title": "Claude Code v2.1.243〜v2.1.251 アップデートまとめ｜--restricted で実行系ツールを外す・/usage でキャッシュの効きが見える",
+    "url": "https://www.youtube.com/watch?v=XOu5hf4L2Sk",
+    "disposition": "accepted",
+    "reason": "--restricted は公式 CLI リファレンスで裏が取れ、権限を絞る手段として振る舞いが変わる。なお /usage は公式に実在するがトークン使用量とコストの表示と書かれているだけで、タイトルが言う「キャッシュの効きが見える」は公式ドキュメントに記載が無かったため事実として採らなかった",
+    "facts": ["claude-code-restricted-flag"]
+  },
+  {
+    "videoId": "So8zrulD_7k",
+    "channel": "テックニュース@ATI",
+    "title": "【2026-08-28〜09-03】週刊IT技術ニュース｜Zod 4.5、無効データ検証が最大16倍速く／Sentryの既定が変わり／Claude Codeのauto modeが破られる",
+    "url": "https://www.youtube.com/watch?v=So8zrulD_7k",
+    "disposition": "pending",
+    "reason": "auto mode の分類器を回避する報告は実在し、Anthropic が「Auto Mode はベストエフォートの分類器による利便性機能でセキュリティ保証ではない」という立場を示したとされる。しかし確認できたのは報告者本人のブログのみで、Anthropic 公式のセキュリティ告知・アドバイザリは見つからなかった。成立条件（未検証アーカイブの展開と実行）も特定のバージョンに紐付けられていない。公式一次情報が取れるまで採用しない",
+    "facts": []
+  },
+  {
+    "videoId": "gkOCkTiUzHU",
+    "channel": "テックニュース@ATI",
+    "title": "Claude Fable 5.1の正体｜誰も解けなかった積年のバグを突き止めたAIモデル徹底解説",
+    "url": "https://www.youtube.com/watch?v=gkOCkTiUzHU",
+    "disposition": "accepted",
+    "reason": "モデルの解説自体は物差しの対象外だが、裏取りの過程で Opus 4.8 への自動転送と effort の仕様が公式で確認でき、どちらもモデル振り分けの判断が変わる。なお提供条件の記述に日付の矛盾があったため、その部分は採らなかった",
+    "facts": ["fable-5-1-opus-auto-transfer", "fable-5-1-effort-levels"]
+  },
+  {
+    "videoId": "L9egt-nj0KM",
+    "channel": "テックニュース@ATI",
+    "title": "【2026-08-28〜09-03】週刊IT企業ニュース｜Anthropicに音楽業界が集団提訴／Metaは約180億ドル和解／NVIDIAは35億ドル投資",
+    "url": "https://www.youtube.com/watch?v=L9egt-nj0KM",
+    "disposition": "rejected",
+    "reason": "訴訟・和解・投資であり、Claude の振る舞いは変わらない。物差し（次のセッションで違う振る舞いをする根拠になるか）を満たさないため裏取りも行っていない",
+    "facts": []
+  }
+]

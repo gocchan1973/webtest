@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TechNews Private — Firebase Auth PoC</title>
+  <style>
+    :root { color-scheme: dark; font-family: system-ui, sans-serif; color: #f5f7fb; background: #10131a; }
+    body { margin: 0; min-height: 100vh; display: grid; place-items: center; padding: 24px; }
+    main { width: min(460px, 100%); padding: 32px; border: 1px solid #343b4a; border-radius: 20px; background: #1a1f29; box-shadow: 0 20px 60px #0006; }
+    h1 { margin-top: 0; font-size: 1.6rem; }
+    p { color: #c6ccda; line-height: 1.7; }
+    label { display: block; margin: 16px 0 6px; font-weight: 700; }
+    input, button { width: 100%; min-height: 44px; box-sizing: border-box; border-radius: 10px; font: inherit; }
+    input { padding: 10px 12px; border: 1px solid #596477; background: #11151d; color: #fff; }
+    button { margin-top: 18px; padding: 10px 14px; border: 0; background: #8ab4f8; color: #10131a; font-weight: 800; cursor: pointer; }
+    button.secondary { background: #343d4d; color: #f5f7fb; }
+    [hidden] { display: none !important; }
+    #status { min-height: 1.5em; margin-top: 16px; color: #ffcf75; }
+    .user { padding: 14px; border-radius: 12px; background: #11151d; color: #dce3ef; overflow-wrap: anywhere; }
+  </style>
+</head>
+<body>
+  <main>
+    <section id="login-panel" aria-labelledby="login-title">
+      <h1 id="login-title">TechNews Private</h1>
+      <p>Firebase Authenticationの最小動作確認ページです。</p>
+      <form id="login-form">
+        <label for="email">メールアドレス</label>
+        <input id="email" name="email" type="email" autocomplete="username" required>
+        <label for="password">パスワード</label>
+        <input id="password" name="password" type="password" autocomplete="current-password" required>
+        <button type="submit">ログイン</button>
+      </form>
+      <button id="google-login-button" class="secondary" type="button">Googleでログイン</button>
+    </section>
+
+    <section id="app-panel" aria-labelledby="app-title" hidden>
+      <h1 id="app-title">認証済み</h1>
+      <p>この領域はFirebase Authenticationの認証後に表示されます。</p>
+      <p class="user" id="user-label"></p>
+      <button id="technews-button" type="button">情報ハブを開く</button>
+      <button class="secondary" id="logout-button" type="button">ログアウト</button>
+    </section>
+
+    <p id="status" role="status" aria-live="polite"></p>
+  </main>
+
+  <script type="module">
+    import { initializeApp } from 'https://www.gstatic.com/firebasejs/12.1.0/firebase-app.js';
+    import { getAuth, GoogleAuthProvider, onAuthStateChanged, signInWithEmailAndPassword, signInWithPopup, signOut } from 'https://www.gstatic.com/firebasejs/12.1.0/firebase-auth.js';
+    import { firebaseConfig } from './firebase-config.js';
+
+    const app = initializeApp(firebaseConfig);
+    const auth = getAuth(app);
+    const loginPanel = document.querySelector('#login-panel');
+    const appPanel = document.querySelector('#app-panel');
+    const status = document.querySelector('#status');
+    const form = document.querySelector('#login-form');
+    const userLabel = document.querySelector('#user-label');
+    const googleProvider = new GoogleAuthProvider();
+
+    document.querySelector('#technews-button').addEventListener('click', async () => {
+      const user = auth.currentUser;
+      if (!user) return;
+      status.textContent = 'TechNewsへの認証を準備中…';
+      try {
+        const token = await user.getIdToken();
+        const response = await fetch('/auth/session', {
+          method: 'POST',
+          headers: { Authorization: `Bearer ${token}` },
+        });
+        if (response.status === 403) {
+          status.textContent = '認証は成功しましたが、このポータルの許可ユーザーではありません';
+          return;
+        }
+        if (!response.ok) throw new Error(`session-${response.status}`);
+        window.location.assign('/portal/index.html');
+      } catch (error) {
+        status.textContent = `TechNewsへの接続に失敗しました: ${error.message}`;
+      }
+    });
+
+    onAuthStateChanged(auth, (user) => {
+      const signedIn = Boolean(user);
+      loginPanel.hidden = signedIn;
+      appPanel.hidden = !signedIn;
+      userLabel.textContent = signedIn ? `ログイン中: ${user.email ?? user.uid}` : '';
+      status.textContent = signedIn ? '認証状態: signed in' : '';
+    });
+
+    form.addEventListener('submit', async (event) => {
+      event.preventDefault();
+      status.textContent = 'ログイン中…';
+      const data = new FormData(form);
+      try {
+        await signInWithEmailAndPassword(auth, data.get('email'), data.get('password'));
+      } catch (error) {
+        status.textContent = `ログインに失敗しました: ${error.code ?? 'unknown-error'}`;
+      }
+    });
+
+    document.querySelector('#google-login-button').addEventListener('click', async () => {
+      status.textContent = 'Googleでログイン中…';
+      try {
+        await signInWithPopup(auth, googleProvider);
+      } catch (error) {
+        status.textContent = `Googleログインに失敗しました: ${error.code ?? 'unknown-error'}`;
+      }
+    });
+
+    document.querySelector('#logout-button').addEventListener('click', async () => {
+      await fetch('/auth/session', { method: 'DELETE' });
+      await signOut(auth);
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,7 @@
+interface:
+  display_name: "図解化"
+  short_description: "記事や設計資料を汎用入力で読みやすい図解成果物へ変換"
+  default_prompt: "Use $diagramize to turn the supplied material into a readable visual artifact."
+
+policy:
+  allow_implicit_invocation: true

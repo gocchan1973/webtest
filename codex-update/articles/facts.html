@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>採用した事実と履歴</title><style>
+:root { color-scheme: light dark; --line: #d0d0d0; --muted: #666; --warn: #8a5a00; }
+body { margin: 0 auto; padding: 2rem 1.25rem; max-width: 52rem; font: 15px/1.8 system-ui, sans-serif; }
+h1 { font-size: 1.5rem; margin-bottom: .25rem; } h2 { font-size: 1.15rem; margin-top: 2.5rem; border-bottom: 2px solid var(--line); padding-bottom: .3rem; }
+h3 { font-size: 1rem; margin: 1.5rem 0 .4rem; } h4 { font-size: .9rem; margin: .9rem 0 .2rem; }
+.lead, .note { color: var(--muted); font-size: .9rem; } .caveat { border-left: 3px solid var(--warn); padding: .6rem .9rem; margin: 1rem 0; font-size: .9rem; }
+.card { border: 1px solid var(--line); border-radius: 6px; padding: .9rem 1.1rem; margin: .9rem 0; } .card.gone h3 { text-decoration: line-through; opacity: .6; }
+dl { margin: .4rem 0 0; display: grid; grid-template-columns: max-content 1fr; gap: .2rem .8rem; } dt { color: var(--muted); font-size: .85rem; }
+dd { margin: 0; word-break: break-word; } .unused { color: var(--warn); font-size: .9rem; } .tag { display: inline-block; border: 1px solid var(--line); border-radius: 3px; padding: 0 .4rem; font-size: .8rem; margin-right: .4rem; }
+ul { padding-left: 1.2rem; }
+</style>
+<h1>採用した事実と履歴</h1>
+<p class="lead">生成 2026-09-11</p>
+<p class="note"><a href="../index.html">一覧へ戻る</a></p>
+<p class="lead">有効な事実 2 件 ／ 参照記録 2 件</p>
+<p class="note">「こう振る舞う」が書けない事実は採らない。適用条件（scope）を条件の外へ一般化しないこと。</p>
+<h2>採用した事実</h2>
+<div class="card">
+<h3>フックは登録しただけでは実行されない</h3><dl>
+<dt>こう振る舞う</dt><dd>Codex の注入や自動検証を配線するとき、設定の存在や単体実行の成功だけで稼働済みとしない。フックの信頼状態とモデルへの受信を確認する。信頼操作を要する場合は、その制約を明示して AGENTS.md 経由の読み込みも検討する。</dd><dt>適用条件</dt><dd>2026-09-10 の公式 Codex Hooks 文書。非管理フックは定義のハッシュ単位で信頼が必要。新規・変更後はレビューまでスキップされる。環境やバージョンで利用可否を確認する。</dd>
+<dt>公式一次情報</dt><dd><a href="https://learn.chatgpt.com/docs/hooks">https://learn.chatgpt.com/docs/hooks</a>（確認 2026-09-10）</dd>
+<dt>発見元</dt><dd>—</dd><dt>id</dt><dd><code>codex-hooks-require-trust</code></dd>
+
+</dl><h4>刺さった記録</h4><ul><li><span class="tag">判断を変えた</span>2026-09-10 ／ Codex更新の参照経路<br>公式資料で非管理フックの信頼登録が必要と確認し、今回の初期導線をAGENTS.mdへの本文同期へ変更した。フックを登録しただけで稼働済みとは扱わなかった。</li></ul></div><div class="card">
+<h3>AGENTS.md の更新は新しい実行で読み込まれる</h3><dl>
+<dt>こう振る舞う</dt><dd>Codex の共通参照経路を変えたら、新しい実行で資料の内容が届くことを確認する。現在の会話へ遡って反映されたとは説明しない。届かない場合は CODEX_HOME、AGENTS.override.md、指示量の上限を調べる。</dd><dt>適用条件</dt><dd>2026-09-10 の公式 AGENTS.md 文書。起動時に指示を構成し、グローバルでは AGENTS.override.md を優先、なければ AGENTS.md を読む。標準の合計上限は 32 KiB。別ホーム・上書きファイル・環境の設定による差を確認する。</dd>
+<dt>公式一次情報</dt><dd><a href="https://learn.chatgpt.com/docs/agent-configuration/agents-md">https://learn.chatgpt.com/docs/agent-configuration/agents-md</a>（確認 2026-09-10）</dd>
+<dt>発見元</dt><dd>—</dd><dt>id</dt><dd><code>codex-agents-startup-scope</code></dd>
+
+</dl><h4>刺さった記録</h4><ul><li><span class="tag">判断を変えた</span>2026-09-10 ／ codex-update注入経路の再検証<br>AGENTS.md が新しい実行の開始時に読み込まれる仕様と読み取り専用環境での実測を踏まえ、固定スナップショット単独から動的ローダー＋検証済みスナップショットの二重経路へ変更した。</li></ul></div>
+
+<h2>この記録の読み方</h2><div class="caveat"><p><strong>「使った」という記録は弱い証拠。</strong>判定しているのが書いた本人（Codex）なので、自己申告の域を出ない。</p>
+<p><strong>「参照 0 件」は、この記録に残った参照が無いことだけを示す。</strong>実際に読まれていない証明ではない。</p>
+<p>狙いは実績を誇ることではなく、<strong>記録上の不使用を可視化すること</strong>にある。参照 0 件を隠さず出しつつ、実際の利用と混同しないための表示である。</p></div>
+<p class="note">記録は同意を条件にしない。読んだうえで「今回は当てはまらない」と退けた回（当てはまらないと退けた）も残す。測っているのは参照されたかどうかであって、従ったかどうかではない。</p>
+</html>

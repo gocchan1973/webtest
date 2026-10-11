@@ -1,0 +1,2172 @@
+{
+  "schemaVersion": 2,
+  "nodes": [
+    {
+      "nodeType": "knowledge",
+      "id": "css-grid-gap",
+      "title": "二次元配置はGrid、間隔はgap",
+      "topic": "CSS / Layout",
+      "status": "verified",
+      "verified_at": "2026-08-27",
+      "links": [
+        {
+          "type": "source",
+          "target": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout",
+          "label": "MDN CSS Grid"
+        },
+        {
+          "type": "source",
+          "target": "https://developer.mozilla.org/en-US/docs/Web/CSS/gap",
+          "label": "MDN gap"
+        }
+      ]
+    },
+    {
+      "nodeType": "knowledge",
+      "id": "css-reduced-motion",
+      "title": "動きを減らす設定を尊重する",
+      "topic": "CSS / Accessibility",
+      "status": "verified",
+      "verified_at": "2026-08-27",
+      "links": [
+        {
+          "type": "source",
+          "target": "https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion",
+          "label": "MDN prefers-reduced-motion"
+        },
+        {
+          "type": "source",
+          "target": "https://www.w3.org/WAI/WCAG22/Understanding/animation-from-interactions.html",
+          "label": "WCAG animation"
+        }
+      ]
+    },
+    {
+      "nodeType": "knowledge",
+      "id": "html-dialog",
+      "title": "モーダルはdialogの状態管理を使う",
+      "topic": "HTML / Accessibility",
+      "status": "conditional",
+      "verified_at": "2026-08-27",
+      "links": [
+        {
+          "type": "source",
+          "target": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/dialog",
+          "label": "MDN dialog"
+        },
+        {
+          "type": "source",
+          "target": "https://html.spec.whatwg.org/multipage/interactive-elements.html#the-dialog-element",
+          "label": "WHATWG dialog"
+        }
+      ]
+    },
+    {
+      "nodeType": "knowledge",
+      "id": "html-image-dimensions",
+      "title": "画像には寸法を持たせる",
+      "topic": "HTML / Performance",
+      "status": "verified",
+      "verified_at": "2026-08-27",
+      "links": [
+        {
+          "type": "article",
+          "target": "chrome-speed-records"
+        },
+        {
+          "type": "source",
+          "target": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/img",
+          "label": "MDN img"
+        },
+        {
+          "type": "source",
+          "target": "https://web.dev/articles/optimize-cls",
+          "label": "web.dev CLS"
+        }
+      ]
+    },
+    {
+      "nodeType": "knowledge",
+      "id": "html-picture",
+      "title": "画像候補をpictureとsrcsetで出し分ける",
+      "topic": "HTML / Performance",
+      "status": "verified",
+      "verified_at": "2026-08-27",
+      "links": [
+        {
+          "type": "source",
+          "target": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/picture",
+          "label": "MDN picture"
+        },
+        {
+          "type": "source",
+          "target": "https://web.dev/learn/images",
+          "label": "web.dev Images"
+        }
+      ]
+    },
+    {
+      "nodeType": "knowledge",
+      "id": "html-semantic-controls",
+      "title": "クリック対象は意味的な要素にする",
+      "topic": "HTML / Accessibility",
+      "status": "verified",
+      "verified_at": "2026-08-27",
+      "links": [
+        {
+          "type": "source",
+          "target": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/button",
+          "label": "MDN button"
+        },
+        {
+          "type": "source",
+          "target": "https://www.w3.org/WAI/ARIA/apg/",
+          "label": "WAI-ARIA APG"
+        }
+      ]
+    },
+    {
+      "nodeType": "knowledge",
+      "id": "js-abort-controller",
+      "title": "非同期処理は取消可能にする",
+      "topic": "JavaScript / Networking",
+      "status": "verified",
+      "verified_at": "2026-08-27",
+      "links": [
+        {
+          "type": "source",
+          "target": "https://developer.mozilla.org/en-US/docs/Web/API/AbortController",
+          "label": "MDN AbortController"
+        },
+        {
+          "type": "source",
+          "target": "https://fetch.spec.whatwg.org/#abortcontroller",
+          "label": "WHATWG Fetch abort"
+        }
+      ]
+    },
+    {
+      "nodeType": "knowledge",
+      "id": "js-defer-module",
+      "title": "スクリプトの実行境界をHTMLで宣言する",
+      "topic": "JavaScript / Loading",
+      "status": "verified",
+      "verified_at": "2026-08-27",
+      "links": [
+        {
+          "type": "source",
+          "target": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/script",
+          "label": "MDN script"
+        },
+        {
+          "type": "source",
+          "target": "https://html.spec.whatwg.org/multipage/scripting.html#the-script-element",
+          "label": "WHATWG script"
+        }
+      ]
+    },
+    {
+      "nodeType": "knowledge",
+      "id": "js-fetch-response-ok",
+      "title": "FetchではHTTP状態を明示確認する",
+      "topic": "JavaScript / Networking",
+      "status": "verified",
+      "verified_at": "2026-08-27",
+      "links": [
+        {
+          "type": "source",
+          "target": "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch",
+          "label": "MDN Using Fetch"
+        },
+        {
+          "type": "source",
+          "target": "https://fetch.spec.whatwg.org/",
+          "label": "WHATWG Fetch"
+        }
+      ]
+    },
+    {
+      "nodeType": "knowledge",
+      "id": "js-intersection-observer",
+      "title": "可視範囲処理はObserverを使う",
+      "topic": "JavaScript / Performance",
+      "status": "verified",
+      "verified_at": "2026-08-27",
+      "links": [
+        {
+          "type": "article",
+          "target": "chrome-speed-records"
+        },
+        {
+          "type": "work",
+          "target": "5-8 帳票構造JSON基盤"
+        },
+        {
+          "type": "source",
+          "target": "https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API",
+          "label": "MDN Intersection Observer"
+        },
+        {
+          "type": "source",
+          "target": "https://web.dev/articles/intersectionobserver",
+          "label": "web.dev IntersectionObserver"
+        }
+      ]
+    },
+    {
+      "nodeType": "knowledge",
+      "id": "supply-chain-local-or-cdn",
+      "title": "外部配信は固定と撤退条件まで決める",
+      "topic": "Security / Supply chain",
+      "status": "conditional",
+      "verified_at": "2026-08-27",
+      "links": [
+        {
+          "type": "source",
+          "target": "https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity",
+          "label": "MDN SRI"
+        },
+        {
+          "type": "source",
+          "target": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CSP",
+          "label": "MDN CSP"
+        }
+      ]
+    },
+    {
+      "nodeType": "article",
+      "id": "openai-safety-cases",
+      "title": "安全ケースは、実行前の根拠・停止・復旧をひとつの証跡にする",
+      "issue": "2026-10-04",
+      "pageStatus": "generated",
+      "registrationType": "article",
+      "status": "registered",
+      "canonicalUrl": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training/",
+      "links": [
+        {
+          "type": "html",
+          "target": "2026-10-04.html"
+        },
+        {
+          "type": "source",
+          "target": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training/",
+          "label": "公式原典URL"
+        }
+      ]
+    },
+    {
+      "nodeType": "article",
+      "id": "claude-sonnet-5-5",
+      "title": "Claude Sonnet 5.5は、定型作業の費用と保持条件を別に選ぶ",
+      "issue": "2026-10-04",
+      "pageStatus": "generated",
+      "registrationType": "article",
+      "status": "registered",
+      "canonicalUrl": "https://www.anthropic.com/claude-sonnet-5-5",
+      "links": [
+        {
+          "type": "html",
+          "target": "2026-10-04.html"
+        },
+        {
+          "type": "source",
+          "target": "https://www.anthropic.com/claude-sonnet-5-5",
+          "label": "公式原典URL"
+        }
+      ]
+    },
+    {
+      "nodeType": "article",
+      "id": "gpt-6-1-sol",
+      "title": "GPT-6.1 Solは、能力と費用を権限拡大に結びつけない",
+      "issue": "2026-10-04",
+      "pageStatus": "generated",
+      "registrationType": "article",
+      "status": "registered",
+      "canonicalUrl": "https://openai.com/index/introducing-gpt-6-1-sol/",
+      "links": [
+        {
+          "type": "html",
+          "target": "2026-10-04.html"
+        },
+        {
+          "type": "source",
+          "target": "https://openai.com/index/introducing-gpt-6-1-sol/",
+          "label": "公式原典URL"
+        }
+      ]
+    },
+    {
+      "nodeType": "article",
+      "id": "chatgpt-dots-boundary",
+      "title": "ChatGPT Dotsは、常時実行と承認を同じものにしない",
+      "issue": "2026-10-04",
+      "pageStatus": "generated",
+      "registrationType": "article",
+      "status": "registered",
+      "canonicalUrl": "https://openai.com/index/introducing-dots/",
+      "links": [
+        {
+          "type": "html",
+          "target": "2026-10-04.html"
+        },
+        {
+          "type": "source",
+          "target": "https://openai.com/index/introducing-dots/",
+          "label": "公式原典URL"
+        }
+      ]
+    },
+    {
+      "nodeType": "article",
+      "id": "openai-distillation-response",
+      "title": "推論抽出への対策は、入力だけでなく出力・経路・監査を守る",
+      "issue": "2026-10-04",
+      "pageStatus": "generated",
+      "registrationType": "article",
+      "status": "registered",
+      "canonicalUrl": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign/",
+      "links": [
+        {
+          "type": "html",
+          "target": "2026-10-04.html"
+        },
+        {
+          "type": "source",
+          "target": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign/",
+          "label": "公式原典URL"
+        }
+      ]
+    },
+    {
+      "nodeType": "article",
+      "id": "claude-code-mods-boundary",
+      "title": "Claude Modsは、深い拡張ほど検証・信頼・復旧を先に置く",
+      "issue": "2026-10-04",
+      "pageStatus": "generated",
+      "registrationType": "article",
+      "status": "registered",
+      "canonicalUrl": "https://github.com/anthropics/claude-code/releases/tag/v2.1.287",
+      "links": [
+        {
+          "type": "html",
+          "target": "2026-10-04.html"
+        },
+        {
+          "type": "source",
+          "target": "https://github.com/anthropics/claude-code/releases/tag/v2.1.287",
+          "label": "公式原典URL"
+        }
+      ]
+    },
+    {
+      "nodeType": "article",
+      "id": "gpt-6-practical-guide",
+      "title": "GPT-6の実装ガイドは、モデル選択を検証可能な運用へ戻す",
+      "issue": "2026-10-04",
+      "pageStatus": "generated",
+      "registrationType": "article",
+      "status": "registered",
+      "canonicalUrl": "https://openai.com/news/product-releases/",
+      "links": [
+        {
+          "type": "html",
+          "target": "2026-10-04.html"
+        },
+        {
+          "type": "source",
+          "target": "https://openai.com/news/product-releases/",
+          "label": "公式原典URL"
+        }
+      ]
+    },
+    {
+      "nodeType": "article",
+      "id": "ai-self-update-recheck",
+      "title": "ハーネス改善提案",
+      "issue": "2026-10-04",
+      "pageStatus": "generated",
+      "registrationType": "article",
+      "status": "registered",
+      "canonicalUrl": null,
+      "links": [
+        {
+          "type": "html",
+          "target": "2026-10-04.html"
+        }
+      ]
+    },
+    {
+      "nodeType": "article",
+      "id": "gpt-6-sol-luna",
+      "title": "GPT-6 Sol/Lunaは、能力名でなく仕事・費用・検証で振り分ける",
+      "issue": "2026-09-27",
+      "pageStatus": "generated",
+      "registrationType": "article",
+      "status": "registered",
+      "canonicalUrl": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
+      "links": [
+        {
+          "type": "html",
+          "target": "2026-09-27.html"
+        },
+        {
+          "type": "source",
+          "target": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
+          "label": "公式原典URL"
+        }
+      ]
+    },
+    {
+      "nodeType": "article",
+      "id": "claude-opus-5-5",
+      "title": "Claude Opus 5.5は、長時間作業でもデータ保持条件を先に確認する",
+      "issue": "2026-09-27",
+      "pageStatus": "generated",
+      "registrationType": "article",
+      "status": "registered",
+      "canonicalUrl": "https://www.anthropic.com/claude-opus-5-5",
+      "links": [
+        {
+          "type": "html",
+          "target": "2026-09-27.html"
+        },
+        {
+          "type": "source",
+          "target": "https://www.anthropic.com/claude-opus-5-5",
+          "label": "公式原典URL"
+        }
+      ]
+    },
+    {
+      "nodeType": "article",
+      "id": "gemini-3-8-flash-tts",
+      "title": "Gemini 3.8 Flash TTSは、声の生成と同意確認を分離する",
+      "issue": "2026-09-27",
+      "pageStatus": "generated",
+      "registrationType": "article",
+      "status": "registered",
+      "canonicalUrl": "https://ai.google.dev/gemini-api/docs/changelog",
+      "links": [
+        {
+          "type": "html",
+          "target": "2026-09-27.html"
+        },
+        {
+          "type": "source",
+          "target": "https://ai.google.dev/gemini-api/docs/changelog",
+          "label": "公式原典URL"
+        }
+      ]
+    },
+    {
+      "nodeType": "article",
+      "id": "chatgpt-work-voice-plugins",
+      "title": "ChatGPT WorkのVoiceは、接続済み権限と発話を分けて扱う",
+      "issue": "2026-09-27",
+      "pageStatus": "generated",
+      "registrationType": "article",
+      "status": "registered",
+      "canonicalUrl": "https://openai.com/products/release-notes/",
+      "links": [
+        {
+          "type": "html",
+          "target": "2026-09-27.html"
+        },
+        {
+          "type": "source",
+          "target": "https://openai.com/products/release-notes/",
+          "label": "公式原典URL"
+        }
+      ]
+    },
+    {
+      "nodeType": "article",
+      "id": "copilot-local-sandboxing",
+      "title": "Copilot Appのローカルsandboxは、隔離と復旧手順を一緒に検証する",
+      "issue": "2026-09-27",
+      "pageStatus": "generated",
+      "registrationType": "article",
+      "status": "registered",
+      "canonicalUrl": "https://github.blog/changelog/2026-09-23-local-sandboxing-in-the-github-copilot-app/",
+      "links": [
+        {
+          "type": "html",
+          "target": "2026-09-27.html"
+        },
+        {
+          "type": "source",
+          "target": "https://github.blog/changelog/2026-09-23-local-sandboxing-in-the-github-copilot-app/",
+          "label": "公式原典URL"
+        }
+      ]
+    },
+    {
+      "nodeType": "article",
+      "id": "copilot-pr-review-times",
+      "title": "Copilot利用計測のPR待ち時間は、個人評価でなく工程の詰まりを見る",
+      "issue": "2026-09-27",
+      "pageStatus": "generated",
+      "registrationType": "article",
+      "status": "registered",
+      "canonicalUrl": "https://github.blog/changelog/2026-09-25-usage-metrics-api-adds-pull-request-review-stages/",
+      "links": [
+        {
+          "type": "html",
+          "target": "2026-09-27.html"
+        },
+        {
+          "type": "source",
+          "target": "https://github.blog/changelog/2026-09-25-usage-metrics-api-adds-pull-request-review-stages/",
+          "label": "公式原典URL"
+        }
+      ]
+    },
+    {
+      "nodeType": "article",
+      "id": "ai-self-update-recheck",
+      "title": "ハーネス改善提案",
+      "issue": "2026-09-27",
+      "pageStatus": "generated",
+      "registrationType": "article",
+      "status": "registered",
+      "canonicalUrl": null,
+      "links": [
+        {
+          "type": "html",
+          "target": "2026-09-27.html"
+        }
+      ]
+    },
+    {
+      "nodeType": "article",
+      "id": "copilot-auto-model-selection",
+      "title": "Copilotの自動モデル選択は、費用設定と実行先の記録を分ける",
+      "issue": "2026-09-20",
+      "pageStatus": "generated",
+      "registrationType": "article",
+      "status": "registered",
+      "canonicalUrl": "https://github.blog/changelog/2026-09-14-configure-cost-and-quality-in-copilot-auto-model-selection/",
+      "links": [
+        {
+          "type": "html",
+          "target": "2026-09-20.html"
+        },
+        {
+          "type": "source",
+          "target": "https://github.blog/changelog/2026-09-14-configure-cost-and-quality-in-copilot-auto-model-selection/",
+          "label": "公式原典URL"
+        }
+      ]
+    },
+    {
+      "nodeType": "article",
+      "id": "copilot-custom-properties",
+      "title": "Copilotのcustom properties提案は、台帳の正本と補助入力を混同しない",
+      "issue": "2026-09-20",
+      "pageStatus": "generated",
+      "registrationType": "article",
+      "status": "registered",
+      "canonicalUrl": "https://github.blog/changelog/2026-09-15-github-copilot-suggests-custom-properties-definitions/",
+      "links": [
+        {
+          "type": "html",
+          "target": "2026-09-20.html"
+        },
+        {
+          "type": "source",
+          "target": "https://github.blog/changelog/2026-09-15-github-copilot-suggests-custom-properties-definitions/",
+          "label": "公式原典URL"
+        }
+      ]
+    },
+    {
+      "nodeType": "article",
+      "id": "actions-workflow-execution-protections",
+      "title": "GitHub Actionsの実行保護は、誰が何を起動できるかを分ける",
+      "issue": "2026-09-20",
+      "pageStatus": "generated",
+      "registrationType": "article",
+      "status": "registered",
+      "canonicalUrl": "https://github.blog/changelog/2026-09-17-workflow-execution-protections-in-github-actions-generally-available/",
+      "links": [
+        {
+          "type": "html",
+          "target": "2026-09-20.html"
+        },
+        {
+          "type": "source",
+          "target": "https://github.blog/changelog/2026-09-17-workflow-execution-protections-in-github-actions-generally-available/",
+          "label": "公式原典URL"
+        }
+      ]
+    },
+    {
+      "nodeType": "article",
+      "id": "copilot-cli-usage-metrics",
+      "title": "CLIカスタマイズの利用計測は、効果とプライバシーを別に確認する",
+      "issue": "2026-09-20",
+      "pageStatus": "generated",
+      "registrationType": "article",
+      "status": "registered",
+      "canonicalUrl": "https://github.blog/changelog/2026-09-17-agentic-cli-customizations-now-in-the-usage-metrics-api/",
+      "links": [
+        {
+          "type": "html",
+          "target": "2026-09-20.html"
+        },
+        {
+          "type": "source",
+          "target": "https://github.blog/changelog/2026-09-17-agentic-cli-customizations-now-in-the-usage-metrics-api/",
+          "label": "公式原典URL"
+        }
+      ]
+    },
+    {
+      "nodeType": "article",
+      "id": "npm-stage-only-tokens",
+      "title": "npmのstage-only tokenは、公開権限を承認前で止める",
+      "issue": "2026-09-20",
+      "pageStatus": "generated",
+      "registrationType": "article",
+      "status": "registered",
+      "canonicalUrl": "https://github.blog/changelog/2026-09-18-stage-only-npm-tokens-for-safer-automation/",
+      "links": [
+        {
+          "type": "html",
+          "target": "2026-09-20.html"
+        },
+        {
+          "type": "source",
+          "target": "https://github.blog/changelog/2026-09-18-stage-only-npm-tokens-for-safer-automation/",
+          "label": "公式原典URL"
+        }
+      ]
+    },
+    {
+      "nodeType": "article",
+      "id": "copilot-review-experience",
+      "title": "Copilotレビューの進捗表示は、人間の未解決判断を残す",
+      "issue": "2026-09-20",
+      "pageStatus": "generated",
+      "registrationType": "article",
+      "status": "registered",
+      "canonicalUrl": "https://github.blog/changelog/2026-09-18-copilot-code-review-an-improved-review-experience/",
+      "links": [
+        {
+          "type": "html",
+          "target": "2026-09-20.html"
+        },
+        {
+          "type": "source",
+          "target": "https://github.blog/changelog/2026-09-18-copilot-code-review-an-improved-review-experience/",
+          "label": "公式原典URL"
+        }
+      ]
+    },
+    {
+      "nodeType": "article",
+      "id": "ai-self-update-recheck",
+      "title": "AI自己更新・再判定レーダー",
+      "issue": "2026-09-20",
+      "pageStatus": "generated",
+      "registrationType": "article",
+      "status": "registered",
+      "canonicalUrl": null,
+      "links": [
+        {
+          "type": "html",
+          "target": "2026-09-20.html"
+        }
+      ]
+    },
+    {
+      "nodeType": "article",
+      "id": "chatgpt-images-2-5",
+      "title": "ChatGPT Images 2.5は、生成物の共有前に来歴と承認を残す",
+      "issue": "2026-09-13",
+      "pageStatus": "generated",
+      "registrationType": "article",
+      "status": "registered",
+      "canonicalUrl": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "links": [
+        {
+          "type": "html",
+          "target": "2026-09-13.html"
+        },
+        {
+          "type": "source",
+          "target": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+          "label": "公式原典URL"
+        }
+      ]
+    },
+    {
+      "nodeType": "article",
+      "id": "deepseek-v4-1-flash",
+      "title": "DeepSeek-V4.1-Flashは、低コスト化と処理境界を同時に測る",
+      "issue": "2026-09-13",
+      "pageStatus": "generated",
+      "registrationType": "article",
+      "status": "registered",
+      "canonicalUrl": "https://www.deepseek.com/en/news/deepseek-v4-1-flash/",
+      "links": [
+        {
+          "type": "html",
+          "target": "2026-09-13.html"
+        },
+        {
+          "type": "source",
+          "target": "https://www.deepseek.com/en/news/deepseek-v4-1-flash/",
+          "label": "公式原典URL"
+        }
+      ]
+    },
+    {
+      "nodeType": "article",
+      "id": "copilot-hydrafusion",
+      "title": "Copilot CLIのHydraFusionは、経路選択を監査可能な設定に戻す",
+      "issue": "2026-09-13",
+      "pageStatus": "generated",
+      "registrationType": "article",
+      "status": "registered",
+      "canonicalUrl": "https://github.blog/changelog/2026-09-10-github-copilot-weekly-releases-september-7/",
+      "links": [
+        {
+          "type": "html",
+          "target": "2026-09-13.html"
+        },
+        {
+          "type": "source",
+          "target": "https://github.blog/changelog/2026-09-10-github-copilot-weekly-releases-september-7/",
+          "label": "公式原典URL"
+        }
+      ]
+    },
+    {
+      "nodeType": "article",
+      "id": "copilot-managed-permissions",
+      "title": "Copilot agent操作の中央権限は、最小権限を後退させない",
+      "issue": "2026-09-13",
+      "pageStatus": "generated",
+      "registrationType": "article",
+      "status": "registered",
+      "canonicalUrl": "https://github.blog/changelog/2026-09-09-enterprise-managed-permissions-for-github-copilot-agent-operations/",
+      "links": [
+        {
+          "type": "html",
+          "target": "2026-09-13.html"
+        },
+        {
+          "type": "source",
+          "target": "https://github.blog/changelog/2026-09-09-enterprise-managed-permissions-for-github-copilot-agent-operations/",
+          "label": "公式原典URL"
+        }
+      ]
+    },
+    {
+      "nodeType": "article",
+      "id": "npm-recovery-security-hold",
+      "title": "npmの復旧コード保護は、公開停止を復旧設計に含める",
+      "issue": "2026-09-13",
+      "pageStatus": "generated",
+      "registrationType": "article",
+      "status": "registered",
+      "canonicalUrl": "https://github.blog/changelog/2026-09-09-npm-extends-recovery-code-security-holds-to-all-accounts/",
+      "links": [
+        {
+          "type": "html",
+          "target": "2026-09-13.html"
+        },
+        {
+          "type": "source",
+          "target": "https://github.blog/changelog/2026-09-09-npm-extends-recovery-code-security-holds-to-all-accounts/",
+          "label": "公式原典URL"
+        }
+      ]
+    },
+    {
+      "nodeType": "article",
+      "id": "claude-code-2-1-269",
+      "title": "Claude Code 2.1.269は、プラグイン評価を再現可能な検査へ寄せる",
+      "issue": "2026-09-13",
+      "pageStatus": "generated",
+      "registrationType": "article",
+      "status": "registered",
+      "canonicalUrl": "https://github.com/anthropics/claude-code/releases/tag/v2.1.269",
+      "links": [
+        {
+          "type": "html",
+          "target": "2026-09-13.html"
+        },
+        {
+          "type": "source",
+          "target": "https://github.com/anthropics/claude-code/releases/tag/v2.1.269",
+          "label": "公式原典URL"
+        }
+      ]
+    },
+    {
+      "nodeType": "article",
+      "id": "copilot-review-analysis",
+      "title": "Copilot code reviewの自動解決は、未解決の人間判断を見えやすくする",
+      "issue": "2026-09-13",
+      "pageStatus": "generated",
+      "registrationType": "article",
+      "status": "registered",
+      "canonicalUrl": "https://github.blog/changelog/2026-09-11-auto-resolution-and-analysis-updates-in-copilot-code-review/",
+      "links": [
+        {
+          "type": "html",
+          "target": "2026-09-13.html"
+        },
+        {
+          "type": "source",
+          "target": "https://github.blog/changelog/2026-09-11-auto-resolution-and-analysis-updates-in-copilot-code-review/",
+          "label": "公式原典URL"
+        }
+      ]
+    },
+    {
+      "nodeType": "article",
+      "id": "ai-self-update-recheck",
+      "title": "AI自己更新・再判定レーダー",
+      "issue": "2026-09-13",
+      "pageStatus": "generated",
+      "registrationType": "article",
+      "status": "registered",
+      "canonicalUrl": null,
+      "links": [
+        {
+          "type": "html",
+          "target": "2026-09-13.html"
+        }
+      ]
+    },
+    {
+      "nodeType": "article",
+      "id": "gpt-6-astra-launch",
+      "title": "GPT-6 Astraの段階導入は、利用可否と権限設定を別に確認する",
+      "issue": "2026-09-06",
+      "pageStatus": "generated",
+      "registrationType": "article",
+      "status": "registered",
+      "canonicalUrl": "https://openai.com/index/gpt-6-astra/",
+      "links": [
+        {
+          "type": "html",
+          "target": "2026-09-06.html"
+        },
+        {
+          "type": "source",
+          "target": "https://openai.com/index/gpt-6-astra/",
+          "label": "公式原典URL"
+        }
+      ]
+    },
+    {
+      "nodeType": "article",
+      "id": "gpt-6-astra-safety",
+      "title": "Critical級のサイバー能力は、隔離・監視・停止を先に設計する",
+      "issue": "2026-09-06",
+      "pageStatus": "generated",
+      "registrationType": "article",
+      "status": "registered",
+      "canonicalUrl": "https://openai.com/index/safety-overview-gpt-6-astra/",
+      "links": [
+        {
+          "type": "html",
+          "target": "2026-09-06.html"
+        },
+        {
+          "type": "source",
+          "target": "https://openai.com/index/safety-overview-gpt-6-astra/",
+          "label": "公式原典URL"
+        }
+      ]
+    },
+    {
+      "nodeType": "article",
+      "id": "claude-fable-5-1",
+      "title": "Claude Fable 5.1は、長期タスクでもデータ保持条件を先に確認する",
+      "issue": "2026-09-06",
+      "pageStatus": "generated",
+      "registrationType": "article",
+      "status": "registered",
+      "canonicalUrl": "https://www.anthropic.com/claude/fable",
+      "links": [
+        {
+          "type": "html",
+          "target": "2026-09-06.html"
+        },
+        {
+          "type": "source",
+          "target": "https://www.anthropic.com/claude/fable",
+          "label": "公式原典URL"
+        }
+      ]
+    },
+    {
+      "nodeType": "article",
+      "id": "anthropic-efs",
+      "title": "Enterprise Frontier Safeguardsは、監視と顧客管理データを分離する設計候補",
+      "issue": "2026-09-06",
+      "pageStatus": "generated",
+      "registrationType": "article",
+      "status": "registered",
+      "canonicalUrl": "https://www.anthropic.com/news/enterprise-frontier-safeguards",
+      "links": [
+        {
+          "type": "html",
+          "target": "2026-09-06.html"
+        },
+        {
+          "type": "source",
+          "target": "https://www.anthropic.com/news/enterprise-frontier-safeguards",
+          "label": "公式原典URL"
+        }
+      ]
+    },
+    {
+      "nodeType": "article",
+      "id": "gemini-3-8-flash",
+      "title": "Gemini 3.8 Flashは、低コスト化とサイバー用途を別評価にする",
+      "issue": "2026-09-06",
+      "pageStatus": "generated",
+      "registrationType": "article",
+      "status": "registered",
+      "canonicalUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
+      "links": [
+        {
+          "type": "html",
+          "target": "2026-09-06.html"
+        },
+        {
+          "type": "source",
+          "target": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
+          "label": "公式原典URL"
+        }
+      ]
+    },
+    {
+      "nodeType": "article",
+      "id": "copilot-content-exclusions",
+      "title": "Copilot CLIのcontent exclusionsは、秘密を渡さない境界をポリシーへ寄せる",
+      "issue": "2026-09-06",
+      "pageStatus": "generated",
+      "registrationType": "article",
+      "status": "registered",
+      "canonicalUrl": "https://github.blog/changelog/2026-09-02-content-exclusions-generally-available-in-copilot-app-and-cli/",
+      "links": [
+        {
+          "type": "html",
+          "target": "2026-09-06.html"
+        },
+        {
+          "type": "source",
+          "target": "https://github.blog/changelog/2026-09-02-content-exclusions-generally-available-in-copilot-app-and-cli/",
+          "label": "公式原典URL"
+        }
+      ]
+    },
+    {
+      "nodeType": "article",
+      "id": "copilot-review-approval",
+      "title": "CopilotのPR承認は、人間のマージ判断を置き換えない",
+      "issue": "2026-09-06",
+      "pageStatus": "generated",
+      "registrationType": "article",
+      "status": "registered",
+      "canonicalUrl": "https://github.blog/changelog/2026-09-01-copilot-code-review-can-now-approve-pull-requests/",
+      "links": [
+        {
+          "type": "html",
+          "target": "2026-09-06.html"
+        },
+        {
+          "type": "source",
+          "target": "https://github.blog/changelog/2026-09-01-copilot-code-review-can-now-approve-pull-requests/",
+          "label": "公式原典URL"
+        }
+      ]
+    },
+    {
+      "nodeType": "article",
+      "id": "npm-multiple-trusted-publishing",
+      "title": "npmの複数trusted publishing設定は、公開経路ごとの人間ゲートを残す",
+      "issue": "2026-09-06",
+      "pageStatus": "generated",
+      "registrationType": "article",
+      "status": "registered",
+      "canonicalUrl": "https://github.blog/changelog/2026-09-03-multiple-trusted-publishing-configurations-for-npm/",
+      "links": [
+        {
+          "type": "html",
+          "target": "2026-09-06.html"
+        },
+        {
+          "type": "source",
+          "target": "https://github.blog/changelog/2026-09-03-multiple-trusted-publishing-configurations-for-npm/",
+          "label": "公式原典URL"
+        }
+      ]
+    },
+    {
+      "nodeType": "article",
+      "id": "ai-self-update-recheck",
+      "title": "AI自己更新・再判定レーダー",
+      "issue": "2026-09-06",
+      "pageStatus": "generated",
+      "registrationType": "article",
+      "status": "registered",
+      "canonicalUrl": null,
+      "links": [
+        {
+          "type": "html",
+          "target": "2026-09-06.html"
+        }
+      ]
+    },
+    {
+      "nodeType": "article",
+      "id": "workspace-studio-layered-protection",
+      "title": "Workspace Studioは、フロー専用の最小権限と停止経路で囲う",
+      "issue": "2026-08-30",
+      "pageStatus": "generated",
+      "registrationType": "article",
+      "status": "registered",
+      "canonicalUrl": "https://workspace.google.com/blog/identity-and-security/defend-against-agentic-risks-with-multi-layered-protections-in-google-workspace-studio",
+      "links": [
+        {
+          "type": "html",
+          "target": "2026-08-30.html"
+        },
+        {
+          "type": "source",
+          "target": "https://workspace.google.com/blog/identity-and-security/defend-against-agentic-risks-with-multi-layered-protections-in-google-workspace-studio",
+          "label": "公式原典URL"
+        }
+      ]
+    },
+    {
+      "nodeType": "article",
+      "id": "chatgpt-work-webhooks",
+      "title": "定期タスクはポーリングでなく、承認付きのイベント起点へ寄せる",
+      "issue": "2026-08-30",
+      "pageStatus": "generated",
+      "registrationType": "article",
+      "status": "registered",
+      "canonicalUrl": "https://help.openai.com/en/articles/6825453-gpt-4",
+      "links": [
+        {
+          "type": "html",
+          "target": "2026-08-30.html"
+        },
+        {
+          "type": "source",
+          "target": "https://help.openai.com/en/articles/6825453-gpt-4",
+          "label": "公式原典URL"
+        }
+      ]
+    },
+    {
+      "nodeType": "article",
+      "id": "chatgpt-work-signed-in-browser",
+      "title": "ログイン済みサイトの自動作業は、資格情報と作業権限を別に扱う",
+      "issue": "2026-08-30",
+      "pageStatus": "generated",
+      "registrationType": "article",
+      "status": "registered",
+      "canonicalUrl": "https://help.openai.com/en/articles/6825453-gpt-4",
+      "links": [
+        {
+          "type": "html",
+          "target": "2026-08-30.html"
+        },
+        {
+          "type": "source",
+          "target": "https://help.openai.com/en/articles/6825453-gpt-4",
+          "label": "公式原典URL"
+        }
+      ]
+    },
+    {
+      "nodeType": "article",
+      "id": "temporary-chat-control-boundary",
+      "title": "一時チャットは、記憶・プラグイン・保存を開始時に切り替える",
+      "issue": "2026-08-30",
+      "pageStatus": "generated",
+      "registrationType": "article",
+      "status": "registered",
+      "canonicalUrl": "https://help.openai.com/en/articles/6825453-gpt-4",
+      "links": [
+        {
+          "type": "html",
+          "target": "2026-08-30.html"
+        },
+        {
+          "type": "source",
+          "target": "https://help.openai.com/en/articles/6825453-gpt-4",
+          "label": "公式原典URL"
+        }
+      ]
+    },
+    {
+      "nodeType": "article",
+      "id": "multiple-google-account-boundary",
+      "title": "複数Googleアカウント接続は、横断検索の前にアカウント境界を表にする",
+      "issue": "2026-08-30",
+      "pageStatus": "generated",
+      "registrationType": "article",
+      "status": "registered",
+      "canonicalUrl": "https://help.openai.com/en/articles/6825453-gpt-4",
+      "links": [
+        {
+          "type": "html",
+          "target": "2026-08-30.html"
+        },
+        {
+          "type": "source",
+          "target": "https://help.openai.com/en/articles/6825453-gpt-4",
+          "label": "公式原典URL"
+        }
+      ]
+    },
+    {
+      "nodeType": "article",
+      "id": "microsoft-agentic-containment",
+      "title": "agentic containmentは、承認前の自律操作を権限・影響範囲・可視性で囲う",
+      "issue": "2026-08-30",
+      "pageStatus": "generated",
+      "registrationType": "article",
+      "status": "registered",
+      "canonicalUrl": "https://www.microsoft.com/en-us/security/blog/2026/08/27/whats-new-in-microsoft-security-august-2026/",
+      "links": [
+        {
+          "type": "html",
+          "target": "2026-08-30.html"
+        },
+        {
+          "type": "source",
+          "target": "https://www.microsoft.com/en-us/security/blog/2026/08/27/whats-new-in-microsoft-security-august-2026/",
+          "label": "公式原典URL"
+        }
+      ]
+    },
+    {
+      "nodeType": "article",
+      "id": "ai-self-update-recheck",
+      "title": "AI自己更新・再判定レーダー",
+      "issue": "2026-08-30",
+      "pageStatus": "generated",
+      "registrationType": "article",
+      "status": "registered",
+      "canonicalUrl": null,
+      "links": [
+        {
+          "type": "html",
+          "target": "2026-08-30.html"
+        }
+      ]
+    },
+    {
+      "nodeType": "article",
+      "id": "webmcp-imperative-api-2026-08-20",
+      "title": "WebMCPの道具公開を、同一オリジン・明示公開・取消で囲う",
+      "issue": "2026-08-23",
+      "pageStatus": "generated",
+      "registrationType": "article",
+      "status": "registered",
+      "canonicalUrl": "https://developer.chrome.com/docs/ai/webmcp/imperative-api",
+      "links": [
+        {
+          "type": "html",
+          "target": "2026-08-23.html"
+        },
+        {
+          "type": "source",
+          "target": "https://developer.chrome.com/docs/ai/webmcp/imperative-api",
+          "label": "公式原典URL"
+        }
+      ]
+    },
+    {
+      "nodeType": "article",
+      "id": "cursor-origin-code-hosting",
+      "title": "AIエージェント向けGitホスティングでも、正本と復旧経路を分ける",
+      "issue": "2026-08-23",
+      "pageStatus": "generated",
+      "registrationType": "article",
+      "status": "linked",
+      "canonicalUrl": "https://forum.cursor.com/t/origin-code-hosting/168670",
+      "links": [
+        {
+          "type": "html",
+          "target": "2026-08-23.html"
+        },
+        {
+          "type": "source",
+          "target": "https://forum.cursor.com/t/origin-code-hosting/168670",
+          "label": "公式原典URL"
+        }
+      ]
+    },
+    {
+      "nodeType": "article",
+      "id": "youtube-gpt-token-efficiency",
+      "title": "GPT-5.6は、モデル名より仕事あたりの総トークンで測る",
+      "issue": "2026-08-16",
+      "pageStatus": "generated",
+      "registrationType": "article",
+      "status": "registered",
+      "canonicalUrl": "https://developers.openai.com/api/docs/guides/latest-model",
+      "links": [
+        {
+          "type": "html",
+          "target": "2026-08-16.html"
+        },
+        {
+          "type": "source",
+          "target": "https://developers.openai.com/api/docs/guides/latest-model",
+          "label": "公式原典URL"
+        }
+      ]
+    },
+    {
+      "nodeType": "article",
+      "id": "youtube-webmcp",
+      "title": "WebMCPは、壊れやすい画面操作をサイト側の道具へ変える",
+      "issue": "2026-08-16",
+      "pageStatus": "generated",
+      "registrationType": "article",
+      "status": "registered",
+      "canonicalUrl": "https://developers.cloudflare.com/browser-run/features/webmcp/",
+      "links": [
+        {
+          "type": "html",
+          "target": "2026-08-16.html"
+        },
+        {
+          "type": "source",
+          "target": "https://developers.cloudflare.com/browser-run/features/webmcp/",
+          "label": "公式原典URL"
+        }
+      ]
+    },
+    {
+      "nodeType": "article",
+      "id": "youtube-workspace-video-manuals",
+      "title": "雑な手順メモを、編集可能なスライドへ育てる",
+      "issue": "2026-08-16",
+      "pageStatus": "generated",
+      "registrationType": "article",
+      "status": "registered",
+      "canonicalUrl": "https://workspace.google.com/blog/product-announcements/create-on-brand-presentations-in-minutes-with-gemini-in-google-slides",
+      "links": [
+        {
+          "type": "html",
+          "target": "2026-08-16.html"
+        },
+        {
+          "type": "source",
+          "target": "https://workspace.google.com/blog/product-announcements/create-on-brand-presentations-in-minutes-with-gemini-in-google-slides",
+          "label": "公式原典URL"
+        }
+      ]
+    },
+    {
+      "nodeType": "article",
+      "id": "youtube-claude-hooks-html",
+      "title": "保存時HTML生成は、成果物境界を軽く自動化できる",
+      "issue": "2026-08-16",
+      "pageStatus": "generated",
+      "registrationType": "article",
+      "status": "registered",
+      "canonicalUrl": "https://www.anthropic.com/news/enabling-claude-code-to-work-more-autonomously",
+      "links": [
+        {
+          "type": "html",
+          "target": "2026-08-16.html"
+        },
+        {
+          "type": "source",
+          "target": "https://www.anthropic.com/news/enabling-claude-code-to-work-more-autonomously",
+          "label": "公式原典URL"
+        }
+      ]
+    },
+    {
+      "nodeType": "article",
+      "id": "youtube-npm-supply-chain",
+      "title": "署名があっても、汚染された生成経路は正当化される",
+      "issue": "2026-08-16",
+      "pageStatus": "generated",
+      "registrationType": "article",
+      "status": "linked",
+      "canonicalUrl": "https://github.blog/security/supply-chain-security/disrupting-supply-chain-attacks-on-npm-and-github-actions/",
+      "links": [
+        {
+          "type": "html",
+          "target": "2026-08-16.html"
+        },
+        {
+          "type": "source",
+          "target": "https://github.blog/security/supply-chain-security/disrupting-supply-chain-attacks-on-npm-and-github-actions/",
+          "label": "公式原典URL"
+        }
+      ]
+    },
+    {
+      "nodeType": "article",
+      "id": "ai-self-update-recheck",
+      "title": "AI自己更新・再判定レーダー",
+      "issue": "2026-08-16",
+      "pageStatus": "generated",
+      "registrationType": "article",
+      "status": "registered",
+      "canonicalUrl": null,
+      "links": [
+        {
+          "type": "html",
+          "target": "2026-08-16.html"
+        }
+      ]
+    },
+    {
+      "nodeType": "article",
+      "id": "deno-2-9-5",
+      "title": "タイトル未展開",
+      "issue": "2026-08-09",
+      "pageStatus": "provisional",
+      "registrationType": "article",
+      "status": "registered",
+      "canonicalUrl": null,
+      "links": []
+    },
+    {
+      "nodeType": "article",
+      "id": "agents-python-0-19-4",
+      "title": "タイトル未展開",
+      "issue": "2026-08-09",
+      "pageStatus": "provisional",
+      "registrationType": "article",
+      "status": "registered",
+      "canonicalUrl": null,
+      "links": []
+    },
+    {
+      "nodeType": "article",
+      "id": "uv-0-12-3",
+      "title": "タイトル未展開",
+      "issue": "2026-08-09",
+      "pageStatus": "provisional",
+      "registrationType": "article",
+      "status": "registered",
+      "canonicalUrl": null,
+      "links": []
+    },
+    {
+      "nodeType": "article",
+      "id": "electron-43-3-0",
+      "title": "タイトル未展開",
+      "issue": "2026-08-09",
+      "pageStatus": "provisional",
+      "registrationType": "article",
+      "status": "registered",
+      "canonicalUrl": null,
+      "links": []
+    },
+    {
+      "nodeType": "article",
+      "id": "langchainjs-local-file-store",
+      "title": "タイトル未展開",
+      "issue": "2026-08-09",
+      "pageStatus": "provisional",
+      "registrationType": "article",
+      "status": "registered",
+      "canonicalUrl": null,
+      "links": []
+    },
+    {
+      "nodeType": "article",
+      "id": "node-security-july-2026",
+      "title": "タイトル未展開",
+      "issue": "2026-08-02",
+      "pageStatus": "provisional",
+      "registrationType": "article",
+      "status": "registered",
+      "canonicalUrl": null,
+      "links": []
+    },
+    {
+      "nodeType": "article",
+      "id": "npm-publish-scan",
+      "title": "タイトル未展開",
+      "issue": "2026-08-02",
+      "pageStatus": "provisional",
+      "registrationType": "article",
+      "status": "registered",
+      "canonicalUrl": null,
+      "links": []
+    },
+    {
+      "nodeType": "article",
+      "id": "github-actions-approval",
+      "title": "タイトル未展開",
+      "issue": "2026-08-02",
+      "pageStatus": "provisional",
+      "registrationType": "article",
+      "status": "registered",
+      "canonicalUrl": null,
+      "links": []
+    },
+    {
+      "nodeType": "article",
+      "id": "copilot-managed-settings",
+      "title": "タイトル未展開",
+      "issue": "2026-08-02",
+      "pageStatus": "provisional",
+      "registrationType": "article",
+      "status": "registered",
+      "canonicalUrl": null,
+      "links": []
+    },
+    {
+      "nodeType": "article",
+      "id": "github-code-quality",
+      "title": "AIで増やす速度に、独立した品質ゲートを置く",
+      "issue": "2026-07-26",
+      "pageStatus": "generated",
+      "registrationType": "article",
+      "status": "registered",
+      "canonicalUrl": "https://github.blog/changelog/2026-07-20-github-code-quality-is-now-generally-available/",
+      "links": [
+        {
+          "type": "html",
+          "target": "2026-07-26.html"
+        },
+        {
+          "type": "source",
+          "target": "https://github.blog/changelog/2026-07-20-github-code-quality-is-now-generally-available/",
+          "label": "公式原典URL"
+        }
+      ]
+    },
+    {
+      "nodeType": "article",
+      "id": "sheets-comments-api",
+      "title": "Sheetsコメントを、正本ではなくレビュー面へ",
+      "issue": "2026-07-26",
+      "pageStatus": "generated",
+      "registrationType": "article",
+      "status": "registered",
+      "canonicalUrl": "https://developers.google.com/workspace/sheets/release-notes",
+      "links": [
+        {
+          "type": "html",
+          "target": "2026-07-26.html"
+        },
+        {
+          "type": "source",
+          "target": "https://developers.google.com/workspace/sheets/release-notes",
+          "label": "公式原典URL"
+        }
+      ]
+    },
+    {
+      "nodeType": "article",
+      "id": "github-mcp-stateless",
+      "title": "連携をステートレスにしても、責任は消えない",
+      "issue": "2026-07-26",
+      "pageStatus": "generated",
+      "registrationType": "article",
+      "status": "registered",
+      "canonicalUrl": "https://github.blog/changelog/2026-07-23-github-mcp-server-supports-the-next-mcp-specification/",
+      "links": [
+        {
+          "type": "html",
+          "target": "2026-07-26.html"
+        },
+        {
+          "type": "source",
+          "target": "https://github.blog/changelog/2026-07-23-github-mcp-server-supports-the-next-mcp-specification/",
+          "label": "公式原典URL"
+        }
+      ]
+    },
+    {
+      "nodeType": "article",
+      "id": "copilot-linear-ga",
+      "title": "LinearからDraft PRまで、責務をつないで止める",
+      "issue": "2026-07-26",
+      "pageStatus": "generated",
+      "registrationType": "article",
+      "status": "registered",
+      "canonicalUrl": "https://github.blog/changelog/2026-07-23-copilot-cloud-agent-for-linear-is-now-generally-available/",
+      "links": [
+        {
+          "type": "html",
+          "target": "2026-07-26.html"
+        },
+        {
+          "type": "source",
+          "target": "https://github.blog/changelog/2026-07-23-copilot-cloud-agent-for-linear-is-now-generally-available/",
+          "label": "公式原典URL"
+        }
+      ]
+    },
+    {
+      "nodeType": "article",
+      "id": "sheets-mcp-preview",
+      "title": "Sheetsを正本ではなく、標準化された操作面へ",
+      "issue": "2026-07-19",
+      "pageStatus": "generated",
+      "registrationType": "article",
+      "status": "registered",
+      "canonicalUrl": "https://developers.google.com/workspace/sheets/release-notes",
+      "links": [
+        {
+          "type": "html",
+          "target": "2026-07-19.html"
+        },
+        {
+          "type": "source",
+          "target": "https://developers.google.com/workspace/sheets/release-notes",
+          "label": "公式原典URL"
+        }
+      ]
+    },
+    {
+      "nodeType": "article",
+      "id": "ai-security-detections",
+      "title": "決定的解析とAI検出を、二層にする",
+      "issue": "2026-07-19",
+      "pageStatus": "generated",
+      "registrationType": "article",
+      "status": "registered",
+      "canonicalUrl": "https://github.blog/changelog/2026-07-14-code-scanning-shows-ai-security-detections-on-pull-requests/",
+      "links": [
+        {
+          "type": "html",
+          "target": "2026-07-19.html"
+        },
+        {
+          "type": "source",
+          "target": "https://github.blog/changelog/2026-07-14-code-scanning-shows-ai-security-detections-on-pull-requests/",
+          "label": "公式原典URL"
+        }
+      ]
+    },
+    {
+      "nodeType": "article",
+      "id": "pr-archive",
+      "title": "不可逆削除より、見えなくして戻せる退避を",
+      "issue": "2026-07-19",
+      "pageStatus": "generated",
+      "registrationType": "article",
+      "status": "registered",
+      "canonicalUrl": "https://github.blog/changelog/2026-07-16-repository-admins-can-archive-pull-requests/",
+      "links": [
+        {
+          "type": "html",
+          "target": "2026-07-19.html"
+        },
+        {
+          "type": "source",
+          "target": "https://github.blog/changelog/2026-07-16-repository-admins-can-archive-pull-requests/",
+          "label": "公式原典URL"
+        }
+      ]
+    },
+    {
+      "nodeType": "article",
+      "id": "setup-java-5-5",
+      "title": "取得物の署名検証を、CIの標準工程へ",
+      "issue": "2026-07-12",
+      "pageStatus": "generated",
+      "registrationType": "article",
+      "status": "linked",
+      "canonicalUrl": "https://github.blog/changelog/2026-07-08-setup-java-v5-5-0-signature-verification-kona-jdk-and-maven-fixes/",
+      "links": [
+        {
+          "type": "html",
+          "target": "2026-07-12.html"
+        },
+        {
+          "type": "source",
+          "target": "https://github.blog/changelog/2026-07-08-setup-java-v5-5-0-signature-verification-kona-jdk-and-maven-fixes/",
+          "label": "公式原典URL"
+        }
+      ]
+    },
+    {
+      "nodeType": "article",
+      "id": "gpt-5-6-family",
+      "title": "モデルを肩書でなく、仕事と費用で選ぶ",
+      "issue": "2026-07-12",
+      "pageStatus": "generated",
+      "registrationType": "article",
+      "status": "registered",
+      "canonicalUrl": "https://github.blog/changelog/2026-07-09-openais-gpt-5-6-sol-terra-and-luna-are-now-available-in-github-copilot/",
+      "links": [
+        {
+          "type": "html",
+          "target": "2026-07-12.html"
+        },
+        {
+          "type": "source",
+          "target": "https://github.blog/changelog/2026-07-09-openais-gpt-5-6-sol-terra-and-luna-are-now-available-in-github-copilot/",
+          "label": "公式原典URL"
+        }
+      ]
+    },
+    {
+      "nodeType": "article",
+      "id": "chrome-150",
+      "title": "OSテーマ統合を、ブラウザ標準へ寄せる",
+      "issue": "2026-07-05",
+      "pageStatus": "generated",
+      "registrationType": "article",
+      "status": "registered",
+      "canonicalUrl": "https://developer.chrome.com/release-notes/150",
+      "links": [
+        {
+          "type": "html",
+          "target": "2026-07-05.html"
+        },
+        {
+          "type": "source",
+          "target": "https://developer.chrome.com/release-notes/150",
+          "label": "公式原典URL"
+        }
+      ]
+    },
+    {
+      "nodeType": "article",
+      "id": "workspace-mdm-ou",
+      "title": "管理権限を、組織単位まで狭める",
+      "issue": "2026-07-05",
+      "pageStatus": "generated",
+      "registrationType": "article",
+      "status": "registered",
+      "canonicalUrl": "https://workspaceupdates.googleblog.com/2026/06/assign-mobile-device-management-admin-privileges-based-on-organizational-unit.html",
+      "links": [
+        {
+          "type": "html",
+          "target": "2026-07-05.html"
+        },
+        {
+          "type": "source",
+          "target": "https://workspaceupdates.googleblog.com/2026/06/assign-mobile-device-management-admin-privileges-based-on-organizational-unit.html",
+          "label": "公式原典URL"
+        }
+      ]
+    },
+    {
+      "nodeType": "article",
+      "id": "github-models-retirement",
+      "title": "公式AI基盤の終了を、設計条件として受け入れる",
+      "issue": "2026-07-05",
+      "pageStatus": "generated",
+      "registrationType": "article",
+      "status": "linked",
+      "canonicalUrl": "https://github.blog/changelog/2026-07-01-github-models-is-being-fully-retired-on-july-30-2026/",
+      "links": [
+        {
+          "type": "html",
+          "target": "2026-07-05.html"
+        },
+        {
+          "type": "source",
+          "target": "https://github.blog/changelog/2026-07-01-github-models-is-being-fully-retired-on-july-30-2026/",
+          "label": "公式原典URL"
+        }
+      ]
+    },
+    {
+      "nodeType": "article",
+      "id": "sheets-formula-repair",
+      "title": "AIの数式修復を、差分と検算の工程へ置く",
+      "issue": "2026-06-28",
+      "pageStatus": "generated",
+      "registrationType": "article",
+      "status": "registered",
+      "canonicalUrl": "https://workspaceupdates.googleblog.com/2026/06/troubleshoot-formula-errors-in-sheets.html",
+      "links": [
+        {
+          "type": "html",
+          "target": "2026-06-28.html"
+        },
+        {
+          "type": "source",
+          "target": "https://workspaceupdates.googleblog.com/2026/06/troubleshoot-formula-errors-in-sheets.html",
+          "label": "公式原典URL"
+        }
+      ]
+    },
+    {
+      "nodeType": "article",
+      "id": "node-24-18",
+      "title": "LTS更新を、暗号・証明書の試験点にする",
+      "issue": "2026-06-28",
+      "pageStatus": "generated",
+      "registrationType": "article",
+      "status": "registered",
+      "canonicalUrl": "https://nodejs.org/en/blog/release/v24.18.0",
+      "links": [
+        {
+          "type": "html",
+          "target": "2026-06-28.html"
+        },
+        {
+          "type": "source",
+          "target": "https://nodejs.org/en/blog/release/v24.18.0",
+          "label": "公式原典URL"
+        }
+      ]
+    },
+    {
+      "nodeType": "article",
+      "id": "copilot-byok",
+      "title": "AIフロントとモデル供給元を分離する",
+      "issue": "2026-06-28",
+      "pageStatus": "generated",
+      "registrationType": "article",
+      "status": "registered",
+      "canonicalUrl": "https://github.blog/changelog/2026-06-23-github-copilot-app-support-for-byok/",
+      "links": [
+        {
+          "type": "html",
+          "target": "2026-06-28.html"
+        },
+        {
+          "type": "source",
+          "target": "https://github.blog/changelog/2026-06-23-github-copilot-app-support-for-byok/",
+          "label": "公式原典URL"
+        }
+      ]
+    },
+    {
+      "nodeType": "article",
+      "id": "copilot-agents-md",
+      "title": "AGENTS.mdを、後継者とAIの共通入口へ",
+      "issue": "2026-06-21",
+      "pageStatus": "generated",
+      "registrationType": "article",
+      "status": "registered",
+      "canonicalUrl": "https://github.blog/changelog/2026-06-18-copilot-code-review-agents-md-support-and-ui-improvements/",
+      "links": [
+        {
+          "type": "html",
+          "target": "2026-06-21.html"
+        },
+        {
+          "type": "source",
+          "target": "https://github.blog/changelog/2026-06-18-copilot-code-review-agents-md-support-and-ui-improvements/",
+          "label": "公式原典URL"
+        }
+      ]
+    },
+    {
+      "nodeType": "article",
+      "id": "copilot-ai-credits",
+      "title": "AI費用を、本文を残さず観測する",
+      "issue": "2026-06-21",
+      "pageStatus": "generated",
+      "registrationType": "article",
+      "status": "registered",
+      "canonicalUrl": "https://github.blog/changelog/2026-06-19-ai-credits-consumed-per-user-now-in-the-copilot-usage-metrics-api/",
+      "links": [
+        {
+          "type": "html",
+          "target": "2026-06-21.html"
+        },
+        {
+          "type": "source",
+          "target": "https://github.blog/changelog/2026-06-19-ai-credits-consumed-per-user-now-in-the-copilot-usage-metrics-api/",
+          "label": "公式原典URL"
+        }
+      ]
+    },
+    {
+      "nodeType": "article",
+      "id": "gemini-classroom-boundary",
+      "title": "便利なWorkspace連携ほど、既定値と地域を確認する",
+      "issue": "2026-06-21",
+      "pageStatus": "generated",
+      "registrationType": "article",
+      "status": "registered",
+      "canonicalUrl": "https://workspaceupdates.googleblog.com/2026/06/make-gemini-more-helpful-and-relevant-to-your-teaching-goals-with-the-google-classroom-app-in-gemini.html",
+      "links": [
+        {
+          "type": "html",
+          "target": "2026-06-21.html"
+        },
+        {
+          "type": "source",
+          "target": "https://workspaceupdates.googleblog.com/2026/06/make-gemini-more-helpful-and-relevant-to-your-teaching-goals-with-the-google-classroom-app-in-gemini.html",
+          "label": "公式原典URL"
+        }
+      ]
+    },
+    {
+      "nodeType": "article",
+      "id": "chrome-150-extension-limits",
+      "title": "タブ操作が広がり、alarm名には上限が入る",
+      "issue": "2026-06-14",
+      "pageStatus": "generated",
+      "registrationType": "article",
+      "status": "registered",
+      "canonicalUrl": "https://developer.chrome.com/docs/extensions/whats-new",
+      "links": [
+        {
+          "type": "html",
+          "target": "2026-06-14.html"
+        },
+        {
+          "type": "source",
+          "target": "https://developer.chrome.com/docs/extensions/whats-new",
+          "label": "公式原典URL"
+        }
+      ]
+    },
+    {
+      "nodeType": "article",
+      "id": "chrome-speed-records",
+      "title": "ブラウザ性能の前進を、外部基盤追加の前に測る",
+      "issue": "2026-06-07",
+      "pageStatus": "generated",
+      "registrationType": "article",
+      "status": "linked",
+      "canonicalUrl": "https://blog.google/chromium/a-double-victory-for-web-speed-chrome-breaks-records-again-on-speedometer-31-and-jetstream-3/",
+      "links": [
+        {
+          "type": "html",
+          "target": "2026-06-07.html"
+        },
+        {
+          "type": "source",
+          "target": "https://blog.google/chromium/a-double-victory-for-web-speed-chrome-breaks-records-again-on-speedometer-31-and-jetstream-3/",
+          "label": "公式原典URL"
+        }
+      ]
+    },
+    {
+      "nodeType": "article",
+      "id": "search-ai-controls",
+      "title": "AIに読まれるHTMLにも、出典の鎖を埋め込む",
+      "issue": "2026-06-07",
+      "pageStatus": "generated",
+      "registrationType": "article",
+      "status": "registered",
+      "canonicalUrl": "https://blog.google/products-and-platforms/products/search/new-controls-website-owners/",
+      "links": [
+        {
+          "type": "html",
+          "target": "2026-06-07.html"
+        },
+        {
+          "type": "source",
+          "target": "https://blog.google/products-and-platforms/products/search/new-controls-website-owners/",
+          "label": "公式原典URL"
+        }
+      ]
+    },
+    {
+      "nodeType": "article",
+      "id": "wasmer-wasm-node",
+      "title": "Dockerなしの隔離実行を、小さく検証する",
+      "issue": "2026-06-07",
+      "pageStatus": "generated",
+      "registrationType": "article",
+      "status": "registered",
+      "canonicalUrl": "https://openai.com/index/wasmer/",
+      "links": [
+        {
+          "type": "html",
+          "target": "2026-06-07.html"
+        },
+        {
+          "type": "source",
+          "target": "https://openai.com/index/wasmer/",
+          "label": "公式原典URL"
+        }
+      ]
+    },
+    {
+      "nodeType": "article",
+      "id": "workspace-may-drops",
+      "title": "Workspace内完結と、独立成果物を両立する",
+      "issue": "2026-05-31",
+      "pageStatus": "generated",
+      "registrationType": "article",
+      "status": "registered",
+      "canonicalUrl": "https://workspace.google.com/blog/product-announcements/may-workspace-drops",
+      "links": [
+        {
+          "type": "html",
+          "target": "2026-05-31.html"
+        },
+        {
+          "type": "source",
+          "target": "https://workspace.google.com/blog/product-announcements/may-workspace-drops",
+          "label": "公式原典URL"
+        }
+      ]
+    },
+    {
+      "nodeType": "article",
+      "id": "codeql-2-25-5",
+      "title": "AIが変更するworkflowを、決定的検査へ通す",
+      "issue": "2026-05-31",
+      "pageStatus": "generated",
+      "registrationType": "article",
+      "status": "registered",
+      "canonicalUrl": "https://github.blog/changelog/2026-05-28-codeql-2-25-5-improves-query-accuracy-for-github-actions/",
+      "links": [
+        {
+          "type": "html",
+          "target": "2026-05-31.html"
+        },
+        {
+          "type": "source",
+          "target": "https://github.blog/changelog/2026-05-28-codeql-2-25-5-improves-query-accuracy-for-github-actions/",
+          "label": "公式原典URL"
+        }
+      ]
+    },
+    {
+      "nodeType": "article",
+      "id": "copilot-adoption-cohorts",
+      "title": "AI導入を利用者数でなく、置き換えた工程で測る",
+      "issue": "2026-05-31",
+      "pageStatus": "generated",
+      "registrationType": "article",
+      "status": "registered",
+      "canonicalUrl": "https://github.blog/changelog/2026-05-29-copilot-usage-metrics-api-adds-cohorts-for-ai-adoption/",
+      "links": [
+        {
+          "type": "html",
+          "target": "2026-05-31.html"
+        },
+        {
+          "type": "source",
+          "target": "https://github.blog/changelog/2026-05-29-copilot-usage-metrics-api-adds-cohorts-for-ai-adoption/",
+          "label": "公式原典URL"
+        }
+      ]
+    },
+    {
+      "nodeType": "article",
+      "id": "extensions-io-2026",
+      "title": "拡張機能を、エージェントから観測できる対象へ",
+      "issue": "2026-05-24",
+      "pageStatus": "generated",
+      "registrationType": "article",
+      "status": "registered",
+      "canonicalUrl": "https://developer.chrome.com/blog/extensions-io-2026",
+      "links": [
+        {
+          "type": "html",
+          "target": "2026-05-24.html"
+        },
+        {
+          "type": "source",
+          "target": "https://developer.chrome.com/blog/extensions-io-2026",
+          "label": "公式原典URL"
+        }
+      ]
+    },
+    {
+      "nodeType": "article",
+      "id": "npm-staged-controls",
+      "title": "npm公開とインストール元に、明示的な門を置く",
+      "issue": "2026-05-24",
+      "pageStatus": "generated",
+      "registrationType": "article",
+      "status": "linked",
+      "canonicalUrl": "https://github.blog/changelog/2026-05-22-staged-publishing-and-new-install-time-controls-for-npm/",
+      "links": [
+        {
+          "type": "html",
+          "target": "2026-05-24.html"
+        },
+        {
+          "type": "source",
+          "target": "https://github.blog/changelog/2026-05-22-staged-publishing-and-new-install-time-controls-for-npm/",
+          "label": "公式原典URL"
+        }
+      ]
+    },
+    {
+      "nodeType": "article",
+      "id": "github-issue-fields",
+      "title": "Issueを自由記述だけでなく、復旧可能な台帳へ",
+      "issue": "2026-05-24",
+      "pageStatus": "generated",
+      "registrationType": "article",
+      "status": "registered",
+      "canonicalUrl": "https://github.blog/changelog/2026-05-21-issue-fields-are-now-in-public-preview-for-all-organizations/",
+      "links": [
+        {
+          "type": "html",
+          "target": "2026-05-24.html"
+        },
+        {
+          "type": "source",
+          "target": "https://github.blog/changelog/2026-05-21-issue-fields-are-now-in-public-preview-for-all-organizations/",
+          "label": "公式原典URL"
+        }
+      ]
+    },
+    {
+      "nodeType": "article",
+      "id": "node-22-22-3",
+      "title": "Node.js 22.22.3 LTS：薄い補助ランナーを固定する",
+      "issue": "2026-05-17",
+      "pageStatus": "generated",
+      "registrationType": "article",
+      "status": "registered",
+      "canonicalUrl": "https://nodejs.org/en/blog/release/v22.22.3",
+      "links": [
+        {
+          "type": "html",
+          "target": "2026-05-17.html"
+        },
+        {
+          "type": "source",
+          "target": "https://nodejs.org/en/blog/release/v22.22.3",
+          "label": "公式原典URL"
+        }
+      ]
+    },
+    {
+      "nodeType": "article",
+      "id": "chrome-hdr-2094-50",
+      "title": "HDR表示も、端末別補正から標準の境界へ",
+      "issue": "2026-05-17",
+      "pageStatus": "generated",
+      "registrationType": "article",
+      "status": "registered",
+      "canonicalUrl": "https://blog.google/chromium/bringing-a-clearer-more-consistent-hdr-video-experience-to-chrome/",
+      "links": [
+        {
+          "type": "html",
+          "target": "2026-05-17.html"
+        },
+        {
+          "type": "source",
+          "target": "https://blog.google/chromium/bringing-a-clearer-more-consistent-hdr-video-experience-to-chrome/",
+          "label": "公式原典URL"
+        }
+      ]
+    },
+    {
+      "nodeType": "article",
+      "id": "copilot-app-preview",
+      "title": "隔離された作業セッションを、成果物へつなぐ",
+      "issue": "2026-05-17",
+      "pageStatus": "generated",
+      "registrationType": "article",
+      "status": "registered",
+      "canonicalUrl": "https://github.blog/changelog/2026-05-14-github-copilot-app-is-now-available-in-technical-preview/",
+      "links": [
+        {
+          "type": "html",
+          "target": "2026-05-17.html"
+        },
+        {
+          "type": "source",
+          "target": "https://github.blog/changelog/2026-05-14-github-copilot-app-is-now-available-in-technical-preview/",
+          "label": "公式原典URL"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "chrome-speed-records",
+      "target": "html-image-dimensions",
+      "type": "article-link"
+    },
+    {
+      "source": "chrome-speed-records",
+      "target": "js-intersection-observer",
+      "type": "article-link"
+    },
+    {
+      "source": "cursor-origin-code-hosting",
+      "target": "supply-chain-local-or-cdn",
+      "type": "article-link"
+    },
+    {
+      "source": "github-models-retirement",
+      "target": "supply-chain-local-or-cdn",
+      "type": "article-link"
+    },
+    {
+      "source": "html-image-dimensions",
+      "target": "chrome-speed-records",
+      "type": "evidence-from-article"
+    },
+    {
+      "source": "html-image-dimensions",
+      "target": "js-intersection-observer",
+      "type": "related"
+    },
+    {
+      "source": "js-intersection-observer",
+      "target": "chrome-speed-records",
+      "type": "evidence-from-article"
+    },
+    {
+      "source": "js-intersection-observer",
+      "target": "html-image-dimensions",
+      "type": "related"
+    },
+    {
+      "source": "npm-staged-controls",
+      "target": "supply-chain-local-or-cdn",
+      "type": "article-link"
+    },
+    {
+      "source": "setup-java-5-5",
+      "target": "supply-chain-local-or-cdn",
+      "type": "article-link"
+    },
+    {
+      "source": "supply-chain-local-or-cdn",
+      "target": "cursor-origin-code-hosting",
+      "type": "evidence-from-article"
+    },
+    {
+      "source": "supply-chain-local-or-cdn",
+      "target": "github-models-retirement",
+      "type": "evidence-from-article"
+    },
+    {
+      "source": "supply-chain-local-or-cdn",
+      "target": "npm-staged-controls",
+      "type": "evidence-from-article"
+    },
+    {
+      "source": "supply-chain-local-or-cdn",
+      "target": "setup-java-5-5",
+      "type": "evidence-from-article"
+    },
+    {
+      "source": "supply-chain-local-or-cdn",
+      "target": "youtube-npm-supply-chain",
+      "type": "evidence-from-article"
+    },
+    {
+      "source": "youtube-npm-supply-chain",
+      "target": "supply-chain-local-or-cdn",
+      "type": "article-link"
+    }
+  ],
+  "aiSearchEntry": {
+    "path": "knowledge/AI_SEARCH.md",
+    "purpose": "AI が最初に読む固定入口"
+  }
+}

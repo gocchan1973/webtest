@@ -1,0 +1,145 @@
+{
+  "issue": "2026-09-20",
+  "generatedAt": "2026-09-27T15:38:00.000Z",
+  "decision": "全6件は、モデル選択、正本スキーマ、実行トリガー、利用計測、公開、レビューの因果または境界を持つため図解対象と判定した。professionalは責務・権限・構成の境界、instructionalは手順と判断ゲートを読む一般読者向けに選ぶ。",
+  "jobs": [
+    {
+      "articleId": "copilot-auto-model-selection",
+      "visualStyle": "professional",
+      "audience": "general",
+      "centerMessage": "自動選択でも、実行先・費用・手動復帰を記録可能な設定として分ける",
+      "source": "https://github.blog/changelog/2026-09-14-configure-cost-and-quality-in-copilot-auto-model-selection/",
+      "fallback": "inline-svg:youtube-pipeline",
+      "sourceRevision": "140009013edb6811c69f2181922cf285564830b3d79a07cf8b3bcef0c9d383cd",
+      "promptVersion": 1,
+      "fileName": "2026-09-20__copilot-auto-model-selection__infographic.png",
+      "status": "embedded",
+      "requestedAt": "2026-09-20T12:08:57.952Z",
+      "sourceCleanup": "completed",
+      "embedded": true,
+      "generationStartedAt": "2026-09-20T12:09:05.619Z",
+      "artifact": {
+        "artifactId": "1d3ab94b-689c-47eb-a3a7-dd0d1270a067",
+        "sourceId": "21f773eb-0a5d-454c-924e-de70d9443c1b",
+        "originalPath": "assets/diagrams/original/2026-09-20__copilot-auto-model-selection__infographic.png",
+        "compressedPath": "assets/diagrams/compressed/2026-09-20__copilot-auto-model-selection__infographic.png",
+        "compressedSha256": "3dce754bb8ae61344d3afba2349c89906274b4ac24cf004dbb61d67d1e874bbd",
+        "compressedBytes": 683276
+      },
+      "verification": {
+        "bytes": 3572389,
+        "mimeType": "image/png",
+        "sha256": "68eff3744bd53990e85dbfec41a8ed8acffe94ca505c11fe68db650aeb0869d4",
+        "width": 2752,
+        "height": 1536
+      },
+      "retrievedAt": "2026-09-20T12:11:31.502Z",
+      "embeddedAt": "2026-09-20T12:13:35.893Z"
+    },
+    {
+      "articleId": "copilot-custom-properties",
+      "visualStyle": "professional",
+      "audience": "general",
+      "centerMessage": "AIの提案と、台帳・正本スキーマの人間承認を分ける",
+      "source": "https://github.blog/changelog/2026-09-15-github-copilot-suggests-custom-properties-definitions/",
+      "fallback": "inline-svg:youtube-pipeline",
+      "sourceRevision": "fba605fbcf2d8441276de3c88e8772137230d32f08d490735dfea301d1e973fa",
+      "promptVersion": 1,
+      "fileName": "2026-09-20__copilot-custom-properties__infographic.png",
+      "status": "fallback-inline-svg",
+      "requestedAt": "2026-09-20T12:08:58.064Z",
+      "sourceCleanup": "not-needed",
+      "embedded": false,
+      "error": {
+        "message": "NotebookLM authentication expired during this run. No generation was sent for this article; after user completes interactive login, queue and generate it once.",
+        "recordedAt": "2026-09-20T12:14:00.000Z"
+      },
+      "fallbackReason": "NotebookLM authentication was unavailable; the already embedded accessible inline SVG is this issue's final diagram artifact and will not be retried in a future weekly issue.",
+      "fallbackRecordedAt": "2026-09-27T15:38:00.000Z"
+    },
+    {
+      "articleId": "actions-workflow-execution-protections",
+      "visualStyle": "instructional",
+      "audience": "general",
+      "centerMessage": "自動実行は、実行者・イベント・workflowをallowlistで分けて評価する",
+      "source": "https://github.blog/changelog/2026-09-17-workflow-execution-protections-in-github-actions-generally-available/",
+      "fallback": "inline-svg:youtube-pipeline",
+      "sourceRevision": "7b0f129829c5ed37dcc7bffdb25f74de1b0438c76eae3bd82d8c56e065d630a9",
+      "promptVersion": 1,
+      "fileName": "2026-09-20__actions-workflow-execution-protections__infographic.png",
+      "status": "fallback-inline-svg",
+      "requestedAt": "2026-09-20T12:08:58.170Z",
+      "sourceCleanup": "not-needed",
+      "embedded": false,
+      "error": {
+        "message": "NotebookLM authentication expired during this run. No generation was sent for this article; after user completes interactive login, queue and generate it once.",
+        "recordedAt": "2026-09-20T12:14:00.000Z"
+      },
+      "fallbackReason": "NotebookLM authentication was unavailable; the already embedded accessible inline SVG is this issue's final diagram artifact and will not be retried in a future weekly issue.",
+      "fallbackRecordedAt": "2026-09-27T15:38:00.000Z"
+    },
+    {
+      "articleId": "copilot-cli-usage-metrics",
+      "visualStyle": "professional",
+      "audience": "general",
+      "centerMessage": "利用計測は、効果の集計と入力・個人情報の境界を同時に守る",
+      "source": "https://github.blog/changelog/2026-09-17-agentic-cli-customizations-now-in-the-usage-metrics-api/",
+      "fallback": "inline-svg:youtube-pipeline",
+      "sourceRevision": "da937d793cab6cab2370686de4973696996345b37b564cd4508298d27786f3c0",
+      "promptVersion": 1,
+      "fileName": "2026-09-20__copilot-cli-usage-metrics__infographic.png",
+      "status": "fallback-inline-svg",
+      "requestedAt": "2026-09-20T12:08:58.274Z",
+      "sourceCleanup": "not-needed",
+      "embedded": false,
+      "error": {
+        "message": "NotebookLM authentication expired during this run. No generation was sent for this article; after user completes interactive login, queue and generate it once.",
+        "recordedAt": "2026-09-20T12:14:00.000Z"
+      },
+      "fallbackReason": "NotebookLM authentication was unavailable; the already embedded accessible inline SVG is this issue's final diagram artifact and will not be retried in a future weekly issue.",
+      "fallbackRecordedAt": "2026-09-27T15:38:00.000Z"
+    },
+    {
+      "articleId": "npm-stage-only-tokens",
+      "visualStyle": "instructional",
+      "audience": "general",
+      "centerMessage": "公開トークンをstageと人間承認へ分け、侵害時の影響範囲を狭める",
+      "source": "https://github.blog/changelog/2026-09-18-stage-only-npm-tokens-for-safer-automation/",
+      "fallback": "inline-svg:youtube-pipeline",
+      "sourceRevision": "97c6a7f6238e281ea335fd7ecd2dcb1b0bc55f6165032d8557b4caf6c92eb5fd",
+      "promptVersion": 1,
+      "fileName": "2026-09-20__npm-stage-only-tokens__infographic.png",
+      "status": "fallback-inline-svg",
+      "requestedAt": "2026-09-20T12:08:58.384Z",
+      "sourceCleanup": "not-needed",
+      "embedded": false,
+      "error": {
+        "message": "NotebookLM authentication expired during this run. No generation was sent for this article; after user completes interactive login, queue and generate it once.",
+        "recordedAt": "2026-09-20T12:14:00.000Z"
+      },
+      "fallbackReason": "NotebookLM authentication was unavailable; the already embedded accessible inline SVG is this issue's final diagram artifact and will not be retried in a future weekly issue.",
+      "fallbackRecordedAt": "2026-09-27T15:38:00.000Z"
+    },
+    {
+      "articleId": "copilot-review-experience",
+      "visualStyle": "instructional",
+      "audience": "general",
+      "centerMessage": "AIのresolved表示と、人間が担う未解決判断・テスト・マージを分ける",
+      "source": "https://github.blog/changelog/2026-09-18-copilot-code-review-an-improved-review-experience/",
+      "fallback": "inline-svg:youtube-pipeline",
+      "sourceRevision": "0dc1cbc83d02b52cc342c9bc975eaff3068bd7071cd92c1ce224c3ebbf9bc9b5",
+      "promptVersion": 1,
+      "fileName": "2026-09-20__copilot-review-experience__infographic.png",
+      "status": "fallback-inline-svg",
+      "requestedAt": "2026-09-20T12:08:58.501Z",
+      "sourceCleanup": "not-needed",
+      "embedded": false,
+      "error": {
+        "message": "NotebookLM authentication expired during this run. No generation was sent for this article; after user completes interactive login, queue and generate it once.",
+        "recordedAt": "2026-09-20T12:14:00.000Z"
+      },
+      "fallbackReason": "NotebookLM authentication was unavailable; the already embedded accessible inline SVG is this issue's final diagram artifact and will not be retried in a future weekly issue.",
+      "fallbackRecordedAt": "2026-09-27T15:38:00.000Z"
+    }
+  ]
+}

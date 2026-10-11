@@ -1,0 +1,11 @@
+[
+  {
+    "id": "technews",
+    "title": "TechNews",
+    "description": "週次の技術情報収集と、記事・知識Wikiの蓄積",
+    "path": "/collections/technews/",
+    "cadence": "weekly",
+    "status": "active",
+    "updatedAt": "2026-09-01"
+  }
+]

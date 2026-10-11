@@ -1,0 +1,11 @@
+name = "technews-private-auth-test"
+main = "worker.mjs"
+compatibility_date = "2026-09-01"
+
+[vars]
+FIREBASE_PROJECT_ID = "ai510net"
+
+[assets]
+directory = ".."
+binding = "ASSETS"
+run_worker_first = true

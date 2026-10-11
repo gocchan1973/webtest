@@ -1,0 +1,33 @@
+.git/
+.git/**
+node_modules/
+node_modules/**
+.playwright-cli/
+.playwright-cli/**
+.claude/
+.claude/**
+.wrangler/
+.wrangler/**
+.technews-release-state.json
+assets/diagrams/original/
+assets/diagrams/original/**
+
+# 非公開の運用データ（self-update の提案・状態・参照記録）。claude-update/ codex-update/ は inject_recheck.py の運用との兼ね合い未確認のため未追加
+recheck/
+recheck/**
+latest-recheck.md
+weekly-updates/
+weekly-updates/**
+recheck-hits.jsonl
+latest-recheck-codex.md
+recheck-decisions.jsonl
+recheck-backfill/
+recheck-backfill/**
+
+# AI間のやり取りの共有ログ（非公開の運用データ。デプロイしない）
+agent-exchanges/
+agent-exchanges/**
+
+# Agy/Copilot 用のプロジェクト直下スキル配置（非公開の運用物。デプロイしない）
+.agents/
+.agents/**
